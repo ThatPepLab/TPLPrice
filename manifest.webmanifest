@@ -1,0 +1,14 @@
+{
+  "name": "Peptide Price Comparison",
+  "short_name": "Price Compare",
+  "description": "Offline vendor, warehouse, discount, shipping, and landed-cost comparison",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071a3a",
+  "theme_color": "#071a3a",
+  "icons": [
+    {"src":"icons/app-192.png","sizes":"192x192","type":"image/png"},
+    {"src":"icons/app-512.png","sizes":"512x512","type":"image/png"}
+  ]
+}
