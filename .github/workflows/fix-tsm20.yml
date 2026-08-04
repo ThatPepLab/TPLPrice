@@ -1,0 +1,37 @@
+name: One-time TSM20 correction
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-tsm20.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Correct Peptide Lab TSM20 row
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+          old = '{"id":"o692","vendor":"Peptide Lab","product":"Tesamorelin","strength":"10mg","spec":"10mg*10vials","vials":10,"price":290.0,"code":"TSM20","note":""}'
+          new = '{"id":"o692","vendor":"Peptide Lab","product":"Tesamorelin","strength":"20mg","spec":"20mg*10vials","vials":10,"price":290.0,"code":"TSM20","note":""}'
+          assert s.count(old) == 1, f'Expected exactly one bad TSM20 row, found {s.count(old)}'
+          assert '"id":"o691","vendor":"Peptide Lab","product":"Tesamorelin","strength":"10mg"' in s, 'TSM10 safety check failed'
+          p.write_text(s.replace(old, new), encoding='utf-8')
+          PY
+      - name: Commit correction and remove one-time workflow
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm .github/workflows/fix-tsm20.yml
+          git add index.html
+          git commit -m 'Fix Peptide Lab TSM20 strength'
+          git push
