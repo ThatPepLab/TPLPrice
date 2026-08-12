@@ -74,7 +74,8 @@ const PUBLIC_CODES={
 };
 function publicMeta(o){
  const n=o.product.toLowerCase(),rules=[
-  ['Weight Loss & Metabolic',/semaglutide|tirzepatide|retatrutide|cagri|aod|5-amino|adipotide|aicar|mots|l-carnitine|lipo|mazdutide|survodutide|lemon bottle/,'WL'],
+  ['Weight Loss',/semaglutide|tirzepatide|trizepatide|retatrutide|cagri|aod|adipotide|mazdutide|survodutide|eloralintide|glp-?1|lemon bottle|fat blaster/,'WL'],
+  ['Energy & Metabolic',/5-amino|aicar|mots|l-carnitine|lc120|lc216|mic\b|lipo|methionine.*choline.*carnitine|humanin/,'META'],
   ['Recovery & Repair',/bpc|tb500|glow|klow|ghk|kpv|ll37|cartalax|bronchogen|thymosin alpha/,'REC'],
   ['Longevity & Mitochondrial',/nad|ss-31|epith|foxo|humanin|thymalin|vilon|vesugen|cardiogen/,'MITO'],
   ['HGH & GH Stack',/hgh|tesamorelin|sermorelin|cjc|ipamorelin|ghrp|hexarelin|igf|mgf|follistatin/,'GH'],
@@ -85,7 +86,7 @@ function publicMeta(o){
  let hash=0;for(const ch of n)hash=(hash*31+ch.charCodeAt(0))%46656;
  return {category,code:PUBLIC_CODES[n]||`${prefix}-${hash.toString(36).toUpperCase().padStart(3,'0')}`};
 }
-const categoryOrder=['Weight Loss & Metabolic','Recovery & Repair','Longevity & Mitochondrial','HGH & GH Stack','Brain & Mood','Hormone & Libido','Specialty Peptides'];
+const categoryOrder=['Weight Loss','Energy & Metabolic','Recovery & Repair','Longevity & Mitochondrial','HGH & GH Stack','Brain & Mood','Hormone & Libido','Specialty Peptides'];
 function categoryForProduct(name){return publicMeta({product:name}).category}
 function productStrengths(name){return [...new Set(OFFERS.filter(o=>o.product===name).map(o=>o.strength))].sort((a,b)=>(parseFloat(a)||0)-(parseFloat(b)||0)||a.localeCompare(b))}
 function renderCategoryBrowser(){
