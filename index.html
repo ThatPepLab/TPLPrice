@@ -99,7 +99,7 @@ function renderCategoryBrowser(){
  categoryCards.innerHTML=categoryOrder.filter(name=>counts.get(name)).map(name=>`<button type="button" class="category-card ${activeCategory===name?'active':''}" data-category="${esc(name)}">${esc(name)}<small>${counts.get(name)} products</small></button>`).join('');
  productZone.hidden=!activeCategory;
  productHeading.textContent=activeCategory?`Products in ${activeCategory}`:'';
- const visible=activeCategory?productNames.filter(name=>categoryForProduct(name)===activeCategory):[];
+ const visible=activeCategory?productNames.filter(name=>categoryForProduct(name)===activeCategory).sort((a,b)=>displayProductName(a).localeCompare(displayProductName(b),undefined,{numeric:true})):[];
  productCards.innerHTML=visible.map(name=>`<button type="button" class="product-card ${activeProduct===name?'active':''}" data-card-product="${esc(name)}">${esc(displayProductName(name))}</button>`).join('');
  if(activeProduct){strengthPicker.hidden=false;strengthHeading.textContent=`Choose strength for ${displayProductName(activeProduct)}`;strengthCards.innerHTML=productStrengths(activeProduct).map(strength=>`<button type="button" class="strength-card ${product.value===key({product:activeProduct,strength})?'active':''}" data-card-strength="${esc(strength)}">${esc(strength)}</button>`).join('')}else{strengthPicker.hidden=true;strengthCards.innerHTML=''}
 }
