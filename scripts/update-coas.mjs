@@ -86,7 +86,7 @@ const hrefField = (row, name) => {
 const browser = await chromium.launch({ headless: true });
 try {
   const page = await browser.newPage({ viewport: { width: 1440, height: 1100 } });
-  await page.goto(SOURCE_URL, { waitUntil: "networkidle", timeout: 120000 });
+  await page.goto(SOURCE_URL, { waitUntil: "domcontentloaded", timeout: 120000 });
   await page.getByText(/\d+\s+COA records/i).first().waitFor({ timeout: 60000 });
 
   const completedRows = await tableRows(page, ["vendor", "product", "purity", "analysis date"]);
