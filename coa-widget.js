@@ -72,7 +72,7 @@
       const preview = record.previewUrl ? '<details class="coa-report-preview"><summary>Preview report</summary><iframe title="COA preview" src="' + esc(record.previewUrl) + '" loading="lazy"></iframe></details>' : "";
       return '<article class="coa-record"><div class="coa-record-heading"><strong>' + esc(record.vendor) + "</strong><span>Completed " + esc(prettyDate(record.analysisDate)) + "</span></div><dl><div><dt>Testing lab</dt><dd>" + esc(record.lab || "Not listed") + "</dd></div><div><dt>Purity</dt><dd>" + esc(record.purity || "Not listed") + "</dd></div><div><dt>Net content</dt><dd>" + esc(record.netContent || "Not listed") + "</dd></div></dl>" + report + preview + "</article>";
     }).join("");
-    const pendingCards = result.pending.map((record) => '<article class="coa-record coa-record-pending"><div class="coa-record-heading"><strong>' + esc(record.vendor) + "</strong><span>COA Pending</span></div><dl><div><dt>Testing lab</dt><dd>" + esc(record.lab || "Not listed") + "</dd></div><div><dt>Date sent</dt><dd>" + esc(prettyDate(record.dateSent)) + "</dd></div><div><dt>Expected</dt><dd>" + esc(prettyDate(record.expectedDate)) + "</dd></div></dl>" + (record.details ? "<p>" + esc(record.details) + "</p>" : "") + "</article>").join("");
+    const pendingCards = result.pending.map((record) => '<article class="coa-record coa-record-pending"><div class="coa-record-heading"><strong>' + esc(record.vendor) + "</strong><span>COA Pending</span></div><dl><div><dt>Expected</dt><dd>" + esc(prettyDate(record.expectedDate)) + "</dd></div></dl></article>").join("");
     document.querySelector("#coa-modal-body").innerHTML = completeCards + pendingCards || '<p class="coa-empty">No matching completed or pending test is listed.</p>';
     modal.showModal();
   }
@@ -91,4 +91,3 @@
   window.COARegistry = { markup, matches, open, get updatedAt() { return snapshot.updatedAt; } };
   fetch(SOURCE, { cache: "no-store" }).then((response) => { if (!response.ok) throw new Error("COA data " + response.status); return response.json(); }).then((data) => { snapshot = data && typeof data === "object" ? data : snapshot; document.dispatchEvent(new CustomEvent("coa-data-updated")); }).catch((error) => console.warn("COA directory unavailable", error));
 })();
-
