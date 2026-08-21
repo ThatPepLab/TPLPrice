@@ -70,7 +70,7 @@ const hasFailedIdentity = (value) => {
 const isFailedReportText = (value) => hasFailedText(value) || hasFailedIdentity(value);
 
 async function extractReportText(reportUrl) {
-  if (!reportUrl) return { checked: false, text: "" };
+  if (!reportUrl || !/\.(?:pdf|png|jpe?g|webp)(?:[?#]|$)/i.test(reportUrl)) return { checked: false, text: "" };
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 45000);
   let folder = "";
@@ -178,7 +178,7 @@ try {
 
   const completedRows = await tableRows(page, ["vendor", "product", "purity", "analysis date"]);
   if (completedRows.length < 100) throw new Error(`Only ${completedRows.length} completed rows were found; refusing to replace the last good snapshot.`);
-  const completedBase = latestPerKey(completedRows.map((row) => {
+  const completedBase = completedRows.map((row) => {
     const reportUrl = hrefField(row, "verify") || hrefField(row, "report") || hrefField(row, "coa");
     return {
       vendor: canonicalVendor(field(row, "vendor")),
@@ -192,7 +192,7 @@ try {
       previewUrl: /\.(?:pdf|png|jpe?g)(?:[?#]|$)/i.test(reportUrl) ? reportUrl : "",
       sourceText: Object.values(row).join(" ")
     };
-  }).filter((record) => record.vendor && record.product && record.strength), "analysisDate");
+  }).filter((record) => record.vendor && record.product && record.strength).sort((a, b) => a.vendor.localeCompare(b.vendor) || a.product.localeCompare(b.product) || normalizedStrength(a.strength).localeCompare(normalizedStrength(b.strength), undefined, { numeric: true }) || dateValue(b.analysisDate) - dateValue(a.analysisDate));
 
   const completed = await mapWithConcurrency(completedBase, 4, async (record) => {
     const status = await coaStatus(record);
@@ -232,7 +232,7 @@ try {
     pending
   };
   await fs.writeFile(OUTPUT_PATH, `${JSON.stringify(output, null, 2)}\n`);
-  console.log(`Saved ${completed.length} current completed COAs and ${pending.length} pending tests.`);
+  console.log(`Saved ${completed.length} historical completed COAs and ${pending.length} pending tests.`);
 } finally {
   await browser.close();
 }
