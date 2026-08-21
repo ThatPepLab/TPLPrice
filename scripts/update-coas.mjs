@@ -57,6 +57,17 @@ const latestPerKey = (records, dateField) => {
 };
 
 const hasFailedText = (value) => /\bfail(?:ed)?\b/i.test(String(value || ""));
+const hasFailedIdentity = (value) => {
+  const text = String(value || "");
+  if (/\bnot\s+identif(?:iable|ied)\b/i.test(text)) return true;
+  const lines = text.split(/\r?\n/).map(clean).filter(Boolean);
+  return lines.some((line, index) => {
+    if (!/\bidentity\b/i.test(line)) return false;
+    const identitySection = lines.slice(index, index + 6).join(" ");
+    return /\bnot\b/i.test(identitySection);
+  });
+};
+const isFailedReportText = (value) => hasFailedText(value) || hasFailedIdentity(value);
 
 async function extractReportText(reportUrl) {
   if (!reportUrl) return { checked: false, text: "" };
@@ -99,10 +110,10 @@ async function extractReportText(reportUrl) {
 }
 
 async function coaStatus(record) {
-  if (hasFailedText(record.sourceText)) return "Failed";
+  if (isFailedReportText(record.sourceText)) return "Failed";
   const scan = await extractReportText(record.reportUrl);
   if (!scan.checked) return "Unchecked";
-  return hasFailedText(scan.text) ? "Failed" : "Passed";
+  return isFailedReportText(scan.text) ? "Failed" : "Passed";
 }
 
 async function mapWithConcurrency(items, limit, mapper) {
