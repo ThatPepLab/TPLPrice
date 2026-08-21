@@ -2,6 +2,12 @@ name: Update COA directory
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - scripts/update-coas.mjs
+      - .github/workflows/update-coas.yml
   schedule:
     - cron: "17 12 * * *"
 
