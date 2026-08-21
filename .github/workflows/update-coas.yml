@@ -1,0 +1,40 @@
+name: Update COA directory
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 12 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-coa-directory
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install browser scraper
+        run: |
+          npm install --no-save playwright@1.55.0
+          npx playwright install --with-deps chromium
+      - name: Read public COA directory
+        run: node scripts/update-coas.mjs
+      - name: Commit changed COA data
+        run: |
+          if git diff --quiet -- coa-data.json; then
+            echo "No COA changes found."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add coa-data.json
+          git commit -m "Update COA directory snapshot"
+          git push
