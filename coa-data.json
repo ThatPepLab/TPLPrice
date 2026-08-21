@@ -1,7 +1,7 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-08-21T15:10:09.952Z",
+  "updatedAt": "2026-08-21T16:20:58.484Z",
   "counts": {
     "completed": 217,
     "pending": 60
@@ -16,7 +16,8 @@
       "lab": "ILS Laboratories*",
       "analysisDate": "2026-07-02",
       "reportUrl": "https://ils-lab.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Crush Research",
@@ -27,7 +28,8 @@
       "lab": "ILS Laboratories*",
       "analysisDate": "2026-06-27",
       "reportUrl": "https://ils-lab.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Crush Research",
@@ -38,7 +40,8 @@
       "lab": "ILS Laboratories*",
       "analysisDate": "2026-06-01",
       "reportUrl": "https://ils-lab.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Crush Research",
@@ -49,7 +52,8 @@
       "lab": "ILS Laboratories*",
       "analysisDate": "2026-07-10",
       "reportUrl": "https://ils-lab.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Crush Research",
@@ -60,7 +64,8 @@
       "lab": "ILS Laboratories*",
       "analysisDate": "2026-07-02",
       "reportUrl": "https://ils-lab.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Crush Research",
@@ -71,7 +76,8 @@
       "lab": "ILS Laboratories*",
       "analysisDate": "2026-07-21",
       "reportUrl": "https://ils-lab.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Crush Research",
@@ -82,7 +88,8 @@
       "lab": "ILS Laboratories*",
       "analysisDate": "2026-07-02",
       "reportUrl": "https://ils-lab.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -93,7 +100,8 @@
       "lab": "SteriGenix",
       "analysisDate": "07/22/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0715-G58",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -104,7 +112,8 @@
       "lab": "SteriGenix",
       "analysisDate": "07/30/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0728-Y16",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -115,7 +124,8 @@
       "lab": "Accumark Labs",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://accumarklabs.com/verify?code=C3M5-6ZLB",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -126,7 +136,8 @@
       "lab": "SteriGenix",
       "analysisDate": "07/22/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0715-G33",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -137,7 +148,8 @@
       "lab": "SteriGenix",
       "analysisDate": "07/30/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0728-R75",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -148,7 +160,8 @@
       "lab": "SteriGenix",
       "analysisDate": "07/22/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0715-P89",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -159,7 +172,8 @@
       "lab": "SteriGenix",
       "analysisDate": "07/22/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0715-N02",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -170,7 +184,8 @@
       "lab": "SteriGenix",
       "analysisDate": "07/30/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0728-X76",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -181,7 +196,8 @@
       "lab": "SteriGenix",
       "analysisDate": "07/30/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0728-G14",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -192,7 +208,8 @@
       "lab": "SteriGenix",
       "analysisDate": "07/22/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0715-J03",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Innopeptide",
@@ -203,7 +220,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "06/15/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110757.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110757.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110757.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Innopeptide",
@@ -214,7 +232,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-08-10",
       "reportUrl": "https://portal.ils-lab.com/verify/Jkfn97ujLwQY8xJ6",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Innopeptide",
@@ -225,7 +244,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "06/15/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110755.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110755.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110755.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Innopeptide",
@@ -236,7 +256,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-08-10",
       "reportUrl": "https://portal.ils-lab.com/verify/a3hK-ckS-bBphyDB",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Innopeptide",
@@ -247,7 +268,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-08-10",
       "reportUrl": "https://portal.ils-lab.com/verify/uRs_qlZ3mMetvPVp",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Innopeptide US",
@@ -258,7 +280,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "06/15/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110757.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110757.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110757.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Innopeptide US",
@@ -269,7 +292,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "06/15/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110755.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110755.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110755.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Innopeptide US",
@@ -280,7 +304,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "06/15/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110756.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110756.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110756.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Innopeptide US",
@@ -291,7 +316,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "06/15/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110758.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110758.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110758.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Kerui Peptides",
@@ -302,7 +328,8 @@
       "lab": "Krause Analytical",
       "analysisDate": "2026-07-23",
       "reportUrl": "https://www.finnrick.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -313,7 +340,8 @@
       "lab": "Janoshik*",
       "analysisDate": "07/21/2026",
       "reportUrl": "https://verify.janoshik.com/tests/200535-acu50_GBA4RVFES2KZ",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -324,7 +352,8 @@
       "lab": "Janoshik*",
       "analysisDate": "07/20/2026",
       "reportUrl": "https://verify.janoshik.com/tests/200534-ara10_EUPA92E2VQTE",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -335,7 +364,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-07-28",
       "reportUrl": "https://ils-lab.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -346,7 +376,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "06/07/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Sore2606040309.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Sore2606040309.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Sore2606040309.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Kerui Peptides",
@@ -357,7 +388,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "08/14/2026",
       "reportUrl": "https://portal.ils-lab.com/verify/fxkEbNcpJiUVIlxD",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -368,7 +400,8 @@
       "lab": "Janoshik*",
       "analysisDate": "07/20/2026",
       "reportUrl": "https://verify.janoshik.com/tests/200536-cart20_U1BB5WYCWDTR",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -379,7 +412,8 @@
       "lab": "SteriGenix",
       "analysisDate": "07/30/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0724-K29",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -390,7 +424,8 @@
       "lab": "Kovera Labs",
       "analysisDate": "2026-08-04",
       "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-2CA2CB",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -401,7 +436,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-07-30",
       "reportUrl": "https://ils-lab.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -412,7 +448,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-07-28",
       "reportUrl": "https://ils-lab.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -423,7 +460,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "06/07/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Sore2606040312.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Sore2606040312.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Sore2606040312.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Kerui Peptides",
@@ -434,7 +472,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-07-28",
       "reportUrl": "https://ils-lab.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -445,7 +484,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "08/05/2026",
       "reportUrl": "https://www.aminometrics.com/verify?code=+fe8a-7ca8-ac67-c9d2-ade5-6fa9-de8c-672b-04a9-bb53-e81b-e799",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -456,7 +496,8 @@
       "lab": "Kovera Labs",
       "analysisDate": "2026-08-04",
       "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-A8AA3F",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -467,7 +508,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-08-03",
       "reportUrl": "https://ils-lab.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -478,7 +520,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-17",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -489,7 +532,8 @@
       "lab": "SteriGenix",
       "analysisDate": "07/30/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0724-G85",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -500,7 +544,8 @@
       "lab": "BTLabs",
       "analysisDate": "2026-06-22",
       "reportUrl": "https://btlabstesting.com/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -511,7 +556,8 @@
       "lab": "SteriGenix",
       "analysisDate": "07/30/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0724-Z78",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -522,7 +568,8 @@
       "lab": "Janoshik*",
       "analysisDate": "07/20/2026",
       "reportUrl": "https://verify.janoshik.com/tests/200539-gtt600_9R1BP6F31GP2",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -533,7 +580,8 @@
       "lab": "Janoshik*",
       "analysisDate": "07/17/2026",
       "reportUrl": "https://verify.janoshik.com/tests/200540-hcg5k_CNBTERNV5QU7",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -544,7 +592,8 @@
       "lab": "Janoshik*",
       "analysisDate": "07/21/2026",
       "reportUrl": "https://verify.janoshik.com/tests/200541-ip10_LMUGV8EK28F5",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -555,7 +604,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "08/14/2026",
       "reportUrl": "https://portal.ils-lab.com/verify/gnPL9FDTOL1qZSeI",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -566,7 +616,8 @@
       "lab": "Janoshik*",
       "analysisDate": "07/20/2026",
       "reportUrl": "https://verify.janoshik.com/tests/200543-ks10_TVQPV1KXZYJF",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -577,7 +628,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-06",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -588,7 +640,8 @@
       "lab": "SteriGenix",
       "analysisDate": "07/30/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0724-W32",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -599,7 +652,8 @@
       "lab": "Kovera Labs",
       "analysisDate": "2026-07-16",
       "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-1EF35B",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -610,7 +664,8 @@
       "lab": "Janoshik*",
       "analysisDate": "07/20/2026",
       "reportUrl": "https://verify.janoshik.com/tests/200544-mt1_FQUPLI6QAX16",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -621,7 +676,8 @@
       "lab": "Janoshik*",
       "analysisDate": "07/20/2026",
       "reportUrl": "https://verify.janoshik.com/tests/200545-ml10_9J2SZY1QTJGR",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -632,7 +688,8 @@
       "lab": "Kovera Labs",
       "analysisDate": "2026-07-16",
       "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-ACF05C",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -643,7 +700,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-08-03",
       "reportUrl": "https://portal.ils-lab.com/verify/CtfMxaVGHWalRigV",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -654,7 +712,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-06",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -665,7 +724,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -676,7 +736,8 @@
       "lab": "Janoshik*",
       "analysisDate": "07/20/2026",
       "reportUrl": "https://verify.janoshik.com/tests/200547-pn10_YKNYL5N1RUG8",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -687,7 +748,8 @@
       "lab": "Janoshik*",
       "analysisDate": "07/20/2026",
       "reportUrl": "https://verify.janoshik.com/tests/200546-p41-10mg_9XH77AF9NNEW",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -698,7 +760,8 @@
       "lab": "SteriGenix",
       "analysisDate": "07/30/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0724-P90",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -709,7 +772,8 @@
       "lab": "SteriGenix",
       "analysisDate": "07/30/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0724-L44",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -720,7 +784,8 @@
       "lab": "Janoshik*",
       "analysisDate": "07/20/2026",
       "reportUrl": "https://verify.janoshik.com/tests/200548-sml10_AHXRKAPFRNKW",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -731,7 +796,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "07/25/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Keru2607220255.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Keru2607220255.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Keru2607220255.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Kerui Peptides",
@@ -742,7 +808,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "2026-08-15",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Suoj2608110277.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Suoj2608110277.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Suoj2608110277.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Kerui Peptides",
@@ -753,7 +820,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "06/07/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Sore2606040310.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Sore2606040310.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Sore2606040310.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Kerui Peptides",
@@ -764,7 +832,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "08/14/2026",
       "reportUrl": "https://portal.ils-lab.com/verify/hzUkVH21JuQZ_OZV",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -775,7 +844,8 @@
       "lab": "Janoshik*",
       "analysisDate": "07/20/2026",
       "reportUrl": "https://verify.janoshik.com/tests/200549-ta10_2QD72CWQNGQ8",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -786,7 +856,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-06-22",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -797,7 +868,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-07-08",
       "reportUrl": "https://ils-lab.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -808,7 +880,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "07/25/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Lili2607220458.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Lili2607220458.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Lili2607220458.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Lilipeptide",
@@ -819,7 +892,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-06-22",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -830,7 +904,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "07/25/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Lili2607220459.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Lili2607220459.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Lili2607220459.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Lilipeptide",
@@ -841,7 +916,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-04-30",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -852,7 +928,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-04-29",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -863,7 +940,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-05-18",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -874,7 +952,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-07-02",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -885,7 +964,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-04-29",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -896,7 +976,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-05-22",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -907,7 +988,8 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-400786",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -918,7 +1000,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-05-18",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -929,7 +1012,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-05-15",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -940,7 +1024,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-04-30",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -951,7 +1036,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-05-22",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -962,7 +1048,8 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-750601",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -973,7 +1060,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-06-22",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -984,7 +1072,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-06-22",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -995,7 +1084,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-06-22",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -1006,7 +1096,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "07/25/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Lili2607220460.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Lili2607220460.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Lili2607220460.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Lilipeptide",
@@ -1017,7 +1108,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-06-22",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lilipeptide",
@@ -1028,7 +1120,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-07-07",
       "reportUrl": "https://ils-lab.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lunivo US",
@@ -1039,7 +1132,8 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-07-13",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-250393",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lunivo US",
@@ -1050,7 +1144,8 @@
       "lab": "Vanguard Laboratory*",
       "analysisDate": "2026-04-29",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fe5dd5cfe-95cb-4bcd-aff9-538a7c7be058-lunivo-ghkcu-V260421-39003.png?alt=media",
-      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fe5dd5cfe-95cb-4bcd-aff9-538a7c7be058-lunivo-ghkcu-V260421-39003.png?alt=media"
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fe5dd5cfe-95cb-4bcd-aff9-538a7c7be058-lunivo-ghkcu-V260421-39003.png?alt=media",
+      "status": "Passed"
     },
     {
       "vendor": "Lunivo US",
@@ -1061,7 +1156,8 @@
       "lab": "Janoshik*",
       "analysisDate": "03/30/2026",
       "reportUrl": "https://verify.janoshik.com/tests/133024_L8JU86CDSU4U",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lunivo US",
@@ -1072,7 +1168,8 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-07-13",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-154269",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lunivo US",
@@ -1083,7 +1180,8 @@
       "lab": "Janoshik*",
       "analysisDate": "03/30/2026",
       "reportUrl": "https://verify.janoshik.com/tests/132965_1MVE4IKZRN36",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lunivo US",
@@ -1094,7 +1192,8 @@
       "lab": "Janoshik*",
       "analysisDate": "03/30/2026",
       "reportUrl": "https://verify.janoshik.com/tests/132985_CY5ZY715S2YV",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lunivo US",
@@ -1105,7 +1204,8 @@
       "lab": "Vanguard Laboratory*",
       "analysisDate": "2026-04-29",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fdc866d2c-9e99-4ea8-96d6-c4451ee6c720-lunivo-igf1lr3-V260421-39004.png?alt=media",
-      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fdc866d2c-9e99-4ea8-96d6-c4451ee6c720-lunivo-igf1lr3-V260421-39004.png?alt=media"
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fdc866d2c-9e99-4ea8-96d6-c4451ee6c720-lunivo-igf1lr3-V260421-39004.png?alt=media",
+      "status": "Passed"
     },
     {
       "vendor": "Lunivo US",
@@ -1116,7 +1216,8 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-07-13",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-164541",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lunivo US",
@@ -1127,7 +1228,8 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-07-13",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-944482",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Lunivo US",
@@ -1138,7 +1240,8 @@
       "lab": "Janoshik*",
       "analysisDate": "03/30/2026",
       "reportUrl": "https://verify.janoshik.com/tests/133172_A6TEB6E1HFTP",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Marvel Peptides",
@@ -1149,7 +1252,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "12/15/2025",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Chea2512150036.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Chea2512150036.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Chea2512150036.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Marvel Peptides",
@@ -1160,7 +1264,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "12/15/2025",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Chea2512150034.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Chea2512150034.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Chea2512150034.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Marvel Peptides",
@@ -1171,7 +1276,8 @@
       "lab": "BTLabs",
       "analysisDate": "2026-08-09",
       "reportUrl": "https://www.finnrick.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Marvel Peptides",
@@ -1182,7 +1288,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "12/15/2025",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Chea2512150035.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Chea2512150035.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Chea2512150035.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Marvel Peptides",
@@ -1193,7 +1300,8 @@
       "lab": "Krause Analytical",
       "analysisDate": "2026-07-25",
       "reportUrl": "https://www.finnrick.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Marvel Peptides",
@@ -1204,7 +1312,8 @@
       "lab": "BTLabs",
       "analysisDate": "2026-08-09",
       "reportUrl": "https://www.finnrick.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Marvel Peptides",
@@ -1215,7 +1324,8 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-08-20",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-135011",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Marvel Peptides",
@@ -1226,7 +1336,8 @@
       "lab": "Krause Analytical",
       "analysisDate": "2026-08-06",
       "reportUrl": "https://www.finnrick.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Marvel Peptides",
@@ -1237,7 +1348,8 @@
       "lab": "Krause Analytical",
       "analysisDate": "2026-07-23",
       "reportUrl": "https://www.finnrick.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Marvel Peptides",
@@ -1248,7 +1360,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "10/25/2025",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Marv2510220133.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Marv2510220133.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Marv2510220133.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Marvel Peptides",
@@ -1259,7 +1372,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "02/20/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Marv2602180178.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Marv2602180178.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Marv2602180178.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Marvel Peptides",
@@ -1270,7 +1384,8 @@
       "lab": "Krause Analytical",
       "analysisDate": "2026-08-06",
       "reportUrl": "https://www.finnrick.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Marvel US",
@@ -1281,7 +1396,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "07/01/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Marv2606290348.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Marv2606290348.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Marv2606290348.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "MKM",
@@ -1292,7 +1408,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-07",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1303,7 +1420,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "08/16/2026",
       "reportUrl": "https://coa.reta-unfiltered.com/coas/mkm-ahk-cu-100mg-freedom-diagnostics.png",
-      "previewUrl": "https://coa.reta-unfiltered.com/coas/mkm-ahk-cu-100mg-freedom-diagnostics.png"
+      "previewUrl": "https://coa.reta-unfiltered.com/coas/mkm-ahk-cu-100mg-freedom-diagnostics.png",
+      "status": "Passed"
     },
     {
       "vendor": "MKM",
@@ -1314,7 +1432,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "07/10/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/OTCP2607090128.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/OTCP2607090128.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/OTCP2607090128.pdf",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1325,7 +1444,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-16",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1336,7 +1456,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-08-04",
       "reportUrl": "https://portal.ils-lab.com/verify/dBYjnFsuBFfNzeDw",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1347,7 +1468,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "07/10/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/OTCP2607090126.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/OTCP2607090126.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/OTCP2607090126.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "MKM",
@@ -1358,7 +1480,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "08/14/2026",
       "reportUrl": "https://portal.ils-lab.com/verify/wgAylSJ9Ls3-_K67",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1369,7 +1492,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-07",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1380,7 +1504,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "07/03/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/RUMK2607010234.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/RUMK2607010234.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/RUMK2607010234.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "MKM",
@@ -1391,7 +1516,8 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-08-12",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-090191",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1402,7 +1528,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-15",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1413,7 +1540,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "07/10/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/OTCP2607090129.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/OTCP2607090129.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/OTCP2607090129.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "MKM",
@@ -1424,7 +1552,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "08/16/2026",
       "reportUrl": "https://coa.reta-unfiltered.com/coas/mkm-ghk-cu-100mg-freedom-diagnostics.png",
-      "previewUrl": "https://coa.reta-unfiltered.com/coas/mkm-ghk-cu-100mg-freedom-diagnostics.png"
+      "previewUrl": "https://coa.reta-unfiltered.com/coas/mkm-ghk-cu-100mg-freedom-diagnostics.png",
+      "status": "Passed"
     },
     {
       "vendor": "MKM",
@@ -1435,7 +1564,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "06/24/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/MKMP2606220237.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/MKMP2606220237.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/MKMP2606220237.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "MKM",
@@ -1446,7 +1576,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-08-04",
       "reportUrl": "https://portal.ils-lab.com/verify/SZKnh4e-x-tCzNbI",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1457,7 +1588,8 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-08-16",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-701875",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1468,7 +1600,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-05",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1479,7 +1612,8 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-07-28",
       "reportUrl": "https://sterigenixanalytical.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1490,7 +1624,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-13",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1501,7 +1636,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-15",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1512,7 +1648,8 @@
       "lab": "Vanguard Laboratory",
       "analysisDate": "2026-07-23",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fforum-836a5c5f2aba4298b3563c1e-IMG_0861.png?alt=media",
-      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fforum-836a5c5f2aba4298b3563c1e-IMG_0861.png?alt=media"
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fforum-836a5c5f2aba4298b3563c1e-IMG_0861.png?alt=media",
+      "status": "Passed"
     },
     {
       "vendor": "MKM",
@@ -1523,7 +1660,8 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-07-24",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-803071",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1534,7 +1672,8 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-08-12",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-164335",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1545,7 +1684,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-16",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1556,7 +1696,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-16",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1567,7 +1708,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-08-04",
       "reportUrl": "https://portal.ils-lab.com/verify/j5RrijKqQ1X14zL3",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1578,7 +1720,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "07/03/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/RUMK2607010232.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/RUMK2607010232.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/RUMK2607010232.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "MKM",
@@ -1589,7 +1732,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-14",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1600,7 +1744,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-14",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1611,7 +1756,8 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-07-28",
       "reportUrl": "https://sterigenixanalytical.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1622,7 +1768,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-14",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1633,7 +1780,8 @@
       "lab": "SideChain Analytics",
       "analysisDate": "08/14/2026",
       "reportUrl": "https://peptidetestcanada.ca/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1644,7 +1792,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-15",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1655,7 +1804,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "08/14/2026",
       "reportUrl": "https://portal.ils-lab.com/verify/0IDGwK09P31Dgq-x",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1666,7 +1816,8 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-07-28",
       "reportUrl": "https://sterigenixanalytical.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1677,7 +1828,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1688,7 +1840,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "08/18/2026",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1699,7 +1852,8 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-07-24",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-232695",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1710,7 +1864,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-05",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1721,7 +1876,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-08-04",
       "reportUrl": "https://portal.ils-lab.com/verify/HvCJ-FtEqOookEY_",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1732,7 +1888,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "07/03/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/RUMK2607010233.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/RUMK2607010233.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/RUMK2607010233.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "MKM",
@@ -1743,7 +1900,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1754,7 +1912,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1765,7 +1924,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-16",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM*",
@@ -1776,7 +1936,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-04-09",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM*",
@@ -1787,7 +1948,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-04-09",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM*",
@@ -1798,7 +1960,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-04-09",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM*",
@@ -1809,7 +1972,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-04-09",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM*",
@@ -1820,7 +1984,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-04-09",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM*",
@@ -1831,7 +1996,8 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-04-09",
       "reportUrl": "https://www.janoshik.com/verify/",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Peptide Lab",
@@ -1842,7 +2008,8 @@
       "lab": "HYTE Research Division",
       "analysisDate": "2026-08-11",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fef841a70-96b4-447c-8525-f23727541514-PL_BAC_WATER__peptide_lab.pdf?alt=media",
-      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fef841a70-96b4-447c-8525-f23727541514-PL_BAC_WATER__peptide_lab.pdf?alt=media"
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fef841a70-96b4-447c-8525-f23727541514-PL_BAC_WATER__peptide_lab.pdf?alt=media",
+      "status": "Failed"
     },
     {
       "vendor": "Peptide Lab",
@@ -1853,7 +2020,8 @@
       "lab": "ACS Peptide Testing Labs",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fd01d7b41-a05b-4b8d-8867-0fe8d98203bf-AAHX925_KL-BC5-001_08182026_6a84c85fad978_EN.pdf?alt=media",
-      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fd01d7b41-a05b-4b8d-8867-0fe8d98203bf-AAHX925_KL-BC5-001_08182026_6a84c85fad978_EN.pdf?alt=media"
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fd01d7b41-a05b-4b8d-8867-0fe8d98203bf-AAHX925_KL-BC5-001_08182026_6a84c85fad978_EN.pdf?alt=media",
+      "status": "Passed"
     },
     {
       "vendor": "Peptide Lab",
@@ -1864,7 +2032,8 @@
       "lab": "ACS Peptide Testing Labs",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F25dbfbd0-2e64-4dad-955d-a780906589f7-AAHX930_KL-CP10-007_08182026_6a84c858cdb53_EN__1_.pdf?alt=media",
-      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F25dbfbd0-2e64-4dad-955d-a780906589f7-AAHX930_KL-CP10-007_08182026_6a84c858cdb53_EN__1_.pdf?alt=media"
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F25dbfbd0-2e64-4dad-955d-a780906589f7-AAHX930_KL-CP10-007_08182026_6a84c858cdb53_EN__1_.pdf?alt=media",
+      "status": "Passed"
     },
     {
       "vendor": "Peptide Lab",
@@ -1875,7 +2044,8 @@
       "lab": "ACS Peptide Testing Labs",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F45405da2-5584-4bd8-959e-02d16baa4814-AAHX924_KL-CU50-002_08182026_6a84c860ce62f_EN.pdf?alt=media",
-      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F45405da2-5584-4bd8-959e-02d16baa4814-AAHX924_KL-CU50-002_08182026_6a84c860ce62f_EN.pdf?alt=media"
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F45405da2-5584-4bd8-959e-02d16baa4814-AAHX924_KL-CU50-002_08182026_6a84c860ce62f_EN.pdf?alt=media",
+      "status": "Passed"
     },
     {
       "vendor": "Peptide Lab",
@@ -1886,7 +2056,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "06/15/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Pept2606110752.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Pept2606110752.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Pept2606110752.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Peptide Lab",
@@ -1897,7 +2068,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "06/15/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Pept2606110750.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Pept2606110750.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Pept2606110750.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Peptide Lab",
@@ -1908,7 +2080,8 @@
       "lab": "ACS Peptide Testing Labs",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F7c43e53c-48a2-4cb7-a42e-35ff28ca77f8-AAHX929_KL-RT10-006_08182026_6a84c85a657e8_EN.pdf?alt=media",
-      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F7c43e53c-48a2-4cb7-a42e-35ff28ca77f8-AAHX929_KL-RT10-006_08182026_6a84c85a657e8_EN.pdf?alt=media"
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F7c43e53c-48a2-4cb7-a42e-35ff28ca77f8-AAHX929_KL-RT10-006_08182026_6a84c85a657e8_EN.pdf?alt=media",
+      "status": "Passed"
     },
     {
       "vendor": "Peptide Lab",
@@ -1919,7 +2092,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "06/15/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Pept2606110749.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Pept2606110749.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Pept2606110749.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Peptide Lab",
@@ -1930,7 +2104,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "2026-08-16",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/SKre2608111010.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/SKre2608111010.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/SKre2608111010.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Peptide Lab",
@@ -1941,7 +2116,8 @@
       "lab": "HYTE Research Division",
       "analysisDate": "2026-08-12",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F4d6ccb79-10ae-4a2f-9c38-3c0f9caa1c3d-KPV5__peptide_lab.pdf?alt=media",
-      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F4d6ccb79-10ae-4a2f-9c38-3c0f9caa1c3d-KPV5__peptide_lab.pdf?alt=media"
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F4d6ccb79-10ae-4a2f-9c38-3c0f9caa1c3d-KPV5__peptide_lab.pdf?alt=media",
+      "status": "Passed"
     },
     {
       "vendor": "Peptide Lab",
@@ -1952,7 +2128,8 @@
       "lab": "ACS Peptide Testing Labs",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Ffc0b0d48-e6c2-405d-93f5-6e2fa8819cec-AAHX928_KL-KPV10-005_08182026_6a84c85c16681_EN.pdf?alt=media",
-      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Ffc0b0d48-e6c2-405d-93f5-6e2fa8819cec-AAHX928_KL-KPV10-005_08182026_6a84c85c16681_EN.pdf?alt=media"
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Ffc0b0d48-e6c2-405d-93f5-6e2fa8819cec-AAHX928_KL-KPV10-005_08182026_6a84c85c16681_EN.pdf?alt=media",
+      "status": "Passed"
     },
     {
       "vendor": "Peptide Lab",
@@ -1963,7 +2140,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "06/15/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Pept2606110753.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Pept2606110753.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Pept2606110753.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Peptide Lab",
@@ -1974,7 +2152,8 @@
       "lab": "ACS Peptide Testing Labs",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F84ed4107-c420-4f5c-b2be-d9ec24ef336c-AAHX926_KL-MT-2-003_08182026_6a84c85e669f3_EN.pdf?alt=media",
-      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F84ed4107-c420-4f5c-b2be-d9ec24ef336c-AAHX926_KL-MT-2-003_08182026_6a84c85e669f3_EN.pdf?alt=media"
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F84ed4107-c420-4f5c-b2be-d9ec24ef336c-AAHX926_KL-MT-2-003_08182026_6a84c85e669f3_EN.pdf?alt=media",
+      "status": "Passed"
     },
     {
       "vendor": "Peptide Lab",
@@ -1985,7 +2164,8 @@
       "lab": "ACS Peptide Testing Labs",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fc49f53a5-a717-4355-921c-847236121e8a-AAHX927_KL-MS10-004_08182026_6a84c85d0a41c_EN.pdf?alt=media",
-      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fc49f53a5-a717-4355-921c-847236121e8a-AAHX927_KL-MS10-004_08182026_6a84c85d0a41c_EN.pdf?alt=media"
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fc49f53a5-a717-4355-921c-847236121e8a-AAHX927_KL-MS10-004_08182026_6a84c85d0a41c_EN.pdf?alt=media",
+      "status": "Passed"
     },
     {
       "vendor": "Peptide Lab",
@@ -1996,7 +2176,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "06/15/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Pept2606110751.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Pept2606110751.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Pept2606110751.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Peptide Lab",
@@ -2007,7 +2188,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-08-10",
       "reportUrl": "https://ils-lab.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Peptide Lab",
@@ -2018,7 +2200,8 @@
       "lab": "HYTE Research Division",
       "analysisDate": "2026-08-12",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fa53a0e7c-7b93-44a3-a40d-cf869bee3633-PEPTIDE_LAB_SS31_10mg__peptide_lab.pdf?alt=media",
-      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fa53a0e7c-7b93-44a3-a40d-cf869bee3633-PEPTIDE_LAB_SS31_10mg__peptide_lab.pdf?alt=media"
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fa53a0e7c-7b93-44a3-a40d-cf869bee3633-PEPTIDE_LAB_SS31_10mg__peptide_lab.pdf?alt=media",
+      "status": "Passed"
     },
     {
       "vendor": "Peptide Lab",
@@ -2029,7 +2212,8 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-07-29",
       "reportUrl": "https://ils-lab.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Peptide Lab",
@@ -2040,7 +2224,8 @@
       "lab": "ACS Peptide Testing Labs",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Faa83cf15-947d-425f-8208-9e37815ae890-AAHX931_KL-TSM10-008_08182026_6a84c857d07b9_EN.pdf?alt=media",
-      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Faa83cf15-947d-425f-8208-9e37815ae890-AAHX931_KL-TSM10-008_08182026_6a84c857d07b9_EN.pdf?alt=media"
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Faa83cf15-947d-425f-8208-9e37815ae890-AAHX931_KL-TSM10-008_08182026_6a84c857d07b9_EN.pdf?alt=media",
+      "status": "Passed"
     },
     {
       "vendor": "SQ Peptide",
@@ -2051,7 +2236,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "07/25/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/SQPe2607220257.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/SQPe2607220257.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/SQPe2607220257.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "SQ Peptide",
@@ -2062,7 +2248,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "07/25/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/SQPe2607220258.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/SQPe2607220258.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/SQPe2607220258.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "SQ Peptide",
@@ -2073,7 +2260,8 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-07-13",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-578820",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "SQ Peptide",
@@ -2084,7 +2272,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "07/25/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/SQPe2607220256.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/SQPe2607220256.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/SQPe2607220256.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "SQ Peptide",
@@ -2095,7 +2284,8 @@
       "lab": "SteriGenix",
       "analysisDate": "07/13/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0708-J85",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2106,7 +2296,8 @@
       "lab": "Krause Analytical",
       "analysisDate": "2026-07-23",
       "reportUrl": "https://www.finnrick.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2117,7 +2308,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "07/28/2026",
       "reportUrl": "https://coa.reta-unfiltered.com/coas/wanshun-5-amino-1mq-50mg-freedom-diagnostics.png",
-      "previewUrl": "https://coa.reta-unfiltered.com/coas/wanshun-5-amino-1mq-50mg-freedom-diagnostics.png"
+      "previewUrl": "https://coa.reta-unfiltered.com/coas/wanshun-5-amino-1mq-50mg-freedom-diagnostics.png",
+      "status": "Passed"
     },
     {
       "vendor": "WanShun",
@@ -2128,7 +2320,8 @@
       "lab": "Krause Analytical",
       "analysisDate": "2026-08-04",
       "reportUrl": "https://www.finnrick.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2139,7 +2332,8 @@
       "lab": "SteriGenix",
       "analysisDate": "Not reported",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-429168",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2150,7 +2344,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "07/28/2026",
       "reportUrl": "https://coa.reta-unfiltered.com/coas/wanshun-cagrilintide-5mg-freedom-diagnostics.png",
-      "previewUrl": "https://coa.reta-unfiltered.com/coas/wanshun-cagrilintide-5mg-freedom-diagnostics.png"
+      "previewUrl": "https://coa.reta-unfiltered.com/coas/wanshun-cagrilintide-5mg-freedom-diagnostics.png",
+      "status": "Passed"
     },
     {
       "vendor": "WanShun",
@@ -2161,7 +2356,8 @@
       "lab": "Krause Analytical",
       "analysisDate": "2026-07-25",
       "reportUrl": "https://www.finnrick.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2172,7 +2368,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "2026-07-31",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270878.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270878.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270878.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "WanShun",
@@ -2183,7 +2380,8 @@
       "lab": "SteriGenix",
       "analysisDate": "Not reported",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-579727",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2194,7 +2392,8 @@
       "lab": "Krause Analytical",
       "analysisDate": "2026-07-23",
       "reportUrl": "https://www.finnrick.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2205,7 +2404,8 @@
       "lab": "Kovera Labs",
       "analysisDate": "2026-08-05",
       "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-78457F",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2216,7 +2416,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "2026-07-31",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270876.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270876.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270876.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "WanShun",
@@ -2227,7 +2428,8 @@
       "lab": "Kovera Labs",
       "analysisDate": "2026-08-05",
       "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-64FBFD",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2238,7 +2440,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "2026-07-31",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270885.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270885.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270885.pdf",
+      "status": "Failed"
     },
     {
       "vendor": "WanShun",
@@ -2249,7 +2452,8 @@
       "lab": "Kovera Labs",
       "analysisDate": "2026-08-05",
       "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-42BE23",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2260,7 +2464,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "08/16/2026",
       "reportUrl": "https://coa.reta-unfiltered.com/coas/wanshun-rt15-15mg-freedom-diagnostics.png",
-      "previewUrl": "https://coa.reta-unfiltered.com/coas/wanshun-rt15-15mg-freedom-diagnostics.png"
+      "previewUrl": "https://coa.reta-unfiltered.com/coas/wanshun-rt15-15mg-freedom-diagnostics.png",
+      "status": "Passed"
     },
     {
       "vendor": "WanShun",
@@ -2271,7 +2476,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "06/28/2026",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/WanS2606250376.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/WanS2606250376.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/WanS2606250376.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "WanShun",
@@ -2282,7 +2488,8 @@
       "lab": "SteriGenix",
       "analysisDate": "Not reported",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-084348",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2293,7 +2500,8 @@
       "lab": "Testides",
       "analysisDate": "05/23/2026",
       "reportUrl": "https://testides.com/report/JZOA-RETA-60-051526",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2304,7 +2512,8 @@
       "lab": "Kovera Labs",
       "analysisDate": "2026-08-05",
       "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-8FF18A",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2315,7 +2524,8 @@
       "lab": "Kovera Labs",
       "analysisDate": "2026-08-05",
       "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-648378",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2326,7 +2536,8 @@
       "lab": "Krause Analytical",
       "analysisDate": "2026-07-23",
       "reportUrl": "https://www.finnrick.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2337,7 +2548,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "2026-07-31",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270881.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270881.pdf"
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270881.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "WanShun",
@@ -2348,7 +2560,8 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-14",
       "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2359,7 +2572,8 @@
       "lab": "Testides",
       "analysisDate": "05/23/2026",
       "reportUrl": "https://testides.com/report/JZOA-SEMAX-5-051526",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2370,7 +2584,8 @@
       "lab": "Krause Analytical",
       "analysisDate": "2026-08-03",
       "reportUrl": "https://www.finnrick.com/verify",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2381,7 +2596,8 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-08-07",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-097909",
-      "previewUrl": ""
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -2392,7 +2608,8 @@
       "lab": "Freedom Diagnostics",
       "analysisDate": "08/16/2026",
       "reportUrl": "https://coa.reta-unfiltered.com/coas/wanshun-thymulin-10mg-freedom-diagnostics.png",
-      "previewUrl": "https://coa.reta-unfiltered.com/coas/wanshun-thymulin-10mg-freedom-diagnostics.png"
+      "previewUrl": "https://coa.reta-unfiltered.com/coas/wanshun-thymulin-10mg-freedom-diagnostics.png",
+      "status": "Passed"
     }
   ],
   "pending": [
