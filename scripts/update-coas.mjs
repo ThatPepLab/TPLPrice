@@ -1,5 +1,11 @@
 import fs from "node:fs/promises";
+import os from "node:os";
+import path from "node:path";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
 import { chromium } from "playwright";
+
+const execFileAsync = promisify(execFile);
 
 const SOURCE_URL = "https://coa.reta-unfiltered.com/#directory";
 const OUTPUT_PATH = new URL("../coa-data.json", import.meta.url);
@@ -50,6 +56,68 @@ const latestPerKey = (records, dateField) => {
   return [...latest.values()].sort((a, b) => a.vendor.localeCompare(b.vendor) || a.product.localeCompare(b.product) || normalizedStrength(a.strength).localeCompare(normalizedStrength(b.strength), undefined, { numeric: true }));
 };
 
+const hasFailedText = (value) => /\bfail(?:ed)?\b/i.test(String(value || ""));
+
+async function extractReportText(reportUrl) {
+  if (!reportUrl) return { checked: false, text: "" };
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 45000);
+  let folder = "";
+  try {
+    const response = await fetch(reportUrl, { signal: controller.signal, redirect: "follow" });
+    if (!response.ok) return { checked: false, text: "" };
+    const contentType = String(response.headers.get("content-type") || "").toLowerCase();
+    const isPdf = contentType.includes("application/pdf") || /\.pdf(?:[?#]|$)/i.test(reportUrl);
+    const isImage = contentType.startsWith("image/") || /\.(?:png|jpe?g|webp)(?:[?#]|$)/i.test(reportUrl);
+    if (!isPdf && !isImage) return { checked: false, text: "" };
+    const bytes = Buffer.from(await response.arrayBuffer());
+    if (!bytes.length || bytes.length > 25 * 1024 * 1024) return { checked: false, text: "" };
+    folder = await fs.mkdtemp(path.join(os.tmpdir(), "coa-scan-"));
+    if (isPdf) {
+      const pdfPath = path.join(folder, "report.pdf");
+      await fs.writeFile(pdfPath, bytes);
+      try {
+        const { stdout } = await execFileAsync("pdftotext", [pdfPath, "-"], { maxBuffer: 10 * 1024 * 1024 });
+        if (clean(stdout)) return { checked: true, text: stdout };
+      } catch {}
+      const imageBase = path.join(folder, "page");
+      await execFileAsync("pdftoppm", ["-f", "1", "-singlefile", "-png", "-r", "200", pdfPath, imageBase], { maxBuffer: 10 * 1024 * 1024 });
+      const { stdout } = await execFileAsync("tesseract", [imageBase + ".png", "stdout"], { maxBuffer: 10 * 1024 * 1024 });
+      return { checked: true, text: stdout };
+    }
+    const imagePath = path.join(folder, "report-image");
+    await fs.writeFile(imagePath, bytes);
+    const { stdout } = await execFileAsync("tesseract", [imagePath, "stdout"], { maxBuffer: 10 * 1024 * 1024 });
+    return { checked: true, text: stdout };
+  } catch (error) {
+    console.warn("COA status check unavailable:", reportUrl, error?.message || error);
+    return { checked: false, text: "" };
+  } finally {
+    clearTimeout(timeout);
+    if (folder) await fs.rm(folder, { recursive: true, force: true });
+  }
+}
+
+async function coaStatus(record) {
+  if (hasFailedText(record.sourceText)) return "Failed";
+  const scan = await extractReportText(record.reportUrl);
+  if (!scan.checked) return "Unchecked";
+  return hasFailedText(scan.text) ? "Failed" : "Passed";
+}
+
+async function mapWithConcurrency(items, limit, mapper) {
+  const results = new Array(items.length);
+  let nextIndex = 0;
+  const workers = Array.from({ length: Math.min(limit, items.length) }, async () => {
+    while (nextIndex < items.length) {
+      const index = nextIndex++;
+      results[index] = await mapper(items[index], index);
+    }
+  });
+  await Promise.all(workers);
+  return results;
+}
+
 async function tableRows(page, requiredHeaders) {
   return page.locator("table").evaluateAll((tables, required) => {
     const normalize = (value) => String(value || "").replace(/\s+/g, " ").trim().toLowerCase();
@@ -99,7 +167,7 @@ try {
 
   const completedRows = await tableRows(page, ["vendor", "product", "purity", "analysis date"]);
   if (completedRows.length < 100) throw new Error(`Only ${completedRows.length} completed rows were found; refusing to replace the last good snapshot.`);
-  const completed = latestPerKey(completedRows.map((row) => {
+  const completedBase = latestPerKey(completedRows.map((row) => {
     const reportUrl = hrefField(row, "verify") || hrefField(row, "report") || hrefField(row, "coa");
     return {
       vendor: canonicalVendor(field(row, "vendor")),
@@ -110,9 +178,16 @@ try {
       lab: field(row, "testing lab") || field(row, "lab"),
       analysisDate: field(row, "analysis date") || field(row, "date"),
       reportUrl,
-      previewUrl: /\.(?:pdf|png|jpe?g)(?:[?#]|$)/i.test(reportUrl) ? reportUrl : ""
+      previewUrl: /\.(?:pdf|png|jpe?g)(?:[?#]|$)/i.test(reportUrl) ? reportUrl : "",
+      sourceText: Object.values(row).join(" ")
     };
   }).filter((record) => record.vendor && record.product && record.strength), "analysisDate");
+
+  const completed = await mapWithConcurrency(completedBase, 4, async (record) => {
+    const status = await coaStatus(record);
+    const { sourceText, ...savedRecord } = record;
+    return { ...savedRecord, status };
+  });
 
   const pendingButton = page.getByRole("button", { name: /view pending tests/i }).first();
   await pendingButton.click();
