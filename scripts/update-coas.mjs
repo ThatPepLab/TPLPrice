@@ -89,6 +89,14 @@ try {
   await page.goto(SOURCE_URL, { waitUntil: "domcontentloaded", timeout: 120000 });
   await page.getByText(/\d+\s+COA records/i).first().waitFor({ timeout: 60000 });
 
+  const pendingCountElement = page.locator(".pending-teaser-count strong").first();
+  await pendingCountElement.waitFor({ timeout: 60000 });
+  await page.waitForFunction(() => {
+    const value = document.querySelector(".pending-teaser-count strong")?.textContent?.trim();
+    return Boolean(value && /^\d+$/.test(value));
+  }, { timeout: 60000 });
+  const advertisedPendingCount = Number.parseInt(await pendingCountElement.innerText(), 10);
+
   const completedRows = await tableRows(page, ["vendor", "product", "purity", "analysis date"]);
   if (completedRows.length < 100) throw new Error(`Only ${completedRows.length} completed rows were found; refusing to replace the last good snapshot.`);
   const completed = latestPerKey(completedRows.map((row) => {
@@ -108,8 +116,16 @@ try {
 
   const pendingButton = page.getByRole("button", { name: /view pending tests/i }).first();
   await pendingButton.click();
-  await page.getByRole("dialog").waitFor({ timeout: 30000 });
+  await page.locator(".pending-modal").waitFor({ timeout: 30000 });
+  if (advertisedPendingCount > 0) {
+    await page.locator(".pending-table-wrap tbody tr").first().waitFor({ timeout: 60000 });
+  } else {
+    await page.locator(".pending-empty").last().waitFor({ timeout: 60000 });
+  }
   const pendingRows = await tableRows(page, ["vendor", "product", "date sent", "expected results"]);
+  if (pendingRows.length < advertisedPendingCount) {
+    throw new Error(`The source advertises ${advertisedPendingCount} pending tests, but only ${pendingRows.length} rows were captured; refusing to replace the last good snapshot.`);
+  }
   const pending = latestPerKey(pendingRows.map((row) => ({
     vendor: canonicalVendor(field(row, "vendor")),
     product: canonicalProduct(field(row, "product")),
