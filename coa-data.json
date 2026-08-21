@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-08-21T16:20:58.484Z",
+  "updatedAt": "2026-08-21T17:31:40.197Z",
   "counts": {
-    "completed": 217,
+    "completed": 279,
     "pending": 60
   },
   "completed": [
@@ -146,6 +146,18 @@
       "netContent": "20.84 mg",
       "purity": "99.87%",
       "lab": "SteriGenix",
+      "analysisDate": "2026-07-30",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-474006",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "GLP-3RT",
+      "strength": "20MG",
+      "netContent": "20.84 mg",
+      "purity": "99.87%",
+      "lab": "SteriGenix",
       "analysisDate": "07/30/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0728-R75",
       "previewUrl": "",
@@ -184,6 +196,30 @@
       "lab": "SteriGenix",
       "analysisDate": "07/30/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0728-X76",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "MOTS-C",
+      "strength": "10MG",
+      "netContent": "10.78 mg",
+      "purity": "99.69%",
+      "lab": "SteriGenix",
+      "analysisDate": "07/22/2026",
+      "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0715-N31",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "Semax",
+      "strength": "5MG",
+      "netContent": "5.19 mg",
+      "purity": "99.82%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-07-30",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-742955",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -261,6 +297,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "GLP-3RT",
+      "strength": "10MG",
+      "netContent": "11.61 mg",
+      "purity": "99.14%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "06/15/2026",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110756.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110756.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "MOTS-C",
       "strength": "10MG",
       "netContent": "10.58 mg",
@@ -270,6 +318,18 @@
       "reportUrl": "https://portal.ils-lab.com/verify/uRs_qlZ3mMetvPVp",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "MOTS-C",
+      "strength": "10MG",
+      "netContent": "13.11 mg",
+      "purity": "99.30%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "06/15/2026",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110758.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110758.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Innopeptide US",
@@ -369,6 +429,18 @@
     },
     {
       "vendor": "Kerui Peptides",
+      "product": "BPC-157",
+      "strength": "10MG",
+      "netContent": "10.96 mg",
+      "purity": "99.241%",
+      "lab": "Kovera Labs",
+      "analysisDate": "2026-07-18",
+      "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-10A0C1",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
       "product": "BPC-157 + Thymosin Beta-4",
       "strength": "5MG",
       "netContent": "BPC-157 6.59 mg / Thymosin Beta-4 6.79 mg",
@@ -442,12 +514,48 @@
     {
       "vendor": "Kerui Peptides",
       "product": "GHK-Cu",
+      "strength": "50 mg",
+      "netContent": "50.32 mg",
+      "purity": "99.654%",
+      "lab": "Kovera Labs",
+      "analysisDate": "2026-07-16",
+      "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-0956A8",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "GHK-Cu",
+      "strength": "50MG",
+      "netContent": "54.49 mg",
+      "purity": "99.38%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "06/07/2026",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Sore2606040313.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Sore2606040313.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "GHK-Cu",
       "strength": "100mg",
       "netContent": "102.35 mg",
       "purity": "99.09%",
       "lab": "ILS Laboratories",
       "analysisDate": "2026-07-28",
       "reportUrl": "https://ils-lab.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "GHK-Cu",
+      "strength": "100MG",
+      "netContent": "102.43 mg",
+      "purity": "99.739%",
+      "lab": "Kovera Labs",
+      "analysisDate": "2026-07-18",
+      "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-ABE96B",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -502,12 +610,60 @@
     {
       "vendor": "Kerui Peptides",
       "product": "GLP-3RT",
+      "strength": "20MG",
+      "netContent": "23.85 mg",
+      "purity": "99.90%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "07/25/2026",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Keru2607220253.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Keru2607220253.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "GLP-3RT",
+      "strength": "20MG",
+      "netContent": "19.36 mg",
+      "purity": "99.83%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "05/27/2026",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Sore2605260176.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Sore2605260176.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "GLP-3RT",
       "strength": "30mg",
       "netContent": "30.77 mg",
       "purity": "99.75%",
       "lab": "ILS Laboratories",
       "analysisDate": "2026-08-03",
       "reportUrl": "https://ils-lab.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "GLP-3RT",
+      "strength": "30mg",
+      "netContent": "31.92 mg",
+      "purity": "99.53%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-07-28",
+      "reportUrl": "https://portal.ils-lab.com/verify/UzIS-PM0AIaXIxIr",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "GLP-3RT",
+      "strength": "30 mg",
+      "netContent": "25.1 mg",
+      "purity": ">99.9%",
+      "lab": "Krause Analytical",
+      "analysisDate": "2026-07-25",
+      "reportUrl": "https://www.finnrick.com/verify",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -633,6 +789,18 @@
     },
     {
       "vendor": "Kerui Peptides",
+      "product": "KLOW",
+      "strength": "80MG",
+      "netContent": "51.89 / 10.32 / 10.48 / 10.77 mg (83.46 mg total)",
+      "purity": "99.82%",
+      "lab": "SteriGenix",
+      "analysisDate": "07/30/2026",
+      "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0724-Q45",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
       "product": "KPV",
       "strength": "10MG",
       "netContent": "10.32 mg",
@@ -705,6 +873,18 @@
     },
     {
       "vendor": "Kerui Peptides",
+      "product": "MOTS-C",
+      "strength": "10MG",
+      "netContent": "10.84 mg",
+      "purity": "99.38%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "06/07/2026",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Sore2606040311.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Sore2606040311.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Kerui Peptides",
       "product": "NAD+",
       "strength": "500mg",
       "netContent": "516.00 mg",
@@ -718,12 +898,60 @@
     {
       "vendor": "Kerui Peptides",
       "product": "NAD+",
+      "strength": "500mg",
+      "netContent": "Not reported",
+      "purity": "97.67%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-07-30",
+      "reportUrl": "https://ils-lab.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "NAD+",
+      "strength": "500 mg",
+      "netContent": "580 mg",
+      "purity": "93.1%",
+      "lab": "Krause Analytical",
+      "analysisDate": "2026-07-23",
+      "reportUrl": "https://www.finnrick.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "NAD+",
       "strength": "1000mg",
       "netContent": "1106.35 mg (110.63%)",
       "purity": "99.79%",
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://aminometrics.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "NAD+",
+      "strength": "1000MG",
+      "netContent": "418.39 mg",
+      "purity": "99.91%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "08/11/2026",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/RonS2608100024.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/RonS2608100024.pdf",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "NAD+",
+      "strength": "1000MG",
+      "netContent": "615.00 mg (61.50% label claim)",
+      "purity": "82.45%",
+      "lab": "Amino Metrics",
+      "analysisDate": "08/06/2026",
+      "reportUrl": "https://www.aminometrics.com/verify?code=+f4df-38c3-4acf-c4f6-f91b-dbf5-95bb-a58a-7cfe-0ba5-96c6-3d33",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -765,6 +993,18 @@
     },
     {
       "vendor": "Kerui Peptides",
+      "product": "Selank",
+      "strength": "10MG",
+      "netContent": "13.73 mg",
+      "purity": "99.45%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "07/25/2026",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Keru2607220254.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Keru2607220254.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Kerui Peptides",
       "product": "Semax",
       "strength": "10MG",
       "netContent": "9.93 mg",
@@ -774,6 +1014,18 @@
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0724-L44",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "Semax",
+      "strength": "10MG",
+      "netContent": "13.48 mg",
+      "purity": "99.39%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "07/25/2026",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Keru2607220252.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Keru2607220252.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Kerui Peptides",
@@ -830,8 +1082,32 @@
       "netContent": "6.72 mg",
       "purity": "62.73%",
       "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-14",
+      "reportUrl": "https://portal.ils-lab.com/verify/hzUkVH21JuQZ_OZV",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "Tesamorelin",
+      "strength": "10MG",
+      "netContent": "6.72 mg",
+      "purity": "62.73%",
+      "lab": "ILS Laboratories",
       "analysisDate": "08/14/2026",
       "reportUrl": "https://portal.ils-lab.com/verify/hzUkVH21JuQZ_OZV",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "Tesamorelin",
+      "strength": "10 mg",
+      "netContent": "12.5 mg",
+      "purity": "99.7 %",
+      "lab": "BTLabs",
+      "analysisDate": "2026-06-22",
+      "reportUrl": "https://btlabstesting.com/",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -982,12 +1258,36 @@
     {
       "vendor": "Lilipeptide",
       "product": "GLP-3RT",
+      "strength": "20MG",
+      "netContent": "21.92 mg",
+      "purity": "99.618%",
+      "lab": "Janoshik*",
+      "analysisDate": "2026-05-18",
+      "reportUrl": "https://www.janoshik.com/verify/",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Lilipeptide",
+      "product": "GLP-3RT",
       "strength": "30MG",
       "netContent": "30.65 mg",
       "purity": "99.84%",
       "lab": "SteriGenix",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-400786",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Lilipeptide",
+      "product": "GLP-3RT",
+      "strength": "30MG",
+      "netContent": "33.13 mg",
+      "purity": "99.404%",
+      "lab": "Janoshik*",
+      "analysisDate": "2026-04-29",
+      "reportUrl": "https://www.janoshik.com/verify/",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -1107,6 +1407,18 @@
       "purity": "99.066%",
       "lab": "Janoshik*",
       "analysisDate": "2026-06-22",
+      "reportUrl": "https://www.janoshik.com/verify/",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Lilipeptide",
+      "product": "TB500",
+      "strength": "10MG",
+      "netContent": "10.51 mg",
+      "purity": "99.416%",
+      "lab": "Janoshik*",
+      "analysisDate": "2026-04-29",
       "reportUrl": "https://www.janoshik.com/verify/",
       "previewUrl": "",
       "status": "Unchecked"
@@ -1282,6 +1594,18 @@
     {
       "vendor": "Marvel Peptides",
       "product": "GLP-3RT",
+      "strength": "10MG",
+      "netContent": "11.17 mg",
+      "purity": "99.649%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "10/25/2025",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Marv2510220131.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Marv2510220131.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Marvel Peptides",
+      "product": "GLP-3RT",
       "strength": "20MG",
       "netContent": "19.79 mg",
       "purity": "99.965%",
@@ -1388,6 +1712,18 @@
       "status": "Unchecked"
     },
     {
+      "vendor": "Marvel Peptides",
+      "product": "Tesamorelin",
+      "strength": "10MG",
+      "netContent": "13.51 mg",
+      "purity": "99.401%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "02/20/2026",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Marv2602180177.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Marv2602180177.pdf",
+      "status": "Passed"
+    },
+    {
       "vendor": "Marvel US",
       "product": "Wolverine Blend",
       "strength": "10MG",
@@ -1408,6 +1744,18 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-07",
       "reportUrl": "https://aminometrics.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "5-Amino-1MQ",
+      "strength": "50MG",
+      "netContent": "52.08 mg",
+      "purity": "99.71%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-07-28",
+      "reportUrl": "https://sterigenixanalytical.com/verify",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -1546,6 +1894,18 @@
     {
       "vendor": "MKM",
       "product": "GHK-Cu",
+      "strength": "50MG",
+      "netContent": "59.21 mg",
+      "purity": "99.76%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "07/03/2026",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/RUMK2607010235.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/RUMK2607010235.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "MKM",
+      "product": "GHK-Cu",
       "strength": "100MG",
       "netContent": "121.16 mg",
       "purity": "99.63%",
@@ -1554,6 +1914,18 @@
       "reportUrl": "https://coa.reta-unfiltered.com/coas/mkm-ghk-cu-100mg-freedom-diagnostics.png",
       "previewUrl": "https://coa.reta-unfiltered.com/coas/mkm-ghk-cu-100mg-freedom-diagnostics.png",
       "status": "Passed"
+    },
+    {
+      "vendor": "MKM",
+      "product": "GHK-Cu",
+      "strength": "100mg",
+      "netContent": "138.20 mg (138.20%)",
+      "purity": "99.50%",
+      "lab": "Amino Metrics",
+      "analysisDate": "2026-08-14",
+      "reportUrl": "https://aminometrics.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -1606,12 +1978,60 @@
     {
       "vendor": "MKM",
       "product": "GLP-3RT",
+      "strength": "5MG",
+      "netContent": "5.13 mg",
+      "purity": "99.72%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-07-28",
+      "reportUrl": "https://sterigenixanalytical.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "GLP-3RT",
       "strength": "10MG",
       "netContent": "10.32 mg",
       "purity": "99.92%",
       "lab": "SteriGenix",
       "analysisDate": "2026-07-28",
       "reportUrl": "https://sterigenixanalytical.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "GLP-3RT",
+      "strength": "10MG",
+      "netContent": "12.68 mg",
+      "purity": "99.82%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "07/10/2026",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/OTCP2607090127.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/OTCP2607090127.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "MKM",
+      "product": "GLP-3RT",
+      "strength": "10MG",
+      "netContent": "10.83 mg",
+      "purity": "99.77%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "07/03/2026",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/RUMK2607010229.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/RUMK2607010229.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "MKM",
+      "product": "GLP-3RT",
+      "strength": "20MG",
+      "netContent": "25.20 mg",
+      "purity": "99.80%",
+      "lab": "Amino Metrics",
+      "analysisDate": "2026-08-13",
+      "reportUrl": "https://aminometrics.com/verify",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -1626,6 +2046,42 @@
       "reportUrl": "https://aminometrics.com/verify",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "GLP-3RT",
+      "strength": "20mg",
+      "netContent": "21.4 mg",
+      "purity": "99.55%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-10",
+      "reportUrl": "https://ils-lab.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "GLP-3RT",
+      "strength": "20MG",
+      "netContent": "20.74 mg",
+      "purity": "99.80%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-04",
+      "reportUrl": "https://portal.ils-lab.com/verify/uvGdqQKP76eGzMuD",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "GLP-3RT",
+      "strength": "20MG",
+      "netContent": "24.51 mg",
+      "purity": "99.94%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "06/24/2026",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/MKMP2606220236.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/MKMP2606220236.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "MKM",
@@ -1701,6 +2157,18 @@
     },
     {
       "vendor": "MKM",
+      "product": "KLOW",
+      "strength": "80mg",
+      "netContent": "64.71 mg (GHK-CU), 10.60 mg (KPV), 10.17 mg (BPC-157), 10.30 mg (TB-500)",
+      "purity": "99.80%",
+      "lab": "Amino Metrics",
+      "analysisDate": "2026-08-15",
+      "reportUrl": "https://aminometrics.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
       "product": "KPV",
       "strength": "5MG",
       "netContent": "5.16 mg",
@@ -1749,6 +2217,18 @@
     },
     {
       "vendor": "MKM",
+      "product": "MOTS-C",
+      "strength": "40MG",
+      "netContent": "41.02 mg",
+      "purity": "99.07%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-04",
+      "reportUrl": "https://portal.ils-lab.com/verify/CdI9k69cOqkDfMyo",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
       "product": "MOTS-C 40MG",
       "strength": "40MG",
       "netContent": "42.87 mg",
@@ -1780,6 +2260,30 @@
       "lab": "SideChain Analytics",
       "analysisDate": "08/14/2026",
       "reportUrl": "https://peptidetestcanada.ca/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "NAD+",
+      "strength": "1000MG",
+      "netContent": "1002.87 mg",
+      "purity": "99.58%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-10",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-258779",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "NAD+",
+      "strength": "1000MG",
+      "netContent": "1018.89 mg",
+      "purity": "99.22%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-04",
+      "reportUrl": "https://portal.ils-lab.com/verify/vJgHOUy7ivNU8eRX",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -1834,6 +2338,18 @@
     {
       "vendor": "MKM",
       "product": "Semax",
+      "strength": "5mg",
+      "netContent": "5.61 mg (112.20%)",
+      "purity": "99.82%",
+      "lab": "Amino Metrics",
+      "analysisDate": "2026-08-18",
+      "reportUrl": "https://aminometrics.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "Semax",
       "strength": "5MG",
       "netContent": "5.61 mg (112.20% label claim)",
       "purity": "99.82%",
@@ -1864,6 +2380,18 @@
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-05",
       "reportUrl": "https://aminometrics.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "SS-31",
+      "strength": "10MG",
+      "netContent": "10.53 mg",
+      "purity": "99.50%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-04",
+      "reportUrl": "https://portal.ils-lab.com/verify/gwx1LC4iC8Ihf3dI",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -1902,6 +2430,30 @@
       "reportUrl": "https://aminometrics.com/verify",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "Tesamorelin",
+      "strength": "10MG",
+      "netContent": "10.18 mg",
+      "purity": "99.40%",
+      "lab": "Amino Metrics",
+      "analysisDate": "2026-08-14",
+      "reportUrl": "https://aminometrics.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "Tesamorelin",
+      "strength": "10MG",
+      "netContent": "12.05 mg",
+      "purity": "99.83%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "07/10/2026",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/OTCP2607090125.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/OTCP2607090125.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "MKM",
@@ -2109,6 +2661,18 @@
     },
     {
       "vendor": "Peptide Lab",
+      "product": "GLP-3RT",
+      "strength": "30MG",
+      "netContent": "31.94mg",
+      "purity": "99.20%",
+      "lab": "HYTE Research Division",
+      "analysisDate": "2026-08-11",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Ff75d05eb-8599-4770-a7c0-1590869fc708-PL_Reta_30__peptide_lab.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Ff75d05eb-8599-4770-a7c0-1590869fc708-PL_Reta_30__peptide_lab.pdf?alt=media",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Peptide Lab",
       "product": "KPV",
       "strength": "5MG",
       "netContent": "4.93mg",
@@ -2228,6 +2792,18 @@
       "status": "Passed"
     },
     {
+      "vendor": "Peptide Lab",
+      "product": "Tesamorelin",
+      "strength": "10mg",
+      "netContent": "10.19 mg",
+      "purity": "99.03%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-04",
+      "reportUrl": "https://portal.ils-lab.com/verify/vpSqHRGZORRFglj1",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
       "vendor": "SQ Peptide",
       "product": "Cagrilintide",
       "strength": "5MG",
@@ -2241,6 +2817,18 @@
     },
     {
       "vendor": "SQ Peptide",
+      "product": "Cagrilintide",
+      "strength": "5MG",
+      "netContent": "4.92 mg",
+      "purity": "99.07%",
+      "lab": "SteriGenix",
+      "analysisDate": "07/13/2026",
+      "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0708-U55",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "SQ Peptide",
       "product": "CJC + Ipamorelin",
       "strength": "10MG",
       "netContent": "Ipamorelin 5.86 mg / CJC-1295 4.98 mg",
@@ -2250,6 +2838,18 @@
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/SQPe2607220258.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/SQPe2607220258.pdf",
       "status": "Passed"
+    },
+    {
+      "vendor": "SQ Peptide",
+      "product": "CJC + Ipamorelin",
+      "strength": "10MG",
+      "netContent": "5.72 / 6.11 mg (11.83 mg total)",
+      "purity": "99.56%",
+      "lab": "SteriGenix",
+      "analysisDate": "07/13/2026",
+      "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0708-Z96",
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "SQ Peptide",
@@ -2274,6 +2874,30 @@
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/SQPe2607220256.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/SQPe2607220256.pdf",
       "status": "Passed"
+    },
+    {
+      "vendor": "SQ Peptide",
+      "product": "GLP-3RT",
+      "strength": "20MG",
+      "netContent": "22.13 mg",
+      "purity": "99.87%",
+      "lab": "SteriGenix",
+      "analysisDate": "07/13/2026",
+      "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0708-B51",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "SQ Peptide",
+      "product": "Melanotan I",
+      "strength": "10MG",
+      "netContent": "Not reported",
+      "purity": "Not reported",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-07-13",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-673844",
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "SQ Peptide",
@@ -2409,6 +3033,30 @@
     },
     {
       "vendor": "WanShun",
+      "product": "GHK-Cu",
+      "strength": "50mg",
+      "netContent": "52.38 mg",
+      "purity": "99.91%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-07-31",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270879.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270879.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "GHK-Cu",
+      "strength": "50MG",
+      "netContent": "52.33 mg",
+      "purity": "99.05%",
+      "lab": "Testides",
+      "analysisDate": "05/23/2026",
+      "reportUrl": "https://testides.com/report/JZOA-GHK-Cu-50-051526",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
       "product": "GLOW",
       "strength": "70mg",
       "netContent": "GHK-Cu – 35.78 mg, TB-500 – 5.49 mg, BPC-157 – 8.12 mg",
@@ -2454,6 +3102,54 @@
       "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-42BE23",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "GLP-3RT",
+      "strength": "10MG",
+      "netContent": "10.70 mg",
+      "purity": "99.6 %",
+      "lab": "Peptide Test Canada",
+      "analysisDate": "2026-07-31",
+      "reportUrl": "https://peptidetestcanada.ca/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "GLP-3RT",
+      "strength": "10mg",
+      "netContent": "9.40 mg",
+      "purity": "99.88%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-07-31",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270884.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270884.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "GLP-3RT",
+      "strength": "10MG",
+      "netContent": "10.29 mg",
+      "purity": "99.25%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "07/07/2026",
+      "reportUrl": "https://ils-lab.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "GLP-3RT",
+      "strength": "10MG",
+      "netContent": "9.44 mg",
+      "purity": "99.81%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "07/01/2026",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Wans2606290343.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Wans2606290343.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "WanShun",
@@ -2530,12 +3226,36 @@
     {
       "vendor": "WanShun",
       "product": "MOTS-c",
+      "strength": "10mg",
+      "netContent": "9.25 mg",
+      "purity": "99.08%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-07-31",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270882.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270882.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "MOTS-c",
       "strength": "40 mg",
       "netContent": "35.2 mg",
       "purity": "99.6 %",
       "lab": "Krause Analytical",
       "analysisDate": "2026-07-23",
       "reportUrl": "https://www.finnrick.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "MOTS-c",
+      "strength": "40MG",
+      "netContent": "41.78 mg",
+      "purity": "99.27%",
+      "lab": "SteriGenix",
+      "analysisDate": "Not reported",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-999433",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -2549,6 +3269,18 @@
       "analysisDate": "2026-07-31",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270881.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Rebe2607270881.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "NAD+",
+      "strength": "500MG",
+      "netContent": "416.41 mg",
+      "purity": "99.51%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "07/28/2026",
+      "reportUrl": "https://coa.reta-unfiltered.com/coas/wanshun-nad-plus-500mg-freedom-diagnostics.png",
+      "previewUrl": "https://coa.reta-unfiltered.com/coas/wanshun-nad-plus-500mg-freedom-diagnostics.png",
       "status": "Passed"
     },
     {
@@ -2596,6 +3328,18 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-08-07",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-097909",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "Tesamorelin",
+      "strength": "10 mg",
+      "netContent": "12.87 mg",
+      "purity": "99.686%",
+      "lab": "Kovera Labs",
+      "analysisDate": "2026-08-05",
+      "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-37A260",
       "previewUrl": "",
       "status": "Unchecked"
     },
