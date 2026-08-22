@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-08-21T17:31:40.197Z",
+  "updatedAt": "2026-08-22T13:59:44.296Z",
   "counts": {
-    "completed": 279,
+    "completed": 299,
     "pending": 60
   },
   "completed": [
@@ -189,6 +189,18 @@
     },
     {
       "vendor": "Global Wellness Lab",
+      "product": "HGH (Somatropin)",
+      "strength": "15IU",
+      "netContent": "0 IU (identity not identifiable)",
+      "purity": "0%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-21",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-310437",
+      "previewUrl": "",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Global Wellness Lab",
       "product": "MOTS-C",
       "strength": "10MG",
       "netContent": "10.13 mg",
@@ -232,6 +244,18 @@
       "lab": "SteriGenix",
       "analysisDate": "07/30/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0728-G14",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "Slu-pp-332",
+      "strength": "10MG",
+      "netContent": "10.46 mg",
+      "purity": "99.73%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-21",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-836556",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -285,6 +309,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "GLP-2TZ",
+      "strength": "20MG",
+      "netContent": "21.08 mg",
+      "purity": "99.47%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-10",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-089605",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "GLP-3RT",
       "strength": "10MG",
       "netContent": "10.31 mg",
@@ -309,6 +345,30 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "KPV",
+      "strength": "5MG",
+      "netContent": "1.25 mg",
+      "purity": "99.58%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-10",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-183199",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "MOTS-c",
+      "strength": "40MG",
+      "netContent": "41.27 mg",
+      "purity": "99.87%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-10",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-930548",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "MOTS-C",
       "strength": "10MG",
       "netContent": "10.58 mg",
@@ -330,6 +390,18 @@
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110758.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110758.pdf",
       "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Semax",
+      "strength": "10MG",
+      "netContent": "10.71 mg",
+      "purity": "99.35%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-10",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-724401",
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Innopeptide US",
@@ -579,6 +651,18 @@
       "purity": "99.98%",
       "lab": "ILS Laboratories",
       "analysisDate": "2026-07-28",
+      "reportUrl": "https://ils-lab.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "GLP-3RT",
+      "strength": "10mg",
+      "netContent": "10.53 mg",
+      "purity": "99.70%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-06",
       "reportUrl": "https://ils-lab.com/verify",
       "previewUrl": "",
       "status": "Unchecked"
@@ -1557,6 +1641,30 @@
     },
     {
       "vendor": "Marvel Peptides",
+      "product": "BPC-157",
+      "strength": "20MG",
+      "netContent": "21.01 mg",
+      "purity": "99.47%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-21",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-618898",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Marvel Peptides",
+      "product": "CJC-1295 no DAC",
+      "strength": "5MG",
+      "netContent": "5.29 mg",
+      "purity": "99.80%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-21",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-531362",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Marvel Peptides",
       "product": "Glow",
       "strength": "70MG",
       "netContent": "GHK-Cu 53.11 mg / BPC-157 10.17 mg / Thymosin Beta-4 10.85 mg",
@@ -1566,6 +1674,18 @@
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Chea2512150036.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Chea2512150036.pdf",
       "status": "Passed"
+    },
+    {
+      "vendor": "Marvel Peptides",
+      "product": "GLP-2TZ",
+      "strength": "20MG",
+      "netContent": "21.38 mg",
+      "purity": "99.41%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-21",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-863952",
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Marvel Peptides",
@@ -1602,6 +1722,18 @@
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Marv2510220131.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Marv2510220131.pdf",
       "status": "Passed"
+    },
+    {
+      "vendor": "Marvel Peptides",
+      "product": "GLP-3RT",
+      "strength": "20MG",
+      "netContent": "21.19 mg",
+      "purity": "99.36%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-21",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-896843",
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Marvel Peptides",
@@ -1648,6 +1780,18 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-08-20",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-135011",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Marvel Peptides",
+      "product": "Ipamorelin",
+      "strength": "5MG",
+      "netContent": "5.03 mg",
+      "purity": "99.27%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-21",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-637900",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -1701,6 +1845,42 @@
     },
     {
       "vendor": "Marvel Peptides",
+      "product": "SS-31 (Elamipretide)",
+      "strength": "50MG",
+      "netContent": "52.75 mg",
+      "purity": "99.94%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-21",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-432609",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Marvel Peptides",
+      "product": "TB500",
+      "strength": "10MG",
+      "netContent": "9.93 mg",
+      "purity": "99.68%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-21",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-802426",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Marvel Peptides",
+      "product": "Tesamorelin",
+      "strength": "10MG",
+      "netContent": "10.38 mg",
+      "purity": "99.10%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-21",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-523870",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Marvel Peptides",
       "product": "Tesamorelin",
       "strength": "10 mg",
       "netContent": "9.12 mg",
@@ -1722,6 +1902,18 @@
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Marv2602180177.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Marv2602180177.pdf",
       "status": "Passed"
+    },
+    {
+      "vendor": "Marvel Peptides",
+      "product": "Testosterone Enanthate",
+      "strength": "250mg",
+      "netContent": "266.55 mg/ml",
+      "purity": "Not reported",
+      "lab": "Janoshik",
+      "analysisDate": "2026-08-10",
+      "reportUrl": "https://www.janoshik.com/verify/",
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Marvel US",
@@ -2085,6 +2277,30 @@
     },
     {
       "vendor": "MKM",
+      "product": "GLP-3RT",
+      "strength": "20MG",
+      "netContent": "Not reported",
+      "purity": "Not reported",
+      "lab": "Amino Metrics",
+      "analysisDate": "Not reported",
+      "reportUrl": "https://aminometrics.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "GLP-3RT",
+      "strength": "30MG",
+      "netContent": "31.04 mg",
+      "purity": "99.47%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-21",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-926429",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
       "product": "Glutathione",
       "strength": "1500MG",
       "netContent": "1513.00 mg",
@@ -2116,6 +2332,18 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-07-24",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-803071",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "HGH",
+      "strength": "24IU",
+      "netContent": "25IU",
+      "purity": "96.48%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-21",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-476506",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -2670,6 +2898,18 @@
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Ff75d05eb-8599-4770-a7c0-1590869fc708-PL_Reta_30__peptide_lab.pdf?alt=media",
       "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Ff75d05eb-8599-4770-a7c0-1590869fc708-PL_Reta_30__peptide_lab.pdf?alt=media",
       "status": "Passed"
+    },
+    {
+      "vendor": "Peptide Lab",
+      "product": "GLP-3RT",
+      "strength": "30 mg",
+      "netContent": "30.3 mg",
+      "purity": "99.8 %",
+      "lab": "BTLabs",
+      "analysisDate": "2026-08-02",
+      "reportUrl": "https://www.finnrick.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Peptide Lab",
