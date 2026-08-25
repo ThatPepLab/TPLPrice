@@ -1,10 +1,10 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-08-24T14:42:39.713Z",
+  "updatedAt": "2026-08-25T14:44:41.126Z",
   "counts": {
     "completed": 302,
-    "pending": 60
+    "pending": 62
   },
   "completed": [
     {
@@ -12,7 +12,7 @@
       "product": "Adamax*",
       "strength": "10MG",
       "netContent": "10.37 mg",
-      "purity": "95.0%",
+      "purity": "99.89%",
       "lab": "ILS Laboratories*",
       "analysisDate": "2026-07-02",
       "reportUrl": "https://ils-lab.com/verify",
@@ -24,7 +24,7 @@
       "product": "Epitalon*",
       "strength": "10MG",
       "netContent": "10.31 mg",
-      "purity": "95.0%",
+      "purity": "97.98%",
       "lab": "ILS Laboratories*",
       "analysisDate": "2026-06-27",
       "reportUrl": "https://ils-lab.com/verify",
@@ -48,7 +48,7 @@
       "product": "KLOW*",
       "strength": "80MG",
       "netContent": "85.32 mg",
-      "purity": "95.0%",
+      "purity": "99.52%",
       "lab": "ILS Laboratories*",
       "analysisDate": "2026-07-10",
       "reportUrl": "https://ils-lab.com/verify",
@@ -72,7 +72,7 @@
       "product": "Retatrutide 20mg*",
       "strength": "20MG",
       "netContent": "21.06 mg",
-      "purity": "95.0%",
+      "purity": "99.90%",
       "lab": "ILS Laboratories*",
       "analysisDate": "2026-07-21",
       "reportUrl": "https://ils-lab.com/verify",
@@ -1559,8 +1559,8 @@
       "vendor": "Lunivo US",
       "product": "GHK-Cu",
       "strength": "50MG",
-      "netContent": "50mg",
-      "purity": "99.80%",
+      "netContent": "49.16 mg",
+      "purity": ">99.80% ± 0.18%",
       "lab": "Vanguard Laboratory*",
       "analysisDate": "2026-04-29",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fe5dd5cfe-95cb-4bcd-aff9-538a7c7be058-lunivo-ghkcu-V260421-39003.png?alt=media",
@@ -1619,7 +1619,7 @@
       "vendor": "Lunivo US",
       "product": "IGF1-LR3*",
       "strength": "1MG",
-      "netContent": "1mg",
+      "netContent": "0.91 mg",
       "purity": "99.40% ± 0.18%",
       "lab": "Vanguard Laboratory*",
       "analysisDate": "2026-04-29",
@@ -2266,6 +2266,18 @@
     {
       "vendor": "MKM",
       "product": "GLP-3RT",
+      "strength": "20MG",
+      "netContent": "26.53 mg",
+      "purity": "99.89%",
+      "lab": "Amino Metrics",
+      "analysisDate": "2026-08-13",
+      "reportUrl": "https://aminometrics.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "GLP-3RT",
       "strength": "20mg",
       "netContent": "21.4 mg",
       "purity": "99.55%",
@@ -2298,18 +2310,6 @@
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/MKMP2606220236.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/MKMP2606220236.pdf",
       "status": "Passed"
-    },
-    {
-      "vendor": "MKM",
-      "product": "GLP-3RT",
-      "strength": "20MG",
-      "netContent": "Not reported",
-      "purity": "Not reported",
-      "lab": "Amino Metrics",
-      "analysisDate": "Not reported",
-      "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": "",
-      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -3881,6 +3881,13 @@
     {
       "vendor": "Lilipeptide",
       "product": "GLP-3RT",
+      "strength": "10mg",
+      "dateSent": "08/14/2026",
+      "expectedDate": "08/28/2026"
+    },
+    {
+      "vendor": "Lilipeptide",
+      "product": "GLP-3RT",
       "strength": "Not provided",
       "dateSent": "08/15/2026",
       "expectedDate": "Not provided"
@@ -3974,6 +3981,13 @@
       "product": "Tesamorelin",
       "strength": "20MG",
       "dateSent": "08/17/2026",
+      "expectedDate": "Not provided"
+    },
+    {
+      "vendor": "Peptide Lab",
+      "product": "BB10",
+      "strength": "10mg",
+      "dateSent": "08/24/2026",
       "expectedDate": "Not provided"
     },
     {
