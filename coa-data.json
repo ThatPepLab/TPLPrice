@@ -1,10 +1,10 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-08-25T14:44:41.126Z",
+  "updatedAt": "2026-08-26T14:43:44.941Z",
   "counts": {
-    "completed": 302,
-    "pending": 62
+    "completed": 318,
+    "pending": 63
   },
   "completed": [
     {
@@ -93,6 +93,18 @@
     },
     {
       "vendor": "Global Wellness Lab",
+      "product": "BPC-157 / TB-500 Blend",
+      "strength": "10MG",
+      "netContent": "BPC-157 5.36 mg / TB-500 5.18 mg (10.54 mg total)",
+      "purity": "99.82%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-21",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-072987",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
       "product": "CJC + Ipamorelin",
       "strength": "10MG",
       "netContent": "5.18 / 5.40 mg (10.58 mg total)",
@@ -100,6 +112,42 @@
       "lab": "SteriGenix",
       "analysisDate": "07/22/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0715-G58",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "CJC-1295 / Ipamorelin Blend",
+      "strength": "10MG",
+      "netContent": "CJC-1295 5.17 mg / Ipamorelin 5.14 mg (10.31 mg total)",
+      "purity": "99.40%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-24",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-903048",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "GHK-Cu (Copper Peptide)",
+      "strength": "50MG",
+      "netContent": "52.09 mg",
+      "purity": "99.48%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-24",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-789915",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "GLP-2TZ",
+      "strength": "10MG",
+      "netContent": "10.16 mg",
+      "purity": "99.37%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-24",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-957096",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -136,6 +184,18 @@
       "lab": "SteriGenix",
       "analysisDate": "07/22/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0715-G33",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "GLP-3RT",
+      "strength": "10MG",
+      "netContent": "10.18 mg",
+      "purity": "99.74%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-24",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-198982",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -184,6 +244,18 @@
       "lab": "SteriGenix",
       "analysisDate": "07/22/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0715-N02",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "HGH",
+      "strength": "36IU",
+      "netContent": "37.13 IU / 12.37 mg",
+      "purity": "96.78%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-21",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-546092",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -261,6 +333,18 @@
     },
     {
       "vendor": "Global Wellness Lab",
+      "product": "SLU-PP-332",
+      "strength": "10MG",
+      "netContent": "10.84 mg",
+      "purity": "99.68%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-21",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-305918",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
       "product": "SS-31",
       "strength": "10MG",
       "netContent": "9.93 mg",
@@ -268,6 +352,30 @@
       "lab": "SteriGenix",
       "analysisDate": "07/22/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0715-J03",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "SS-31 (Elamipretide)",
+      "strength": "10MG",
+      "netContent": "9.94 mg",
+      "purity": "99.13%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-24",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-552719",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "Thymosin Alpha-1",
+      "strength": "5MG",
+      "netContent": "5.09 mg",
+      "purity": "99.31%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-21",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-815836",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -2373,6 +2481,18 @@
     },
     {
       "vendor": "MKM",
+      "product": "HGH 19AA",
+      "strength": "12IU",
+      "netContent": "9.96 IU",
+      "purity": ">99.80% ± 0.18%",
+      "lab": "Vanguard Laboratory",
+      "analysisDate": "2026-08-12",
+      "reportUrl": "https://vanguardlaboratory.com/",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
       "product": "Ipamorelin",
       "strength": "10MG",
       "netContent": "10.07 mg",
@@ -3069,6 +3189,18 @@
     },
     {
       "vendor": "SQ Peptide",
+      "product": "BPC-157 / TB-500 Blend",
+      "strength": "20MG",
+      "netContent": "BPC-157 10.74 mg / TB-500 10.31 mg (21.05 mg total)",
+      "purity": "99.36%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-24",
+      "reportUrl": "https://sterigenixanalytical.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "SQ Peptide",
       "product": "Cagrilintide",
       "strength": "5MG",
       "netContent": "5.39 mg",
@@ -3129,6 +3261,42 @@
     },
     {
       "vendor": "SQ Peptide",
+      "product": "Epitalon",
+      "strength": "50MG",
+      "netContent": "53.06 mg",
+      "purity": "99.17%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-24",
+      "reportUrl": "https://sterigenixanalytical.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "SQ Peptide",
+      "product": "GLP-3RT",
+      "strength": "10MG",
+      "netContent": "10.89 mg",
+      "purity": "99.73%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-24",
+      "reportUrl": "https://sterigenixanalytical.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "SQ Peptide",
+      "product": "GLP-3RT",
+      "strength": "20MG",
+      "netContent": "21.78 mg",
+      "purity": "99.87%",
+      "lab": "Freedom Diagnostics Testing",
+      "analysisDate": "2026-08-24",
+      "reportUrl": "https://freedomdiagnosticstesting.com/",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "SQ Peptide",
       "product": "GLP-3RT",
       "strength": "20MG",
       "netContent": "20.17 mg",
@@ -3153,6 +3321,18 @@
     },
     {
       "vendor": "SQ Peptide",
+      "product": "GLP-3RT",
+      "strength": "30MG",
+      "netContent": "31.17 mg",
+      "purity": "99.48%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-24",
+      "reportUrl": "https://sterigenixanalytical.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "SQ Peptide",
       "product": "Melanotan I",
       "strength": "10MG",
       "netContent": "11.17 mg",
@@ -3172,6 +3352,18 @@
       "lab": "SteriGenix",
       "analysisDate": "07/13/2026",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0708-J85",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "SQ Peptide",
+      "product": "MOTS-c",
+      "strength": "40MG",
+      "netContent": "41.79 mg",
+      "purity": "99.36%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-24",
+      "reportUrl": "https://sterigenixanalytical.com/verify",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -3633,6 +3825,13 @@
     }
   ],
   "pending": [
+    {
+      "vendor": "BacWaterMax",
+      "product": "Bac Water 10ML",
+      "strength": "10ML",
+      "dateSent": "01/01/0001",
+      "expectedDate": "08/18/2026"
+    },
     {
       "vendor": "Global Wellness Lab",
       "product": "2s10",
