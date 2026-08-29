@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-08-28T22:04:21.433Z",
+  "updatedAt": "2026-08-29T12:36:56.203Z",
   "counts": {
-    "completed": 403,
+    "completed": 412,
     "pending": 69
   },
   "completed": [
@@ -232,6 +232,18 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-08-24",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-198982",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "GLP-3RT",
+      "strength": "20MG",
+      "netContent": "N/A",
+      "purity": "N/A",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://portal.ils-lab.com/verify/rpCHRof20E5582gQ",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -990,6 +1002,18 @@
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Sore2606040312.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Sore2606040312.pdf",
       "status": "Passed"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "GLP-2TZ",
+      "strength": "30MG",
+      "netContent": "35.13 mg",
+      "purity": "99.888%",
+      "lab": "HYTE Research",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F53072159-6a80-4e7d-90c7-8431e3da419a-kerui-peptides-hyte-katb-00007.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F53072159-6a80-4e7d-90c7-8431e3da419a-kerui-peptides-hyte-katb-00007.pdf?alt=media",
+      "status": "Failed"
     },
     {
       "vendor": "Kerui Peptides",
@@ -2080,6 +2104,18 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-07-13",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-154269",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Lunivo US",
+      "product": "HGH",
+      "strength": "36IU",
+      "netContent": "38 IU / 12.66 mg",
+      "purity": "96.84%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-25",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-678451",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -4139,6 +4175,18 @@
       "vendor": "SQ Peptide",
       "product": "BPC-157 / TB-500 Blend",
       "strength": "20MG",
+      "netContent": "21.89 mg total (BPC-157 10.945 mg / TB-500 10.947 mg)",
+      "purity": "99.788%",
+      "lab": "HYTE Research",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F08d781e2-303a-4a10-8ec3-63fade221411-sq-peptide-hyte-katb-00010.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F08d781e2-303a-4a10-8ec3-63fade221411-sq-peptide-hyte-katb-00010.pdf?alt=media",
+      "status": "Passed"
+    },
+    {
+      "vendor": "SQ Peptide",
+      "product": "BPC-157 / TB-500 Blend",
+      "strength": "20MG",
       "netContent": "BPC-157 10.74 mg / TB-500 10.31 mg (21.05 mg total)",
       "purity": "99.36%",
       "lab": "SteriGenix",
@@ -4211,6 +4259,18 @@
       "vendor": "SQ Peptide",
       "product": "Epitalon",
       "strength": "50MG",
+      "netContent": "52.98 mg",
+      "purity": "99.397%",
+      "lab": "HYTE Research",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F26d7682e-6357-4ff2-a77a-35c2255f3e39-sq-peptide-hyte-katb-00011.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F26d7682e-6357-4ff2-a77a-35c2255f3e39-sq-peptide-hyte-katb-00011.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "SQ Peptide",
+      "product": "Epitalon",
+      "strength": "50MG",
       "netContent": "53.06 mg",
       "purity": "99.17%",
       "lab": "SteriGenix",
@@ -4218,6 +4278,18 @@
       "reportUrl": "https://sterigenixanalytical.com/verify",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "SQ Peptide",
+      "product": "GLP-3RT",
+      "strength": "10MG",
+      "netContent": "13.72 mg",
+      "purity": "99.140%",
+      "lab": "HYTE Research",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F7a4b4594-75eb-4ee0-8a79-5767ce0bb168-sq-peptide-hyte-katb-00008.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F7a4b4594-75eb-4ee0-8a79-5767ce0bb168-sq-peptide-hyte-katb-00008.pdf?alt=media",
+      "status": "Failed"
     },
     {
       "vendor": "SQ Peptide",
@@ -4271,6 +4343,18 @@
       "vendor": "SQ Peptide",
       "product": "GLP-3RT",
       "strength": "30MG",
+      "netContent": "33.31 mg",
+      "purity": "99.795%",
+      "lab": "HYTE Research",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F4c14c144-e56c-4e31-a7ab-284c0dfc415b-sq-peptide-hyte-katb-00009.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F4c14c144-e56c-4e31-a7ab-284c0dfc415b-sq-peptide-hyte-katb-00009.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "SQ Peptide",
+      "product": "GLP-3RT",
+      "strength": "30MG",
       "netContent": "31.17 mg",
       "purity": "99.48%",
       "lab": "SteriGenix",
@@ -4312,6 +4396,30 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-08-24",
       "reportUrl": "https://sterigenixanalytical.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "SQ Peptide",
+      "product": "MOTS-C",
+      "strength": "40MG",
+      "netContent": "39.63 mg",
+      "purity": "99.714%",
+      "lab": "HYTE Research",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F0e933f48-f915-4fb5-8f34-bbe36c817e72-sq-peptide-hyte-katb-00012.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F0e933f48-f915-4fb5-8f34-bbe36c817e72-sq-peptide-hyte-katb-00012.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "SQ Peptide",
+      "product": "NAD+",
+      "strength": "1000MG",
+      "netContent": "1004.65 mg",
+      "purity": "97.35%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-29",
+      "reportUrl": "https://ils-lab.com/verify",
       "previewUrl": "",
       "status": "Unchecked"
     },
