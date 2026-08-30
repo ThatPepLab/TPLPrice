@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-08-29T12:36:56.203Z",
+  "updatedAt": "2026-08-30T12:37:29.124Z",
   "counts": {
-    "completed": 412,
+    "completed": 413,
     "pending": 69
   },
   "completed": [
@@ -1060,6 +1060,18 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-08-03",
       "reportUrl": "https://portal.ils-lab.com/verify/NtviSDZMKc1uhilA",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "GLP-3RT",
+      "strength": "20mg",
+      "netContent": "21.90 mg (109.50%)",
+      "purity": "99.58%",
+      "lab": "Amino Metrics",
+      "analysisDate": "2026-08-17",
+      "reportUrl": "https://aminometrics.com/verify",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -4365,6 +4377,18 @@
     },
     {
       "vendor": "SQ Peptide",
+      "product": "GLP-3RT",
+      "strength": "100MG",
+      "netContent": "152.40 mg (152.40% label claim)",
+      "purity": "99.82%",
+      "lab": "Amino Metrics",
+      "analysisDate": "2026-08-29",
+      "reportUrl": "https://aminometrics.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "SQ Peptide",
       "product": "Melanotan I",
       "strength": "10MG",
       "netContent": "11.17 mg",
@@ -4938,18 +4962,6 @@
       "reportUrl": "https://portal.ils-lab.com/verify/wCNZj4k_OgCYcMad",
       "previewUrl": "",
       "status": "Unchecked"
-    },
-    {
-      "vendor": "Zhongke Meiye Pharmaceutical Co., Ltd.",
-      "product": "TB500",
-      "strength": "10MG",
-      "netContent": "Not tested",
-      "purity": "99.6%",
-      "lab": "Not reported",
-      "analysisDate": "2026-03-19",
-      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F783e0aad-4d08-40af-b45e-83ebc32b4f03-IMG_5547.jpeg?alt=media",
-      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F783e0aad-4d08-40af-b45e-83ebc32b4f03-IMG_5547.jpeg?alt=media",
-      "status": "Passed"
     }
   ],
   "pending": [
