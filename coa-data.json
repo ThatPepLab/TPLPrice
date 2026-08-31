@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-08-30T12:37:29.124Z",
+  "updatedAt": "2026-08-31T12:35:41.587Z",
   "counts": {
-    "completed": 413,
+    "completed": 422,
     "pending": 69
   },
   "completed": [
@@ -4474,6 +4474,18 @@
     {
       "vendor": "WanShun",
       "product": "BPC-157",
+      "strength": "10MG",
+      "netContent": "12.49 mg",
+      "purity": "99.30%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-29",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250530.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250530.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "BPC-157",
       "strength": "10 mg",
       "netContent": "7.09 mg",
       "purity": "99.8%",
@@ -4630,6 +4642,18 @@
     {
       "vendor": "WanShun",
       "product": "GLP-2TZ",
+      "strength": "15MG",
+      "netContent": "18.09 mg",
+      "purity": "99.82%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-29",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250522.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250522.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "GLP-2TZ",
       "strength": "30mg",
       "netContent": "GLP RT – 0.73 mg, GLP TZ – 28.61 mg",
       "purity": "97.93%",
@@ -4703,6 +4727,18 @@
       "vendor": "WanShun",
       "product": "GLP-3RT",
       "strength": "15MG",
+      "netContent": "17.42 mg",
+      "purity": "99.95%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-29",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250525.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250525.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "GLP-3RT",
+      "strength": "15MG",
       "netContent": "13.04 mg",
       "purity": "99.87%",
       "lab": "Freedom Diagnostics",
@@ -4761,6 +4797,30 @@
     },
     {
       "vendor": "WanShun",
+      "product": "Ipamorelin",
+      "strength": "10MG",
+      "netContent": "11.09 mg",
+      "purity": "99.23%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-29",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250518.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250518.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "KLOW",
+      "strength": "80MG",
+      "netContent": "GHK-Cu 53.01 mg / KPV 10.30 mg / BPC-157 11.98 mg / Thymosin Beta-4 12.48 mg",
+      "purity": "99.85%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-29",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250514.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250514.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "WanShun",
       "product": "MOTS-c",
       "strength": "10 mg",
       "netContent": "11.87 mg",
@@ -4809,6 +4869,18 @@
     },
     {
       "vendor": "WanShun",
+      "product": "MOTS-C",
+      "strength": "40MG",
+      "netContent": "43.16 mg",
+      "purity": "99.32%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-29",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250520.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250520.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "WanShun",
       "product": "MOTS-c40mg",
       "strength": "40MG",
       "netContent": "30.40mg",
@@ -4818,6 +4890,18 @@
       "reportUrl": "https://aminometrics.com/verify",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "NAD+",
+      "strength": "500MG",
+      "netContent": "556.90 mg",
+      "purity": "99.93%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-29",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250532.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250532.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "WanShun",
@@ -4890,6 +4974,30 @@
       "reportUrl": "https://www.finnrick.com/verify",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "TB500",
+      "strength": "10MG",
+      "netContent": "8.11 mg",
+      "purity": "99.59%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-29",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250528.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250528.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "Tesamorelin",
+      "strength": "10MG",
+      "netContent": "10.68 mg",
+      "purity": "99.97%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-29",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250516.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250516.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "WanShun",
