@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-08-31T12:35:41.587Z",
+  "updatedAt": "2026-09-01T12:49:08.413Z",
   "counts": {
-    "completed": 422,
+    "completed": 426,
     "pending": 69
   },
   "completed": [
@@ -340,6 +340,18 @@
       "lab": "SteriGenix*",
       "analysisDate": "2026-08-25",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-046034",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "Ipamorelin",
+      "strength": "5MG",
+      "netContent": "N/A",
+      "purity": "N/A",
+      "lab": "Accumark Labs",
+      "analysisDate": "2026-08-31",
+      "reportUrl": "https://accumarklabs.com/verify?code=KURA-5LPA",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -1191,8 +1203,8 @@
       "purity": "99.7 %",
       "lab": "BTLabs",
       "analysisDate": "2026-06-22",
-      "reportUrl": "https://btlabstesting.com/",
-      "previewUrl": "",
+      "reportUrl": "https://verify.btlabtesting.com/view-pdf.php?folder=COA0859-1&file=b6af0020-057c-4c78-912f-12a4e11f268c.pdf",
+      "previewUrl": "https://verify.btlabtesting.com/view-pdf.php?folder=COA0859-1&file=b6af0020-057c-4c78-912f-12a4e11f268c.pdf",
       "status": "Unchecked"
     },
     {
@@ -1666,13 +1678,25 @@
     {
       "vendor": "Kerui Peptides",
       "product": "Tesamorelin",
+      "strength": "10MG",
+      "netContent": "10.03 mg",
+      "purity": "95.16%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-10",
+      "reportUrl": "https://portal.ils-lab.com/verify/bJAGW5Dsis2CVuW1",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "Tesamorelin",
       "strength": "10 mg",
       "netContent": "12.5 mg",
       "purity": "99.7 %",
       "lab": "BTLabs",
       "analysisDate": "2026-06-22",
-      "reportUrl": "https://btlabstesting.com/",
-      "previewUrl": "",
+      "reportUrl": "https://verify.btlabtesting.com/view-pdf.php?folder=COA0859-2&file=7512129a-ce03-40d2-8f41-c517187e6c62.pdf",
+      "previewUrl": "https://verify.btlabtesting.com/view-pdf.php?folder=COA0859-2&file=7512129a-ce03-40d2-8f41-c517187e6c62.pdf",
       "status": "Unchecked"
     },
     {
@@ -4288,6 +4312,30 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-08-24",
       "reportUrl": "https://sterigenixanalytical.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "SQ Peptide",
+      "product": "GLP-2TZ",
+      "strength": "80MG",
+      "netContent": "81.09 mg",
+      "purity": "99.52%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-27",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-257297",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "SQ Peptide",
+      "product": "GLP-2TZ",
+      "strength": "80MG",
+      "netContent": "82.17 mg",
+      "purity": "99.81%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-27",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-519838",
       "previewUrl": "",
       "status": "Unchecked"
     },
