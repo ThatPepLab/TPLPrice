@@ -1,10 +1,10 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-09-01T12:49:08.413Z",
+  "updatedAt": "2026-09-02T12:47:51.334Z",
   "counts": {
-    "completed": 426,
-    "pending": 69
+    "completed": 428,
+    "pending": 70
   },
   "completed": [
     {
@@ -2625,21 +2625,9 @@
     },
     {
       "vendor": "MKM",
-      "product": "BAC Water 0.9% benzyl alcohol10mg",
-      "strength": "10MG",
-      "netContent": "See Test",
-      "purity": "See Test",
-      "lab": "Amino Metrics",
-      "analysisDate": "Not reported",
-      "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": "",
-      "status": "Unchecked"
-    },
-    {
-      "vendor": "MKM",
-      "product": "Bacteriostatic water",
+      "product": "Bacteriostatic Water",
       "strength": "3ML",
-      "netContent": "Not reported",
+      "netContent": "Not applicable; pH 5.70; benzyl alcohol 0.994% w/v",
       "purity": "99.60%",
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-16",
@@ -3016,6 +3004,18 @@
       "lab": "Kovera Labs",
       "analysisDate": "2026-08-10",
       "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-4AA6C1",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "GLP-3RT",
+      "strength": "20MG",
+      "netContent": "20.12 mg",
+      "purity": "99.81%",
+      "lab": "Amino Metrics",
+      "analysisDate": "2026-08-17",
+      "reportUrl": "https://aminometrics.com/verify",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -3666,6 +3666,18 @@
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/DZSy2608100550.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/DZSy2608100550.pdf",
       "status": "Passed"
+    },
+    {
+      "vendor": "MKM",
+      "product": "SS-31 (Elamipretide)",
+      "strength": "10MG",
+      "netContent": "12.30 mg",
+      "purity": "99.82%",
+      "lab": "Amino Metrics",
+      "analysisDate": "2026-08-18",
+      "reportUrl": "https://aminometrics.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -4653,6 +4665,18 @@
     },
     {
       "vendor": "WanShun",
+      "product": "GHK-Cu",
+      "strength": "100MG",
+      "netContent": "104.92 mg",
+      "purity": "99.60%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-09-01",
+      "reportUrl": "https://ils-lab.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
       "product": "GHK-Cu100mg",
       "strength": "100MG",
       "netContent": "100.20mg",
@@ -5309,6 +5333,13 @@
       "strength": "10MG",
       "dateSent": "08/15/2026",
       "expectedDate": "Not provided"
+    },
+    {
+      "vendor": "Lunivo",
+      "product": "GLP-3RT",
+      "strength": "10",
+      "dateSent": "09/01/2026",
+      "expectedDate": "09/10/2026"
     },
     {
       "vendor": "Lunivo",
