@@ -1,12 +1,24 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-09-02T12:47:51.334Z",
+  "updatedAt": "2026-09-03T12:48:15.029Z",
   "counts": {
-    "completed": 428,
+    "completed": 454,
     "pending": 70
   },
   "completed": [
+    {
+      "vendor": "BacWaterMax",
+      "product": "Bacteriostatic Water",
+      "strength": "3 mL",
+      "netContent": "3 mL",
+      "purity": "Failed (testing material)",
+      "lab": "BTLabs",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F98f48c57-75c9-4473-9a78-a3fe44bfcd09-BWM_3mL_COA.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F98f48c57-75c9-4473-9a78-a3fe44bfcd09-BWM_3mL_COA.pdf?alt=media",
+      "status": "Failed"
+    },
     {
       "vendor": "BacWaterMax",
       "product": "Bacteriostatic Water",
@@ -17,6 +29,54 @@
       "analysisDate": "2026-08-18",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fc4a44df7-ddae-4336-a1e6-dc5f74a45e60-BacWaterMax_Testing.jpeg?alt=media",
       "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fc4a44df7-ddae-4336-a1e6-dc5f74a45e60-BacWaterMax_Testing.jpeg?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "BacWaterMax",
+      "product": "Bacteriostatic Water",
+      "strength": "30 mL",
+      "netContent": "6.9 mL (77.6% label claim)",
+      "purity": "99.8 %",
+      "lab": "BTLabs",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F8faa9b83-968d-4194-a0cc-16f7df6c7c52-BWM_30mL_COA.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F8faa9b83-968d-4194-a0cc-16f7df6c7c52-BWM_30mL_COA.pdf?alt=media",
+      "status": "Passed"
+    },
+    {
+      "vendor": "BacWaterMax",
+      "product": "Bacteriostatic Water",
+      "strength": "30 mL",
+      "netContent": "30 mL",
+      "purity": "0.88% benzyl alcohol (pass)",
+      "lab": "Vanguard Laboratory",
+      "analysisDate": "2026-08-27",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fc00346ca-a654-4fce-9f72-d8242c2bcfb0-BWM_COA_Vanguard_.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fc00346ca-a654-4fce-9f72-d8242c2bcfb0-BWM_COA_Vanguard_.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "BacWaterMax",
+      "product": "Reconstitution Solution",
+      "strength": "5 mL",
+      "netContent": "5 mL",
+      "purity": "N/A",
+      "lab": "BTLabs",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F4ca312e1-b1e8-4b5c-b2c4-61cecc75a9d6-BWM_5mL_COA.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F4ca312e1-b1e8-4b5c-b2c4-61cecc75a9d6-BWM_5mL_COA.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "BacWaterMax",
+      "product": "Reconstitution Solution",
+      "strength": "10 mL",
+      "netContent": "10 mL",
+      "purity": "N/A",
+      "lab": "BTLabs",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F40053e30-2c1f-439b-a555-ab6e7466ae63-BWM_10mL_COA.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F40053e30-2c1f-439b-a555-ab6e7466ae63-BWM_10mL_COA.pdf?alt=media",
       "status": "Failed"
     },
     {
@@ -664,6 +724,18 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-08-10",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-724401",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Tesamorelin",
+      "strength": "10mg",
+      "netContent": "10.17 mg",
+      "purity": "98.62%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-10",
+      "reportUrl": "https://portal.ils-lab.com/verify/-b0nGrQTAPPNinUU",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -1324,6 +1396,18 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-07-30",
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0724-Q45",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "KPV",
+      "strength": "10mg",
+      "netContent": "10.36 mg",
+      "purity": "99.77%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-27",
+      "reportUrl": "https://portal.ils-lab.com/verify/SzKn_0nWQB3iZIMf",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -2109,6 +2193,18 @@
     },
     {
       "vendor": "Lunivo US",
+      "product": "GHK-Cu 100mg",
+      "strength": "100 mg",
+      "netContent": "87.69 mg",
+      "purity": "99.683%",
+      "lab": "FREEDOM DIAGNOSTICS",
+      "analysisDate": "2026-04-05",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Eter2604030010.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Eter2604030010.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Lunivo US",
       "product": "GLP-3RT",
       "strength": "10MG",
       "netContent": "9.98 mg",
@@ -2687,11 +2783,35 @@
       "vendor": "MKM",
       "product": "BPC-157 / TB-500 Blend",
       "strength": "20MG",
+      "netContent": "10.34/10.48| 20.82 mg",
+      "purity": "99.81%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-02",
+      "reportUrl": "https://sterigenixanalytical.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "BPC-157 / TB-500 Blend",
+      "strength": "20MG",
       "netContent": "BPC-157 11.16 mg / TB-500 10.14 mg (21.31 mg total)",
       "purity": "99.721%",
       "lab": "Kovera Labs",
       "analysisDate": "2026-08-10",
       "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-81D7CD",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "BPC-157+TB-500",
+      "strength": "5mg+5mg",
+      "netContent": "Not reported",
+      "purity": "Not reported",
+      "lab": "Janoshik",
+      "analysisDate": "2026-08-17",
+      "reportUrl": "https://www.janoshik.com/verify/",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -3286,6 +3406,18 @@
     {
       "vendor": "MKM",
       "product": "KLOW",
+      "strength": "80MG",
+      "netContent": "81.89",
+      "purity": "99.82",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-31",
+      "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0820-B74",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "KLOW",
       "strength": "80mg",
       "netContent": "52.20 mg (GHK-CU), 11.46 mg (KPV), 10.00 mg (BPC-157), 10.30 mg (TB-500)",
       "purity": "99.10%",
@@ -3376,6 +3508,18 @@
       "lab": "Kovera Labs",
       "analysisDate": "2026-08-10",
       "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-187482",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "MOTS-c",
+      "strength": "40.0 mg",
+      "netContent": "44.025 mg",
+      "purity": "99.553%",
+      "lab": "Accumark Labs",
+      "analysisDate": "2026-08-30",
+      "reportUrl": "https://accumarklabs.com/verify?code=XJ4E-SMHZ",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -3921,6 +4065,18 @@
     },
     {
       "vendor": "Peptide Lab",
+      "product": "Bacteriostatic Water",
+      "strength": "10ML",
+      "netContent": "Not reported",
+      "purity": "Not reported",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-30",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260738.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260738.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Peptide Lab",
       "product": "BPC-157",
       "strength": "5MG",
       "netContent": "Not tested",
@@ -3929,6 +4085,42 @@
       "analysisDate": "2026-08-18",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fd01d7b41-a05b-4b8d-8867-0fe8d98203bf-AAHX925_KL-BC5-001_08182026_6a84c85fad978_EN.pdf?alt=media",
       "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fd01d7b41-a05b-4b8d-8867-0fe8d98203bf-AAHX925_KL-BC5-001_08182026_6a84c85fad978_EN.pdf?alt=media",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Peptide Lab",
+      "product": "BPC-157 / TB-500 Blend",
+      "strength": "20MG",
+      "netContent": "20.75 mg",
+      "purity": "99.29%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-02",
+      "reportUrl": "https://sterigenixanalytical.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Peptide Lab",
+      "product": "BPC-157/TB-500 5mg/5mg",
+      "strength": "10 mg",
+      "netContent": "BPC-157 – 5.90 mg, Thymosin Beta-4 – 5.89 mg",
+      "purity": "99.23%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-29",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Matt2608250152.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Matt2608250152.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Peptide Lab",
+      "product": "Cagrilintide",
+      "strength": "10mg",
+      "netContent": "10.04 mg",
+      "purity": "99.66%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-30",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260733.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260733.pdf",
       "status": "Passed"
     },
     {
@@ -3965,6 +4157,18 @@
       "analysisDate": "2026-06-15",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Pept2606110752.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Pept2606110752.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Peptide Lab",
+      "product": "GLP RT",
+      "strength": "20mg",
+      "netContent": "23.29 mg",
+      "purity": "99.23%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-30",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260729.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260729.pdf",
       "status": "Passed"
     },
     {
@@ -4054,6 +4258,18 @@
     {
       "vendor": "Peptide Lab",
       "product": "KPV",
+      "strength": "10mg",
+      "netContent": "11.28 mg",
+      "purity": "99.74%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-30",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260736.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260736.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Peptide Lab",
+      "product": "KPV",
       "strength": "10MG",
       "netContent": "Not tested",
       "purity": ">99.99%",
@@ -4114,6 +4330,18 @@
     {
       "vendor": "Peptide Lab",
       "product": "MOTS-C",
+      "strength": "40MG",
+      "netContent": "41.07 mg",
+      "purity": "99.22%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-30",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260730.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260730.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Peptide Lab",
+      "product": "MOTS-C",
       "strength": "40mg",
       "netContent": "41.15 mg",
       "purity": "99.36%",
@@ -4122,6 +4350,18 @@
       "reportUrl": "https://ils-lab.com/verify",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "Peptide Lab",
+      "product": "NAD+",
+      "strength": "1000MG",
+      "netContent": "1069.34 mg",
+      "purity": "99.96%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-30",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260735.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260735.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Peptide Lab",
@@ -4137,6 +4377,18 @@
     },
     {
       "vendor": "Peptide Lab",
+      "product": "Selank",
+      "strength": "10mg",
+      "netContent": "13.20 mg",
+      "purity": "99.72%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-30",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260737.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260737.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Peptide Lab",
       "product": "Semax",
       "strength": "10MG",
       "netContent": "11.53 mg",
@@ -4145,6 +4397,18 @@
       "analysisDate": "2026-08-23",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Pept2608180579.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Pept2608180579.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Peptide Lab",
+      "product": "Semax",
+      "strength": "30mg",
+      "netContent": "33.98 mg",
+      "purity": "99.29%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-30",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260734.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260734.pdf",
       "status": "Passed"
     },
     {
@@ -4162,12 +4426,48 @@
     {
       "vendor": "Peptide Lab",
       "product": "SS-31",
+      "strength": "50mg",
+      "netContent": "59.51 mg",
+      "purity": "99.73%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-30",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260731.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260731.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Peptide Lab",
+      "product": "SS-31",
       "strength": "50MG",
       "netContent": "51.17 mg",
       "purity": "99.59%",
       "lab": "ILS Laboratories",
       "analysisDate": "2026-07-29",
       "reportUrl": "https://ils-lab.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Peptide Lab",
+      "product": "SS-31 (Elamipretide)",
+      "strength": "50MG",
+      "netContent": "51.83 mg",
+      "purity": "99.37%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-02",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-892709",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Peptide Lab",
+      "product": "SS-31 (Elamipretide)",
+      "strength": "50MG",
+      "netContent": "50.84 mg",
+      "purity": "99.76%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-02",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-366102",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -4194,6 +4494,18 @@
       "reportUrl": "https://portal.ils-lab.com/verify/vpSqHRGZORRFglj1",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "Peptide Lab",
+      "product": "Tesamorelin",
+      "strength": "20mg",
+      "netContent": "19.07 mg",
+      "purity": "99.91%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-30",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260732.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Cali2608260732.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Peptide Lab",
