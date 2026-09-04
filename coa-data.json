@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-09-03T12:48:15.029Z",
+  "updatedAt": "2026-09-04T12:49:06.275Z",
   "counts": {
-    "completed": 454,
+    "completed": 481,
     "pending": 70
   },
   "completed": [
@@ -299,6 +299,18 @@
       "vendor": "Global Wellness Lab",
       "product": "GLP-3RT",
       "strength": "20MG",
+      "netContent": "0 mg (identity failed; net content N/A)",
+      "purity": "0% (identity failed; purity N/A)",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-09-03",
+      "reportUrl": "https://portal.ils-lab.com/verify/_-A3jGVZEI4U7HIB",
+      "previewUrl": "",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "GLP-3RT",
+      "strength": "20MG",
       "netContent": "N/A",
       "purity": "N/A",
       "lab": "ILS Laboratories",
@@ -335,13 +347,13 @@
       "vendor": "Global Wellness Lab",
       "product": "GLP-3RT",
       "strength": "30MG",
-      "netContent": "N/A",
-      "purity": "N/A",
-      "lab": "Freedom Diagnostics*",
+      "netContent": "0 mg (identity failed; no analyte detected)",
+      "purity": "0% (identity failed; no analyte detected)",
+      "lab": "Freedom Diagnostics",
       "analysisDate": "2026-08-25",
-      "reportUrl": "https://coas.freedomdiagnosticstesting.com/SynT2608200102.pdf",
-      "previewUrl": "https://coas.freedomdiagnosticstesting.com/SynT2608200102.pdf",
-      "status": "Unchecked"
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fdc596293-d8ae-4ab3-8b1f-b07af570fc67-IMG_5139.jpeg?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fdc596293-d8ae-4ab3-8b1f-b07af570fc67-IMG_5139.jpeg?alt=media",
+      "status": "Failed"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -366,6 +378,18 @@
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0715-N02",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "HGH",
+      "strength": "15IU",
+      "netContent": "Not reported",
+      "purity": "Not reported",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-27",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F1647c948-9b0c-4a77-9759-9620e308ca37-GW_hgh.png?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F1647c948-9b0c-4a77-9759-9620e308ca37-GW_hgh.png?alt=media",
+      "status": "Passed"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -405,6 +429,18 @@
     },
     {
       "vendor": "Global Wellness Lab",
+      "product": "HMG",
+      "strength": "Not reported",
+      "netContent": "0 mg (identity failed; no analyte detected)",
+      "purity": "0% (identity failed; no analyte detected)",
+      "lab": "ACS Peptide Testing Labs",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F7fc5b519-0697-4a0b-8d34-4f592ba13a3e-Screenshot_20260903_182408_Chrome.jpg?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F7fc5b519-0697-4a0b-8d34-4f592ba13a3e-Screenshot_20260903_182408_Chrome.jpg?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Global Wellness Lab",
       "product": "Ipamorelin",
       "strength": "5MG",
       "netContent": "N/A",
@@ -425,6 +461,18 @@
       "analysisDate": "2026-08-24",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/John2608180373.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/John2608180373.pdf",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "KPV",
+      "strength": "10MG",
+      "netContent": "0 mg (identity failed; no compounds detected)",
+      "purity": "0% (identity failed; no compounds detected)",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-09-03",
+      "reportUrl": "https://portal.ils-lab.com/verify/itVTApluBKYCTIld",
+      "previewUrl": "",
       "status": "Failed"
     },
     {
@@ -1809,6 +1857,18 @@
     },
     {
       "vendor": "Lilipeptide",
+      "product": "ARA-290 (Cibinetide)",
+      "strength": "10MG",
+      "netContent": "9.94 mg",
+      "purity": "99.74%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-02",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-688626",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Lilipeptide",
       "product": "BPC-157",
       "strength": "10MG",
       "netContent": "13.27 mg",
@@ -2025,6 +2085,18 @@
     },
     {
       "vendor": "Lilipeptide",
+      "product": "KLOW",
+      "strength": "80MG",
+      "netContent": "GHK-Cu 51.49 mg / KPV 10.40 mg / BPC-157 10.31 mg / TB-500 10.18 mg (82.38 mg total)",
+      "purity": "99.57%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-02",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-639139",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Lilipeptide",
       "product": "KLOW*",
       "strength": "80MG",
       "netContent": "GHK-Cu 53.96 mg; BPC-157 12.17 mg; TB-500 11.39 mg; KPV 11.70 mg",
@@ -2044,6 +2116,18 @@
       "lab": "Janoshik*",
       "analysisDate": "2026-05-22",
       "reportUrl": "https://verify.janoshik.com/tests/155843_YAXGHQIL61TR",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Lilipeptide",
+      "product": "MOTS-c",
+      "strength": "10MG",
+      "netContent": "10.17 mg",
+      "purity": "99.29%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-02",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-205588",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -2322,6 +2406,18 @@
       "reportUrl": "https://verify.janoshik.com/tests/133172_A6TEB6E1HFTP",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "Marvel Peptides",
+      "product": "Bacteriostatic Water",
+      "strength": "3ML",
+      "netContent": "0.892% (benzyl alcohol)",
+      "purity": "99.84%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-06-24",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Marv2606220234.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Marv2606220234.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Marvel Peptides",
@@ -2697,6 +2793,18 @@
     },
     {
       "vendor": "MKM",
+      "product": "ARA-290",
+      "strength": "10mg",
+      "netContent": "10.32 mg",
+      "purity": "99.20%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-01",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/GSP%2F2608280280.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/GSP%2F2608280280.pdf",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
       "product": "ARA-290 (Cibinetide)10mg",
       "strength": "10MG",
       "netContent": "11.13mg",
@@ -3005,6 +3113,18 @@
       "analysisDate": "2026-08-10",
       "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-E43473",
       "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "GLP RT 60mg",
+      "strength": "60mg",
+      "netContent": "59.45 mg",
+      "purity": "99.93%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-01",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/GSP%2F2608280281.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/GSP%2F2608280281.pdf",
       "status": "Unchecked"
     },
     {
@@ -3477,6 +3597,18 @@
     },
     {
       "vendor": "MKM",
+      "product": "Lipo-C 526mg",
+      "strength": "526MG",
+      "netContent": "Not tested",
+      "purity": "Not tested",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-01",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/GSP%2F2608280283.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/GSP%2F2608280283.pdf",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
       "product": "Melanotan I",
       "strength": "10MG",
       "netContent": "10.02 mg",
@@ -3754,6 +3886,18 @@
     {
       "vendor": "MKM",
       "product": "Sermorelin",
+      "strength": "5mg",
+      "netContent": "6.72 mg",
+      "purity": "99.33%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-01",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/GSP%2F2608280282.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/GSP%2F2608280282.pdf",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "Sermorelin",
       "strength": "10MG",
       "netContent": "11.86 mg",
       "purity": "99.894%",
@@ -3821,6 +3965,18 @@
       "analysisDate": "2026-08-18",
       "reportUrl": "https://aminometrics.com/verify",
       "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "MKM",
+      "product": "Super Human Blend 865mg",
+      "strength": "865MG",
+      "netContent": "Not tested",
+      "purity": "Not tested",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-01",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/GSP%2F2608280284.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/GSP%2F2608280284.pdf",
       "status": "Unchecked"
     },
     {
@@ -4474,6 +4630,18 @@
     {
       "vendor": "Peptide Lab",
       "product": "Tesamorelin",
+      "strength": "10mg",
+      "netContent": "10.21 mg",
+      "purity": "99.89%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-02",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Matt2608310006.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Matt2608310006.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Peptide Lab",
+      "product": "Tesamorelin",
       "strength": "10MG",
       "netContent": "Not tested",
       "purity": "99.19%",
@@ -4847,6 +5015,18 @@
       "vendor": "WanShun",
       "product": "BPC-157",
       "strength": "10MG",
+      "netContent": "10.18 mg",
+      "purity": "99.83%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-03",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-714962",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "BPC-157",
+      "strength": "10MG",
       "netContent": "12.49 mg",
       "purity": "99.30%",
       "lab": "Freedom Diagnostics",
@@ -4929,6 +5109,18 @@
     },
     {
       "vendor": "WanShun",
+      "product": "Epitalon",
+      "strength": "10MG",
+      "netContent": "10.23 mg",
+      "purity": "99.52%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-03",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-921994",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
       "product": "Epithalon",
       "strength": "50 mg",
       "netContent": "ND mg",
@@ -4984,6 +5176,18 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-09-01",
       "reportUrl": "https://ils-lab.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "GHK-Cu (Copper Peptide)",
+      "strength": "100MG",
+      "netContent": "101.89 mg",
+      "purity": "99.64%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-03",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-844597",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -5135,6 +5339,30 @@
       "vendor": "WanShun",
       "product": "GLP-3RT",
       "strength": "20MG",
+      "netContent": "11.342 mg",
+      "purity": "99.871%",
+      "lab": "Accumark Labs",
+      "analysisDate": "2026-09-02",
+      "reportUrl": "https://accumarklabs.com/verify?code=YBF8-ZTCQ",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "GLP-3RT",
+      "strength": "20MG",
+      "netContent": "0 mg (identity failed; quantity N/A)",
+      "purity": "0% (identity failed; purity N/A)",
+      "lab": "Accumark Labs",
+      "analysisDate": "2026-08-06",
+      "reportUrl": "https://accumarklabs.com/verify?code=Z9BN-4R34",
+      "previewUrl": "",
+      "status": "Failed"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "GLP-3RT",
+      "strength": "20MG",
       "netContent": "19.42 mg",
       "purity": "99.91%",
       "lab": "Freedom Diagnostics",
@@ -5159,6 +5387,18 @@
       "vendor": "WanShun",
       "product": "GLP-3RT",
       "strength": "60MG",
+      "netContent": "62.07 mg",
+      "purity": "99.77%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-03",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-958593",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "GLP-3RT",
+      "strength": "60MG",
       "netContent": "57.04 mg",
       "purity": "99.63%",
       "lab": "Testides",
@@ -5176,6 +5416,18 @@
       "lab": "Kovera Labs",
       "analysisDate": "2026-08-05",
       "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-8FF18A",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "Glutathione",
+      "strength": "1500MG",
+      "netContent": "1502.11 mg",
+      "purity": "99.65%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-03",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-055876",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -5230,6 +5482,18 @@
     {
       "vendor": "WanShun",
       "product": "MOTS-c",
+      "strength": "40MG",
+      "netContent": "41.89 mg",
+      "purity": "99.82%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-03",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-112281",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "MOTS-c",
       "strength": "40 mg",
       "netContent": "35.2 mg",
       "purity": "99.6 %",
@@ -5279,6 +5543,18 @@
       "vendor": "WanShun",
       "product": "NAD+",
       "strength": "500MG",
+      "netContent": "501.71 mg",
+      "purity": "99.20%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-03",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-054539",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "NAD+",
+      "strength": "500MG",
       "netContent": "556.90 mg",
       "purity": "99.93%",
       "lab": "Freedom Diagnostics",
@@ -5310,6 +5586,18 @@
       "reportUrl": "https://coa.reta-unfiltered.com/coas/wanshun-nad-plus-500mg-freedom-diagnostics.png",
       "previewUrl": "https://coa.reta-unfiltered.com/coas/wanshun-nad-plus-500mg-freedom-diagnostics.png",
       "status": "Passed"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "NAD+",
+      "strength": "1000MG",
+      "netContent": "1002.81 mg",
+      "purity": "99.73%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-03",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-948892",
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
@@ -5361,6 +5649,30 @@
     },
     {
       "vendor": "WanShun",
+      "product": "SS-31 (Elamipretide)",
+      "strength": "10MG",
+      "netContent": "10.31 mg",
+      "purity": "99.72%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-03",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F3cfc92f7-8a0e-4729-87d8-02e870fb9447-wanshun_ss31.png?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F3cfc92f7-8a0e-4729-87d8-02e870fb9447-wanshun_ss31.png?alt=media",
+      "status": "Passed"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "TB500",
+      "strength": "5MG",
+      "netContent": "5.09 mg",
+      "purity": "99.62%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-03",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-575330",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "WanShun",
       "product": "TB500",
       "strength": "10MG",
       "netContent": "8.11 mg",
@@ -5370,6 +5682,18 @@
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250528.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/INDE2608250528.pdf",
       "status": "Passed"
+    },
+    {
+      "vendor": "WanShun",
+      "product": "Tesamorelin",
+      "strength": "10MG",
+      "netContent": "9.98 mg",
+      "purity": "99.78%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-09-03",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-575359",
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "WanShun",
