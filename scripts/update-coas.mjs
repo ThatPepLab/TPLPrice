@@ -56,6 +56,21 @@ const latestPerKey = (records, dateField) => {
   return [...latest.values()].sort((a, b) => a.vendor.localeCompare(b.vendor) || a.product.localeCompare(b.product) || normalizedStrength(a.strength).localeCompare(normalizedStrength(b.strength), undefined, { numeric: true }));
 };
 
+const completedRecordKey = (record) => {
+  const reportUrl = clean(record.reportUrl).toLowerCase();
+  if (reportUrl) return `url:${reportUrl}`;
+  return ["record", record.vendor, record.product, normalizedStrength(record.strength), record.analysisDate]
+    .map(clean)
+    .join("|")
+    .toLowerCase();
+};
+const sortCompleted = (records) => records.sort((a, b) =>
+  a.vendor.localeCompare(b.vendor) ||
+  a.product.localeCompare(b.product) ||
+  normalizedStrength(a.strength).localeCompare(normalizedStrength(b.strength), undefined, { numeric: true }) ||
+  dateValue(b.analysisDate) - dateValue(a.analysisDate)
+);
+
 const hasFailedText = (value) => /\bfail(?:ed)?\b/i.test(String(value || ""));
 const hasFailedIdentity = (value) => {
   const text = String(value || "");
@@ -177,7 +192,7 @@ try {
   const advertisedPendingCount = Number.parseInt(await pendingCountElement.innerText(), 10);
 
   const completedRows = await tableRows(page, ["vendor", "product", "purity", "analysis date"]);
-  if (completedRows.length < 100) throw new Error(`Only ${completedRows.length} completed rows were found; refusing to replace the last good snapshot.`);
+  if (completedRows.length < 25) throw new Error(`Only ${completedRows.length} completed rows were found; refusing to merge a suspiciously small capture.`);
   const completedBase = completedRows.map((row) => {
     const reportUrl = hrefField(row, "verify") || hrefField(row, "report") || hrefField(row, "coa");
     return {
@@ -194,7 +209,7 @@ try {
     };
   }).filter((record) => record.vendor && record.product && record.strength).sort((a, b) => a.vendor.localeCompare(b.vendor) || a.product.localeCompare(b.product) || normalizedStrength(a.strength).localeCompare(normalizedStrength(b.strength), undefined, { numeric: true }) || dateValue(b.analysisDate) - dateValue(a.analysisDate));
 
-  const completed = await mapWithConcurrency(completedBase, 4, async (record) => {
+  const scannedCompleted = await mapWithConcurrency(completedBase, 4, async (record) => {
     const status = await coaStatus(record);
     const { sourceText, ...savedRecord } = record;
     return { ...savedRecord, status };
@@ -222,7 +237,14 @@ try {
 
   let previous = {};
   try { previous = JSON.parse(await fs.readFile(OUTPUT_PATH, "utf8")); } catch {}
-  const unchanged = JSON.stringify(previous.completed || []) === JSON.stringify(completed) && JSON.stringify(previous.pending || []) === JSON.stringify(pending);
+  const previousCompleted = Array.isArray(previous.completed) ? previous.completed : [];
+  const completedByKey = new Map(previousCompleted.map((record) => [completedRecordKey(record), record]));
+  for (const record of scannedCompleted) completedByKey.set(completedRecordKey(record), record);
+  const completed = sortCompleted([...completedByKey.values()]);
+  if (completed.length < previousCompleted.length) {
+    throw new Error(`Merged completed history shrank from ${previousCompleted.length} to ${completed.length}; refusing to replace the last good snapshot.`);
+  }
+  const unchanged = JSON.stringify(previousCompleted) === JSON.stringify(completed) && JSON.stringify(previous.pending || []) === JSON.stringify(pending);
   const output = {
     source: SOURCE_URL,
     attribution: "RU Inner Circle COA Library",
@@ -232,7 +254,7 @@ try {
     pending
   };
   await fs.writeFile(OUTPUT_PATH, `${JSON.stringify(output, null, 2)}\n`);
-  console.log(`Saved ${completed.length} historical completed COAs and ${pending.length} pending tests.`);
+  console.log(`Merged ${scannedCompleted.length} captured completed COAs into ${completed.length} historical COAs and saved ${pending.length} pending tests.`);
 } finally {
   await browser.close();
 }
