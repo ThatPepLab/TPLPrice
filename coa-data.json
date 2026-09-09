@@ -1,12 +1,48 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-09-04T12:49:06.275Z",
+  "updatedAt": "2026-09-09T17:03:06.724Z",
   "counts": {
-    "completed": 481,
-    "pending": 70
+    "completed": 504,
+    "pending": 44
   },
   "completed": [
+    {
+      "vendor": "BacWater.Solutions",
+      "product": "Bacteriostatic Water",
+      "strength": "3mL",
+      "netContent": "Not reported",
+      "purity": "Alcohol 0.836% pH 6.8",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-07-29",
+      "reportUrl": "https://portal.ils-lab.com/verify/TuBhZ48Vg8IfEM_-",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "BacWater.Solutions",
+      "product": "Bacteriostatic Water",
+      "strength": "10mL",
+      "netContent": "Not reported",
+      "purity": "Alcohol 0.845% pH 6.9",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-07-29",
+      "reportUrl": "https://portal.ils-lab.com/verify/BTj3CPUkhk2c5pnK",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "BacWater.Solutions",
+      "product": "Bacteriostatic Water",
+      "strength": "30mL",
+      "netContent": "Not reported",
+      "purity": "Alcohol 0.845% pH 6.7",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-09-03",
+      "reportUrl": "https://portal.ils-lab.com/verify/k7lo1JnOWAfl8XJ3",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
     {
       "vendor": "BacWaterMax",
       "product": "Bacteriostatic Water",
@@ -22,6 +58,18 @@
     {
       "vendor": "BacWaterMax",
       "product": "Bacteriostatic Water",
+      "strength": "3 mL",
+      "netContent": "3 mL",
+      "purity": "N/A",
+      "lab": "BTLabs",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fb78e923c669f4a2a655faa96c2b61bd813fa7b4e12650df64772ddfb65a07066.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fb78e923c669f4a2a655faa96c2b61bd813fa7b4e12650df64772ddfb65a07066.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "BacWaterMax",
+      "product": "Bacteriostatic Water",
       "strength": "10ML",
       "netContent": "10 mL",
       "purity": "0.00% benzyl alcohol (spec 0.72%-1.08%; fail)",
@@ -29,6 +77,18 @@
       "analysisDate": "2026-08-18",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fc4a44df7-ddae-4336-a1e6-dc5f74a45e60-BacWaterMax_Testing.jpeg?alt=media",
       "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fc4a44df7-ddae-4336-a1e6-dc5f74a45e60-BacWaterMax_Testing.jpeg?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "BacWaterMax",
+      "product": "Bacteriostatic Water",
+      "strength": "10ML",
+      "netContent": "10 mL",
+      "purity": "Alcohol 0.00% pH 6.18",
+      "lab": "Vanguard Laboratory",
+      "analysisDate": "2026-08-18",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F147377b5735d7b2469ef71bbf6414ec51fb1ae7bdca86c362b540a201eda3177.jpg?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F147377b5735d7b2469ef71bbf6414ec51fb1ae7bdca86c362b540a201eda3177.jpg?alt=media",
       "status": "Failed"
     },
     {
@@ -48,11 +108,35 @@
       "product": "Bacteriostatic Water",
       "strength": "30 mL",
       "netContent": "30 mL",
+      "purity": "N/A",
+      "lab": "BTLabs",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F2820e49c114889a78f297de2fc95f8c88eee498d8f8639b4c486241832bc1fa2.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F2820e49c114889a78f297de2fc95f8c88eee498d8f8639b4c486241832bc1fa2.pdf?alt=media",
+      "status": "Passed"
+    },
+    {
+      "vendor": "BacWaterMax",
+      "product": "Bacteriostatic Water",
+      "strength": "30 mL",
+      "netContent": "30 mL",
       "purity": "0.88% benzyl alcohol (pass)",
       "lab": "Vanguard Laboratory",
       "analysisDate": "2026-08-27",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fc00346ca-a654-4fce-9f72-d8242c2bcfb0-BWM_COA_Vanguard_.pdf?alt=media",
       "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fc00346ca-a654-4fce-9f72-d8242c2bcfb0-BWM_COA_Vanguard_.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "BacWaterMax",
+      "product": "Bacteriostatic Water",
+      "strength": "30 mL",
+      "netContent": "30 mL",
+      "purity": "Alcohol 0.88% pH 5.56",
+      "lab": "Vanguard Laboratory",
+      "analysisDate": "2026-08-27",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F0c52fb61e9201b793ff189f33918b89bc3ff896f85a0e605c6c79c718aa40a81.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F0c52fb61e9201b793ff189f33918b89bc3ff896f85a0e605c6c79c718aa40a81.pdf?alt=media",
       "status": "Failed"
     },
     {
@@ -70,6 +154,18 @@
     {
       "vendor": "BacWaterMax",
       "product": "Reconstitution Solution",
+      "strength": "5 mL",
+      "netContent": "5 mL",
+      "purity": "N/A",
+      "lab": "BTLabs",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fed999a8b7e3f24a2e8e8377ca279ae6ddbbed2a747ded08517bf68ffb2c1cc1e.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fed999a8b7e3f24a2e8e8377ca279ae6ddbbed2a747ded08517bf68ffb2c1cc1e.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "BacWaterMax",
+      "product": "Reconstitution Solution",
       "strength": "10 mL",
       "netContent": "10 mL",
       "purity": "N/A",
@@ -77,6 +173,18 @@
       "analysisDate": "2026-08-28",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F40053e30-2c1f-439b-a555-ab6e7466ae63-BWM_10mL_COA.pdf?alt=media",
       "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F40053e30-2c1f-439b-a555-ab6e7466ae63-BWM_10mL_COA.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "BacWaterMax",
+      "product": "Reconstitution Solution",
+      "strength": "10 mL",
+      "netContent": "10 mL",
+      "purity": "N/A",
+      "lab": "BTLabs",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F06ad9b273d9f7411b7a016578dc3f5fe9c393feec70a0bfa061a7ce78077f97c.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F06ad9b273d9f7411b7a016578dc3f5fe9c393feec70a0bfa061a7ce78077f97c.pdf?alt=media",
       "status": "Failed"
     },
     {
@@ -88,6 +196,18 @@
       "lab": "ILS Laboratories*",
       "analysisDate": "2026-07-02",
       "reportUrl": "https://ils-lab.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Crush Research",
+      "product": "Adamax*",
+      "strength": "10MG",
+      "netContent": "10.37 mg",
+      "purity": "99.89%",
+      "lab": "ILS Laboratories*",
+      "analysisDate": "2026-07-02",
+      "reportUrl": "https://portal.ils-lab.com/verify/sPEI9EMycIclJSNA",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -105,6 +225,18 @@
     },
     {
       "vendor": "Crush Research",
+      "product": "Epitalon*",
+      "strength": "10MG",
+      "netContent": "10.31 mg",
+      "purity": "97.98%",
+      "lab": "ILS Laboratories*",
+      "analysisDate": "2026-06-27",
+      "reportUrl": "https://portal.ils-lab.com/verify/FWhUO_9nqkjpg4kj",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Crush Research",
       "product": "Glutathione*",
       "strength": "1500MG",
       "netContent": "1556.31 mg",
@@ -112,6 +244,18 @@
       "lab": "ILS Laboratories*",
       "analysisDate": "2026-06-01",
       "reportUrl": "https://ils-lab.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Crush Research",
+      "product": "Glutathione*",
+      "strength": "1500MG",
+      "netContent": "1556.31 mg",
+      "purity": "98.71%",
+      "lab": "ILS Laboratories*",
+      "analysisDate": "2026-06-01",
+      "reportUrl": "https://portal.ils-lab.com/verify/0PDxBoFdejNre4ZY",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -129,6 +273,18 @@
     },
     {
       "vendor": "Crush Research",
+      "product": "KLOW*",
+      "strength": "80MG",
+      "netContent": "85.32 mg",
+      "purity": "99.52%",
+      "lab": "ILS Laboratories*",
+      "analysisDate": "2026-07-10",
+      "reportUrl": "https://portal.ils-lab.com/verify/ECIctpiQQ5sD5EFZ",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Crush Research",
       "product": "MOTS-C*",
       "strength": "40MG",
       "netContent": "42.68 mg",
@@ -136,6 +292,18 @@
       "lab": "ILS Laboratories*",
       "analysisDate": "2026-07-02",
       "reportUrl": "https://ils-lab.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Crush Research",
+      "product": "MOTS-C*",
+      "strength": "40MG",
+      "netContent": "42.68 mg",
+      "purity": "99.84%",
+      "lab": "ILS Laboratories*",
+      "analysisDate": "2026-07-02",
+      "reportUrl": "https://portal.ils-lab.com/verify/BbI200sytFsY4ccJ",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -153,6 +321,18 @@
     },
     {
       "vendor": "Crush Research",
+      "product": "Retatrutide 20mg*",
+      "strength": "20MG",
+      "netContent": "21.06 mg",
+      "purity": "99.90%",
+      "lab": "ILS Laboratories*",
+      "analysisDate": "2026-07-21",
+      "reportUrl": "https://portal.ils-lab.com/verify/sEeU8AZjMPktY7P_",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Crush Research",
       "product": "Tesamorelin*",
       "strength": "20MG",
       "netContent": "20.46 mg",
@@ -160,6 +340,18 @@
       "lab": "ILS Laboratories*",
       "analysisDate": "2026-07-02",
       "reportUrl": "https://ils-lab.com/verify",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Crush Research",
+      "product": "Tesamorelin*",
+      "strength": "20MG",
+      "netContent": "20.46 mg",
+      "purity": "99.78%",
+      "lab": "ILS Laboratories*",
+      "analysisDate": "2026-07-02",
+      "reportUrl": "https://portal.ils-lab.com/verify/jVRGVT5XYzZnyPci",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -262,12 +454,36 @@
     {
       "vendor": "Global Wellness Lab",
       "product": "GLP-2TZ",
+      "strength": "20.0 mg",
+      "netContent": "N/A",
+      "purity": "0%",
+      "lab": "Accumark Labs",
+      "analysisDate": "2026-08-18",
+      "reportUrl": "https://accumarklabs.com/accuverify/?accuverify_code=C3M5-6ZLB",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "GLP-2TZ",
       "strength": "20MG",
       "netContent": "Not reported",
       "purity": "Not reported",
       "lab": "Accumark Labs*",
       "analysisDate": "Not reported",
       "reportUrl": "https://accumarklabs.com/verify?code=LVAB-EMY9",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "GLP-2TZ",
+      "strength": "20MG",
+      "netContent": "Not reported",
+      "purity": "Not reported",
+      "lab": "Accumark Labs*",
+      "analysisDate": "Not reported",
+      "reportUrl": "",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -299,20 +515,20 @@
       "vendor": "Global Wellness Lab",
       "product": "GLP-3RT",
       "strength": "20MG",
-      "netContent": "0 mg (identity failed; net content N/A)",
-      "purity": "0% (identity failed; purity N/A)",
+      "netContent": "N/A",
+      "purity": "0%",
       "lab": "ILS Laboratories",
       "analysisDate": "2026-09-03",
-      "reportUrl": "https://portal.ils-lab.com/verify/_-A3jGVZEI4U7HIB",
+      "reportUrl": "https://portal.ils-lab.com/verify/_-A3jGVZEi4U7HiB",
       "previewUrl": "",
-      "status": "Failed"
+      "status": "Unchecked"
     },
     {
       "vendor": "Global Wellness Lab",
       "product": "GLP-3RT",
       "strength": "20MG",
       "netContent": "N/A",
-      "purity": "N/A",
+      "purity": "0%",
       "lab": "ILS Laboratories",
       "analysisDate": "2026-08-28",
       "reportUrl": "https://portal.ils-lab.com/verify/rpCHRof20E5582gQ",
@@ -358,6 +574,18 @@
     {
       "vendor": "Global Wellness Lab",
       "product": "GLP-3RT",
+      "strength": "30MG",
+      "netContent": "N/A",
+      "purity": "0%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-25",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F690bfb8125e2448741dc293d53e83da922b8eaffce2d0ab3fd457af1d5e31360.jpg?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F690bfb8125e2448741dc293d53e83da922b8eaffce2d0ab3fd457af1d5e31360.jpg?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "GLP-3RT",
       "strength": "60MG",
       "netContent": "62.31 mg",
       "purity": "99.78%",
@@ -390,6 +618,18 @@
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F1647c948-9b0c-4a77-9759-9620e308ca37-GW_hgh.png?alt=media",
       "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F1647c948-9b0c-4a77-9759-9620e308ca37-GW_hgh.png?alt=media",
       "status": "Passed"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "HGH",
+      "strength": "15IU",
+      "netContent": "16.26 IU / 5.42 mg",
+      "purity": "96.31%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-27",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-571229",
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -441,6 +681,18 @@
     },
     {
       "vendor": "Global Wellness Lab",
+      "product": "HMG",
+      "strength": "Not reported",
+      "netContent": "Not tested",
+      "purity": "0.0%",
+      "lab": "ACS Peptide Testing Labs",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fd4a98df7d48f5454d23d375c70bf83f000f23f6adb5608be252a1051464ac6b5.jpg?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fd4a98df7d48f5454d23d375c70bf83f000f23f6adb5608be252a1051464ac6b5.jpg?alt=media",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Global Wellness Lab",
       "product": "Ipamorelin",
       "strength": "5MG",
       "netContent": "N/A",
@@ -448,6 +700,18 @@
       "lab": "Accumark Labs",
       "analysisDate": "2026-08-31",
       "reportUrl": "https://accumarklabs.com/verify?code=KURA-5LPA",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "Ipamorelin",
+      "strength": "5MG",
+      "netContent": "N/A",
+      "purity": "0%",
+      "lab": "Accumark Labs",
+      "analysisDate": "2026-08-31",
+      "reportUrl": "https://accumarklabs.com/accuverify/?accuverify_code=KURA-5LPA",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -465,6 +729,18 @@
     },
     {
       "vendor": "Global Wellness Lab",
+      "product": "KLOW",
+      "strength": "80MG",
+      "netContent": "Not applicable (GHK-Cu 105.12 mg)",
+      "purity": "0%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-24",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F43967f44da15ca7b1f7b1a84d80e7a53e0594a7b05c8de40cdf2bb340dfdda19.jpg?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F43967f44da15ca7b1f7b1a84d80e7a53e0594a7b05c8de40cdf2bb340dfdda19.jpg?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Global Wellness Lab",
       "product": "KPV",
       "strength": "10MG",
       "netContent": "0 mg (identity failed; no compounds detected)",
@@ -474,6 +750,18 @@
       "reportUrl": "https://portal.ils-lab.com/verify/itVTApluBKYCTIld",
       "previewUrl": "",
       "status": "Failed"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "KPV",
+      "strength": "10MG",
+      "netContent": "N/A",
+      "purity": "0%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-09-03",
+      "reportUrl": "https://portal.ils-lab.com/verify/itVTApIuBKYCTlld",
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -502,6 +790,18 @@
     {
       "vendor": "Global Wellness Lab",
       "product": "NAD+",
+      "strength": "100MG",
+      "netContent": "103.71 mg",
+      "purity": "99.85%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-31",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-805236",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "NAD+",
       "strength": "1000MG",
       "netContent": "214.90 mg",
       "purity": "99.82%",
@@ -509,6 +809,42 @@
       "analysisDate": "2026-08-24",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/John2608180374.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/John2608180374.pdf",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "NAD+",
+      "strength": "1000MG",
+      "netContent": "214.90 mg",
+      "purity": "99.82%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-24",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fb9a784209ff1cdd876e894a42ef85bfae9936ca6607edabcb6724cd9835b3959.jpg?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fb9a784209ff1cdd876e894a42ef85bfae9936ca6607edabcb6724cd9835b3959.jpg?alt=media",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "Selank",
+      "strength": "5MG",
+      "netContent": "5.09 mg",
+      "purity": "99.63%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-31",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-008840",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "Semax",
+      "strength": "5MG",
+      "netContent": "5.13 mg",
+      "purity": "99.73%",
+      "lab": "SteriGenix",
+      "analysisDate": "2026-08-31",
+      "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-688704",
+      "previewUrl": "",
       "status": "Unchecked"
     },
     {
@@ -1198,18 +1534,6 @@
     {
       "vendor": "Kerui Peptides",
       "product": "GLP-3RT",
-      "strength": "20mg",
-      "netContent": "21.90 mg (109.50%)",
-      "purity": "99.58%",
-      "lab": "Amino Metrics",
-      "analysisDate": "2026-08-17",
-      "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": "",
-      "status": "Unchecked"
-    },
-    {
-      "vendor": "Kerui Peptides",
-      "product": "GLP-3RT",
       "strength": "20MG",
       "netContent": "21.90 mg (109.50%)",
       "purity": "99.58%",
@@ -1782,18 +2106,6 @@
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Keru2608190320.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Keru2608190320.pdf",
       "status": "Passed"
-    },
-    {
-      "vendor": "Kerui Peptides",
-      "product": "Tesamorelin",
-      "strength": "10MG",
-      "netContent": "6.72 mg",
-      "purity": "62.73%",
-      "lab": "ILS Laboratories",
-      "analysisDate": "2026-08-14",
-      "reportUrl": "https://portal.ils-lab.com/verify/hzUkVH21JuQZ_OZV",
-      "previewUrl": "",
-      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -3263,8 +3575,8 @@
       "vendor": "MKM",
       "product": "GLP-3RT",
       "strength": "20MG",
-      "netContent": "25.20 mg",
-      "purity": "99.80%",
+      "netContent": "26.53 mg",
+      "purity": "99.89%",
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-13",
       "reportUrl": "https://aminometrics.com/verify",
@@ -3282,30 +3594,6 @@
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/DZSy2608100548.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/DZSy2608100548.pdf",
       "status": "Passed"
-    },
-    {
-      "vendor": "MKM",
-      "product": "GLP-3RT",
-      "strength": "20mg",
-      "netContent": "26.53 mg",
-      "purity": "99.89%",
-      "lab": "Amino Metrics",
-      "analysisDate": "2026-08-13",
-      "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": "",
-      "status": "Unchecked"
-    },
-    {
-      "vendor": "MKM",
-      "product": "GLP-3RT",
-      "strength": "20MG",
-      "netContent": "26.53 mg",
-      "purity": "99.89%",
-      "lab": "Amino Metrics",
-      "analysisDate": "2026-08-13",
-      "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": "",
-      "status": "Unchecked"
     },
     {
       "vendor": "MKM",
@@ -3817,18 +4105,6 @@
       "strength": "20mg",
       "netContent": "11.30 mg / 10.91 mg",
       "purity": "99.89%",
-      "lab": "Amino Metrics",
-      "analysisDate": "2026-08-18",
-      "reportUrl": "https://aminometrics.com/verify",
-      "previewUrl": "",
-      "status": "Unchecked"
-    },
-    {
-      "vendor": "MKM",
-      "product": "Semax",
-      "strength": "5mg",
-      "netContent": "5.61 mg (112.20%)",
-      "purity": "99.82%",
       "lab": "Amino Metrics",
       "analysisDate": "2026-08-18",
       "reportUrl": "https://aminometrics.com/verify",
@@ -5790,6 +6066,20 @@
     },
     {
       "vendor": "Global Wellness Lab",
+      "product": "BPC-157",
+      "strength": "10",
+      "dateSent": "09/03/2026",
+      "expectedDate": "09/18/2026"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "BPC-157",
+      "strength": "20mg",
+      "dateSent": "09/04/2026",
+      "expectedDate": "09/11/2026"
+    },
+    {
+      "vendor": "Global Wellness Lab",
       "product": "CP",
       "strength": "10MG",
       "dateSent": "08/15/2026",
@@ -5812,9 +6102,9 @@
     {
       "vendor": "Global Wellness Lab",
       "product": "GLP-3RT",
-      "strength": "15MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
+      "strength": "15mg",
+      "dateSent": "09/04/2026",
+      "expectedDate": "09/11/2026"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -5822,6 +6112,13 @@
       "strength": "30MG",
       "dateSent": "08/15/2026",
       "expectedDate": "Not provided"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "Glutathione",
+      "strength": "600mg",
+      "dateSent": "09/03/2026",
+      "expectedDate": "09/18/2026"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -5853,10 +6150,31 @@
     },
     {
       "vendor": "Global Wellness Lab",
+      "product": "Nad500",
+      "strength": "Not provided",
+      "dateSent": "09/06/2026",
+      "expectedDate": "Not provided"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "Pinealon",
+      "strength": "10mg",
+      "dateSent": "09/03/2026",
+      "expectedDate": "09/18/2026"
+    },
+    {
+      "vendor": "Global Wellness Lab",
       "product": "SLU PP 332",
       "strength": "10",
       "dateSent": "08/19/2026",
       "expectedDate": "08/20/2026"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "Tirzepitide",
+      "strength": "20mg",
+      "dateSent": "09/04/2026",
+      "expectedDate": "09/11/2026"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -5866,46 +6184,18 @@
       "expectedDate": "Not provided"
     },
     {
-      "vendor": "Innopeptide",
-      "product": "BB",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
+      "vendor": "GW",
+      "product": "GLP-2TZ",
+      "strength": "15 mg",
+      "dateSent": "08/31/2026",
       "expectedDate": "Not provided"
     },
     {
-      "vendor": "Innopeptide",
-      "product": "CGL",
-      "strength": "5MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Innopeptide",
-      "product": "GLP-3RT",
-      "strength": "20MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Innopeptide",
-      "product": "KLOW",
-      "strength": "80MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Innopeptide",
-      "product": "SK",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Innopeptide",
-      "product": "XA",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
+      "vendor": "GW",
+      "product": "NAD+",
+      "strength": "500",
+      "dateSent": "08/31/2026",
+      "expectedDate": "09/05/2026"
     },
     {
       "vendor": "Kerui Peptides",
@@ -5923,52 +6213,10 @@
     },
     {
       "vendor": "Lilipeptide",
-      "product": "ARA",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Lilipeptide",
-      "product": "GLOW",
-      "strength": "70MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Lilipeptide",
       "product": "GLP-3RT",
       "strength": "10mg",
       "dateSent": "08/14/2026",
       "expectedDate": "08/28/2026"
-    },
-    {
-      "vendor": "Lilipeptide",
-      "product": "GLP-3RT",
-      "strength": "15MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Lilipeptide",
-      "product": "KLOW",
-      "strength": "80MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Lilipeptide",
-      "product": "MS",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Lilipeptide",
-      "product": "SK",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
     },
     {
       "vendor": "Lunivo",
@@ -5983,48 +6231,6 @@
       "strength": "15IU",
       "dateSent": "08/27/2026",
       "expectedDate": "09/04/2026"
-    },
-    {
-      "vendor": "Lunivo US",
-      "product": "2S",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Lunivo US",
-      "product": "CU",
-      "strength": "100MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Lunivo US",
-      "product": "GLP-3RT",
-      "strength": "30MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Lunivo US",
-      "product": "HCG",
-      "strength": "2000IU",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Lunivo US",
-      "product": "MS",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Lunivo US",
-      "product": "SLU",
-      "strength": "5MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
     },
     {
       "vendor": "Marvel Peptides",
@@ -6070,34 +6276,6 @@
     },
     {
       "vendor": "MKM",
-      "product": "2S",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "MKM",
-      "product": "GLP-3RT",
-      "strength": "20MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "MKM",
-      "product": "KPV",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "MKM",
-      "product": "MS",
-      "strength": "20MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "MKM",
       "product": "SPC",
       "strength": "10MG",
       "dateSent": "08/15/2026",
@@ -6111,13 +6289,6 @@
       "expectedDate": "08/30/2026"
     },
     {
-      "vendor": "MKM",
-      "product": "TB",
-      "strength": "5MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
       "vendor": "Peptide Lab",
       "product": "2S",
       "strength": "10MG",
@@ -6126,65 +6297,9 @@
     },
     {
       "vendor": "Peptide Lab",
-      "product": "BB",
-      "strength": "20MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Peptide Lab",
       "product": "BB10",
       "strength": "10mg",
       "dateSent": "08/24/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Peptide Lab",
-      "product": "GLP-3RT",
-      "strength": "40MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Peptide Lab",
-      "product": "IP",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Peptide Lab",
-      "product": "KPV",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Peptide Lab",
-      "product": "NJ",
-      "strength": "1000MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Peptide Lab",
-      "product": "SK",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Peptide Lab",
-      "product": "XA",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "SQ Peptide",
-      "product": "CGL",
-      "strength": "20MG",
-      "dateSent": "08/15/2026",
       "expectedDate": "Not provided"
     },
     {
@@ -6210,23 +6325,9 @@
     },
     {
       "vendor": "WanShun",
-      "product": "2S",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "WanShun",
       "product": "BPC-157",
       "strength": "10MG",
       "dateSent": "08/05/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "WanShun",
-      "product": "CU",
-      "strength": "100MG",
-      "dateSent": "08/15/2026",
       "expectedDate": "Not provided"
     },
     {
@@ -6238,16 +6339,16 @@
     },
     {
       "vendor": "WanShun",
-      "product": "GLP-3RT",
-      "strength": "20MG",
-      "dateSent": "08/15/2026",
+      "product": "GLP-2TZ",
+      "strength": "20 MG",
+      "dateSent": "09/05/2026",
       "expectedDate": "Not provided"
     },
     {
       "vendor": "WanShun",
       "product": "GLP-3RT",
-      "strength": "50MG",
-      "dateSent": "08/15/2026",
+      "strength": "20 MG",
+      "dateSent": "09/04/2026",
       "expectedDate": "Not provided"
     },
     {
@@ -6259,16 +6360,9 @@
     },
     {
       "vendor": "WanShun",
-      "product": "MS",
-      "strength": "40MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "WanShun",
-      "product": "TR",
-      "strength": "30MG",
-      "dateSent": "08/15/2026",
+      "product": "Thymosin Alpha 1",
+      "strength": "10 MG",
+      "dateSent": "09/05/2026",
       "expectedDate": "Not provided"
     }
   ]
