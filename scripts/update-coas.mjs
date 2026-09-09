@@ -56,14 +56,14 @@ const latestPerKey = (records, dateField) => {
   return [...latest.values()].sort((a, b) => a.vendor.localeCompare(b.vendor) || a.product.localeCompare(b.product) || normalizedStrength(a.strength).localeCompare(normalizedStrength(b.strength), undefined, { numeric: true }));
 };
 
-const completedRecordKey = (record) => {
-  const reportUrl = clean(record.reportUrl).toLowerCase();
-  if (reportUrl) return `url:${reportUrl}`;
-  return ["record", record.vendor, record.product, normalizedStrength(record.strength), record.analysisDate]
-    .map(clean)
-    .join("|")
-    .toLowerCase();
-};
+const completedRecordKey = (record) => [
+  "record",
+  record.vendor,
+  record.product,
+  normalizedStrength(record.strength),
+  record.analysisDate,
+  record.reportUrl
+].map(clean).join("|").toLowerCase();
 const sortCompleted = (records) => records.sort((a, b) =>
   a.vendor.localeCompare(b.vendor) ||
   a.product.localeCompare(b.product) ||
