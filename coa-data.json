@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-09-09T17:03:06.724Z",
+  "updatedAt": "2026-09-10T16:33:22.578Z",
   "counts": {
-    "completed": 504,
+    "completed": 508,
     "pending": 44
   },
   "completed": [
@@ -357,6 +357,18 @@
     },
     {
       "vendor": "Global Wellness Lab",
+      "product": "5-Amino-1MQ",
+      "strength": "5 mg",
+      "netContent": "N/A",
+      "purity": "0%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-09-09",
+      "reportUrl": "https://portal.ils-lab.com/verify/cmDbOkgNxju90EJB",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
       "product": "ARA-290 (Cibinetide)*",
       "strength": "10MG",
       "netContent": "10.40 mg",
@@ -508,6 +520,18 @@
       "lab": "SteriGenix",
       "analysisDate": "2026-08-24",
       "reportUrl": "https://sterigenixanalytical.com/verify/RPT-2026-198982",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "GLP-3RT",
+      "strength": "15mg",
+      "netContent": "N/A",
+      "purity": "0%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-09-09",
+      "reportUrl": "https://portal.ils-lab.com/verify/47rUSTs9H8j_-VfG",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -718,6 +742,18 @@
     {
       "vendor": "Global Wellness Lab",
       "product": "KLOW",
+      "strength": "80 mg",
+      "netContent": "101.92 mg GHK-Cu, Not Detected BPC-157, Not Detected TB-500, Not Detected KPV",
+      "purity": ">99.80% ± 0.18%",
+      "lab": "Vanguard Laboratory",
+      "analysisDate": "2026-09-08",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F0fb50bed-00dc-41e0-a743-820972043740.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F0fb50bed-00dc-41e0-a743-820972043740.pdf?alt=media",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "KLOW",
       "strength": "80MG",
       "netContent": "0 mg (identity failed; 105.12 mg GHK-Cu measured)",
       "purity": "0% (identity failed; result was 99.89% GHK-Cu)",
@@ -786,6 +822,18 @@
       "reportUrl": "https://sterigenixanalytical.com/verify/SGX-CLT-2026-0715-N31",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "Global Wellness Lab",
+      "product": "MOTS-C",
+      "strength": "40 mg",
+      "netContent": "Not Detected",
+      "purity": "0%",
+      "lab": "Vanguard Laboratory",
+      "analysisDate": "2026-09-08",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F1ae39f62-5901-4291-8cb3-283168ff8dab.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F1ae39f62-5901-4291-8cb3-283168ff8dab.pdf?alt=media",
+      "status": "Failed"
     },
     {
       "vendor": "Global Wellness Lab",
