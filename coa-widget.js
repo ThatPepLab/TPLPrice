@@ -22,6 +22,7 @@
     return key.replace(/(?:peptides?|laborator(?:y|ies)|labs?|warehouse|international|usa|china)/g, "");
   };
   const productKey = (value) => String(value || "").toLowerCase()
+    .replace(/hgh\s*(?:100|150|240|360)\s*iu|hgh\s*191aa/g, "hgh191aa")
     .replace(/\d+(?:\.\d+)?\s*(?:mg|mcg|iu|ml)\b/g, "")
     .replace(/semaglutide|glp[\s-]*1sg/g, "glp1sg")
     .replace(/tirzepatide|trizepatide|glp[\s-]*2tz/g, "glp2tz")
