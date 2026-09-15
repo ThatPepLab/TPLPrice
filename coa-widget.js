@@ -3,7 +3,10 @@
   let snapshot = { completed: [], pending: [], updatedAt: null };
   const esc = (value) => String(value == null ? "" : value).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const vendorKey = (value) => {
-    const key = String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+    const key = String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, "")
+    .replace(/^wolverine$/, "bpc157tb500")
+    .replace(/^glowbpc157ghkcutb500$/, "glow")
+    .replace(/^klow80$/, "klow");
     if (key.includes("globalwellness")) return "globalwellness";
     if (key.includes("innopeptideus")) return "innopeptideus";
     if (key.includes("innopeptide")) return "innopeptide";
