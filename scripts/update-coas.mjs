@@ -183,13 +183,14 @@ try {
   await page.goto(SOURCE_URL, { waitUntil: "domcontentloaded", timeout: 120000 });
   await page.getByText(/\d+\s+COA records/i).first().waitFor({ timeout: 60000 });
 
+  // The source site's pending-count teaser is optional and has changed markup
+  // more than once. Never let that decorative counter block the COA refresh.
   const pendingCountElement = page.locator(".pending-teaser-count strong").first();
-  await pendingCountElement.waitFor({ timeout: 60000 });
-  await page.waitForFunction(() => {
-    const value = document.querySelector(".pending-teaser-count strong")?.textContent?.trim();
-    return Boolean(value && /^\d+$/.test(value));
-  }, { timeout: 60000 });
-  const advertisedPendingCount = Number.parseInt(await pendingCountElement.innerText(), 10);
+  let advertisedPendingCount = null;
+  if (await pendingCountElement.count()) {
+    const value = clean(await pendingCountElement.textContent());
+    if (/^\d+$/.test(value)) advertisedPendingCount = Number.parseInt(value, 10);
+  }
 
   const completedRows = await tableRows(page, ["vendor", "product", "purity", "analysis date"]);
   if (completedRows.length < 25) throw new Error(`Only ${completedRows.length} completed rows were found; refusing to merge a suspiciously small capture.`);
@@ -220,11 +221,17 @@ try {
   await page.locator(".pending-modal").waitFor({ timeout: 30000 });
   if (advertisedPendingCount > 0) {
     await page.locator(".pending-table-wrap tbody tr").first().waitFor({ timeout: 60000 });
-  } else {
+  } else if (advertisedPendingCount === 0) {
     await page.locator(".pending-empty").last().waitFor({ timeout: 60000 });
+  } else {
+    // With no advertised count, wait briefly for either possible modal state.
+    await Promise.race([
+      page.locator(".pending-table-wrap tbody tr").first().waitFor({ timeout: 15000 }).catch(() => null),
+      page.locator(".pending-empty").last().waitFor({ timeout: 15000 }).catch(() => null)
+    ]);
   }
   const pendingRows = await tableRows(page, ["vendor", "product", "date sent", "expected results"]);
-  if (pendingRows.length < advertisedPendingCount) {
+  if (Number.isFinite(advertisedPendingCount) && pendingRows.length < advertisedPendingCount) {
     throw new Error(`The source advertises ${advertisedPendingCount} pending tests, but only ${pendingRows.length} rows were captured; refusing to replace the last good snapshot.`);
   }
   const pending = latestPerKey(pendingRows.map((row) => ({
