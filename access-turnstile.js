@@ -21,7 +21,7 @@
   }
 
   function finishAccess() {
-    sessionStorage.setItem('tplPriceAccessV4', 'granted');
+    sessionStorage.setItem('tplPriceAccessV5', 'granted');
     const gate = document.getElementById('accessGate');
     const app = document.getElementById('comparisonApp');
     const input = document.getElementById('accessPassword');
