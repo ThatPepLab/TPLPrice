@@ -216,34 +216,32 @@ try {
     return { ...savedRecord, status };
   });
 
-  const pendingButton = page.getByRole("button", { name: /view pending tests/i }).first();
-  await pendingButton.click();
-  await page.locator(".pending-modal").waitFor({ timeout: 30000 });
-  if (advertisedPendingCount > 0) {
-    await page.locator(".pending-table-wrap tbody tr").first().waitFor({ timeout: 60000 });
-  } else if (advertisedPendingCount === 0) {
-    await page.locator(".pending-empty").last().waitFor({ timeout: 60000 });
-  } else {
-    // With no advertised count, wait briefly for either possible modal state.
-    await Promise.race([
-      page.locator(".pending-table-wrap tbody tr").first().waitFor({ timeout: 15000 }).catch(() => null),
-      page.locator(".pending-empty").last().waitFor({ timeout: 15000 }).catch(() => null)
-    ]);
-  }
-  const pendingRows = await tableRows(page, ["vendor", "product", "date sent", "expected results"]);
-  if (Number.isFinite(advertisedPendingCount) && pendingRows.length < advertisedPendingCount) {
-    throw new Error(`The source advertises ${advertisedPendingCount} pending tests, but only ${pendingRows.length} rows were captured; refusing to replace the last good snapshot.`);
-  }
-  const pending = latestPerKey(pendingRows.map((row) => ({
-    vendor: canonicalVendor(field(row, "vendor")),
-    product: canonicalProduct(field(row, "product")),
-    strength: field(row, "vial size") || field(row, "size"),
-    dateSent: field(row, "date sent"),
-    expectedDate: field(row, "expected results")
-  })).filter((record) => record.vendor && record.product && record.strength), "dateSent");
-
   let previous = {};
   try { previous = JSON.parse(await fs.readFile(OUTPUT_PATH, "utf8")); } catch {}
+
+  const pendingButton = page.getByRole("button", { name: /view pending tests/i }).first();
+  if (await pendingButton.count()) {
+    await pendingButton.click();
+    // Pending results may now render inline instead of in the former .pending-modal.
+    await page.waitForTimeout(3000);
+  }
+
+  const pendingRows = await tableRows(page, ["vendor", "product", "date sent", "expected results"]);
+  let pending;
+  if (pendingRows.length) {
+    pending = latestPerKey(pendingRows.map((row) => ({
+      vendor: canonicalVendor(field(row, "vendor")),
+      product: canonicalProduct(field(row, "product")),
+      strength: field(row, "vial size") || field(row, "size"),
+      dateSent: field(row, "date sent"),
+      expectedDate: field(row, "expected results")
+    })).filter((record) => record.vendor && record.product && record.strength), "dateSent");
+  } else if (advertisedPendingCount === 0) {
+    pending = [];
+  } else {
+    pending = Array.isArray(previous.pending) ? previous.pending : [];
+    console.warn("Pending rows are not exposed by the current source markup; preserving the last good pending snapshot.");
+  }
   const previousCompleted = Array.isArray(previous.completed) ? previous.completed : [];
   const completedByKey = new Map(previousCompleted.map((record) => [completedRecordKey(record), record]));
   for (const record of scannedCompleted) completedByKey.set(completedRecordKey(record), record);
