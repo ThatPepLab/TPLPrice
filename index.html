@@ -59,11 +59,11 @@ const RULES={
 'TB-Peptide':{ship:60,freeAt:500,groupBuyShip:60,groupBuyEnds:'2026-09-28T23:59:59-05:00',groupBuyShipNote:'$60 shipping under $500; free shipping at $500 or more',contact:'+852 5647 6030 (WhatsApp)',delivery:'International customers welcome; confirm timing with vendor',shipNote:'$60 shipping under $500; free shipping at $500 or more',discountNote:'Payment: USDT, USDC, Bitcoin, Wise, international wire transfer, or available regional methods. Send payment confirmation for processing; dedicated support is available.'},
 'Quotatin Peptide (Yuki & Lunara)':{ship:0,unknown:true,contact:'Lunara · +852 471 81687; Yuki · +852 7043 3708 (WhatsApp)',delivery:'International customers welcome; confirm timing with Lunara or Yuki',shipNote:'Shipping is quoted after order confirmation',discountNote:'Payment: USDT, USDC, Bitcoin, Western Union, international wire transfer, or Alipay. Send payment confirmation for processing; dedicated support is available.'}
 };
+let cart=JSON.parse(localStorage.getItem('augustVendorCart')||'[]');
 const ALL_OFFERS=OFFERS;
 const TODAY_VENDORS=new Set(['Legendary (Amy) - China Warehouse','Legendary (Amy) - US Warehouse','Quotatin Peptide (Yuki & Lunara)','Serena (Changsha)','TB-Peptide']);
 let VISIBLE_OFFERS=OFFERS.filter(o=>TODAY_VENDORS.has(o.vendor));
 
-let cart=JSON.parse(localStorage.getItem('augustVendorCart')||'[]');
 const money=n=>'$'+n.toFixed(2); const key=o=>o.product+'|'+o.strength;
 let products=[],productNames=[];
 function displayProductName(name){return String(name||'').replace(/Semaglutide/gi,'GLP-1SG').replace(/Tirzepatide/gi,'GLP-2TZ')}
