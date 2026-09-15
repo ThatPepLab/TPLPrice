@@ -116,6 +116,7 @@ const PUBLIC_CODES={
 };
 function publicMeta(o){
  const n=o.product.toLowerCase(),rules=[
+  ['Tablets',/^(arimidex|clenbuterol|clomid|dianabol 20|aromasin|cialis|viagra|turanabol|winstrol 10)$/,'TAB'],
   ['Oil Based',/^(nandrolone decanoate|boldenone undecylenate|nandrolone phenylpropionate|methenolone enanthate|testosterone cypionate|testosterone enanthate|testosterone propionate|trenbolone acetate|trenbolone enanthate)$/,'OIL'],
   ['Weight Loss',/semaglutide|tirzepatide|trizepatide|glp-?3rt|cagri|aod|adipotide|mazdutide|survodutide|eloralintide|glp-?1|lemon bottle|fat blaster/,'WL'],
   ['Energy & Metabolic',/5-amino|aicar|mots|l-carnitine|lc120|lc216|mic\b|lipo|methionine.*choline.*carnitine|humanin/,'META'],
@@ -129,7 +130,7 @@ function publicMeta(o){
  let hash=0;for(const ch of n)hash=(hash*31+ch.charCodeAt(0))%46656;
  return {category,code:PUBLIC_CODES[n]||`${prefix}-${hash.toString(36).toUpperCase().padStart(3,'0')}`};
 }
-const categoryOrder=['Weight Loss','Energy & Metabolic','Recovery & Repair','Longevity & Mitochondrial','HGH & GH Stack','Brain & Mood','Hormone & Libido','Oil Based','Specialty Peptides'];
+const categoryOrder=['Weight Loss','Energy & Metabolic','Recovery & Repair','Longevity & Mitochondrial','HGH & GH Stack','Brain & Mood','Hormone & Libido','Oil Based','Tablets','Specialty Peptides'];
 function categoryForProduct(name){return publicMeta({product:name}).category}
 function productStrengths(name){return [...new Set(VISIBLE_OFFERS.filter(o=>o.product===name).map(o=>o.strength))].sort((a,b)=>(parseFloat(a)||0)-(parseFloat(b)||0)||a.localeCompare(b))}
 function renderCategoryBrowser(){
