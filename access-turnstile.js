@@ -98,3 +98,43 @@
 
   loadTurnstile();
 })();
+
+// Temporary vendor hold: keep Serena pricing in source data, but hide it everywhere in TPLPrice.
+(() => {
+  const hiddenVendor = 'Serena (Changsha)';
+  try {
+    const hiddenIds = new Set(
+      (typeof ALL_OFFERS !== 'undefined' && Array.isArray(ALL_OFFERS) ? ALL_OFFERS : [])
+        .filter(offer => offer?.vendor === hiddenVendor)
+        .map(offer => offer.id)
+    );
+
+    if (typeof ALL_OFFERS !== 'undefined' && Array.isArray(ALL_OFFERS)) {
+      for (let i = ALL_OFFERS.length - 1; i >= 0; i -= 1) {
+        if (ALL_OFFERS[i]?.vendor === hiddenVendor) ALL_OFFERS.splice(i, 1);
+      }
+    }
+
+    if (typeof TODAY_VENDORS !== 'undefined' && TODAY_VENDORS?.delete) {
+      TODAY_VENDORS.delete(hiddenVendor);
+    }
+
+    if (typeof VISIBLE_OFFERS !== 'undefined') {
+      VISIBLE_OFFERS = ALL_OFFERS.filter(offer => TODAY_VENDORS.has(offer.vendor));
+    }
+
+    if (typeof cart !== 'undefined' && Array.isArray(cart) && hiddenIds.size) {
+      cart = cart.filter(item => !hiddenIds.has(item.id));
+      localStorage.setItem('augustVendorCart', JSON.stringify(cart));
+    }
+
+    if (typeof refreshProductCatalog === 'function') refreshProductCatalog();
+    if (typeof renderSourceFilter === 'function') renderSourceFilter();
+    if (typeof renderCategoryBrowser === 'function') renderCategoryBrowser();
+    if (typeof renderOffers === 'function') renderOffers();
+    if (typeof renderCart === 'function') renderCart();
+    if (typeof renderSettings === 'function') renderSettings();
+  } catch (error) {
+    console.warn('Serena vendor hold could not be applied.', error);
+  }
+})();
