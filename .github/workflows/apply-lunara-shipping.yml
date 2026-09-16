@@ -1,0 +1,38 @@
+name: Apply Lunara shipping rule
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/apply-lunara-shipping.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch live TPLPrice source
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text()
+          old = "'Quotatin Peptide (Yuki & Lunara)':{ship:0,unknown:true,contact:'Lunara · +852 471 81687; Yuki · +852 7043 3708 (WhatsApp)',delivery:'International customers welcome; confirm timing with Lunara or Yuki',shipNote:'Shipping is quoted after order confirmation',discountNote:'Payment: USDT, USDC, Bitcoin, Western Union, international wire transfer, or Alipay. Send payment confirmation for processing; dedicated support is available.'}"
+          new = "'Quotatin Peptide (Yuki & Lunara)':{ship:65,freeAt:1000,unknown:false,contact:'Lunara · +852 471 81687; Yuki · +852 7043 3708 (WhatsApp)',delivery:'International customers welcome; confirm timing with Lunara or Yuki',shipNote:'$65 shipping; free shipping at $1,000+',discountNote:'Payment: USDT, USDC, Bitcoin, Western Union, international wire transfer, or Alipay. Send payment confirmation for processing; dedicated support is available.'}"
+          if old not in s:
+              raise SystemExit('Expected Quotatin shipping rule not found; refusing blind edit')
+          s = s.replace(old, new, 1)
+          s = s.replace('access-turnstile.js?v=20260914-2', 'access-turnstile.js?v=20260915-1')
+          p.write_text(s)
+          PY
+      - name: Commit patch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "Set Lunara shipping to $65 and free at $1,000"
+          git push
