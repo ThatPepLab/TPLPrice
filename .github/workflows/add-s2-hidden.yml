@@ -1,0 +1,171 @@
+name: Add S2 Wellness to hidden Full TPL
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/add-s2-hidden.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add S2 vendor, pricing, and item-count shipping
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+          vendor = 'S2 Wellness'
+          assert vendor not in s, 'S2 Wellness already exists; refusing duplicate install'
+
+          # Parse the existing offer array so S2 uses the exact same data structure.
+          start = s.index('const OFFERS=') + len('const OFFERS=')
+          end = s.index(';\nconst RULES=', start)
+          offers = json.loads(s[start:end])
+          existing_names = sorted({o['product'] for o in offers})
+          by_lower = {n.lower(): n for n in existing_names}
+
+          def canonical(*candidates):
+              for c in candidates:
+                  if c.lower() in by_lower:
+                      return by_lower[c.lower()]
+              return candidates[0]
+
+          rows = [
+            ('R10', canonical('GLP-3RT'), '10mg', 115, 60, ''),
+            ('R20', canonical('GLP-3RT'), '20mg', 185, 105, ''),
+            ('R30', canonical('GLP-3RT'), '30mg', 195, 99, 'Sale price on vendor sheet'),
+            ('R60', canonical('GLP-3RT'), '60mg', 325, 175, ''),
+            ('T30', canonical('Tirzepatide'), '30mg', 145, 80, ''),
+            ('T60', canonical('Tirzepatide'), '60mg', 230, 125, ''),
+            ('5A50', canonical('5-Amino-1MQ', '5-Amino 1MQ'), '50mg', 145, 95, ''),
+            ('ADAMAX10', canonical('Adamax', 'ADAMAX'), '10mg', 205, 120, ''),
+            ('AOD5', canonical('AOD-9604', 'AOD 9604'), '5mg', 145, 90, ''),
+            ('ARA290-30', canonical('ARA-290', 'ARA 290'), '30mg', 225, None, ''),
+            ('BBK30', canonical('BPC-157 + KPV + TB500', 'BBK (BPC/KPV/TB)'), '30mg', 235, 130, 'BPC/KPV/TB blend'),
+            ('BPC10', canonical('BPC-157'), '10mg', 95, 65, ''),
+            ('BPC20', canonical('BPC-157'), '20mg', 160, 95, ''),
+            ('CAG10', canonical('Cagrilintide'), '10mg', 205, 105, ''),
+            ('CAG5', canonical('Cagrilintide'), '5mg', 120, 65, ''),
+            ('CART20', canonical('Cartalax'), '20mg', 185, 105, ''),
+            ('CJCIPA55', canonical('CJC-1295 No DAC + Ipamorelin', 'CJC-1295 + Ipamorelin'), '10mg', 155, 80, '5mg/5mg blend'),
+            ('DSIP5', canonical('DSIP'), '5mg', 110, 65, ''),
+            ('DSIP10', canonical('DSIP'), '10mg', 135, 75, ''),
+            ('EPI10', canonical('Epithalon'), '10mg', 105, 60, ''),
+            ('GHK100', canonical('GHK-Cu', 'GHK-CU'), '100mg', 100, 60, ''),
+            ('GHK50', canonical('GHK-Cu', 'GHK-CU'), '50mg', 89, 50, ''),
+            ('GLUTA1200', canonical('Glutathione'), '1200mg', 89, None, ''),
+            ('IGFLR1', canonical('IGF-1 LR3', 'IGF1-LR3'), '1mg', 255, 145, ''),
+            ('IPA10', canonical('Ipamorelin'), '10mg', 105, 60, ''),
+            ('KISS10', canonical('Kisspeptin', 'Kisspeptin-10'), '10mg', 125, 75, ''),
+            ('KLOW80', canonical('KLOW'), '80mg', 200, 125, 'Sale price on vendor sheet'),
+            ('KPV10', canonical('KPV'), '10mg', 95, 60, ''),
+            ('KPV30', canonical('KPV'), '30mg', 180, 95, ''),
+            ('LIPOC10', canonical('Lipo-C', 'LIPO-C'), '10ml', 150, 85, ''),
+            ('MOTSC10', canonical('MOTS-C'), '10mg', 100, 60, ''),
+            ('MOTSC40', canonical('MOTS-C'), '40mg', 225, 125, ''),
+            ('MT1-10', canonical('Melanotan-1', 'MT-1'), '10mg', 110, 65, ''),
+            ('MT2-10', canonical('Melanotan-2', 'MT-2'), '10mg', 110, 65, ''),
+            ('NAD500', canonical('NAD+'), '500mg', 85, 55, ''),
+            ('NAD1000', canonical('NAD+'), '1000mg', 120, 70, ''),
+            ('PNC27-5', canonical('PNC-27', 'PNC 27'), '5mg', 195, 120, ''),
+            ('PT141-10', canonical('PT-141'), '10mg', 120, 75, ''),
+            ('SEMA10', canonical('Semaglutide'), '10mg', 110, 70, ''),
+            ('SEMAX10', canonical('Semax'), '10mg', 110, 65, ''),
+            ('SELANK10', canonical('Selank'), '10mg', 110, 66, ''),
+            ('SERM5', canonical('Sermorelin Acetate', 'Sermorelin'), '5mg', 135, 80, ''),
+            ('SS31-10', canonical('SS-31'), '10mg', 120, 75, ''),
+            ('SS31-50', canonical('SS-31'), '50mg', 325, 200, ''),
+            ('TB500-10', canonical('TB500', 'TB-500'), '10mg', 175, 100, ''),
+            ('TESA10', canonical('Tesamorelin'), '10mg', 195, 110, ''),
+            ('TESA20', canonical('Tesamorelin'), '20mg', 295, 180, 'Pending COA on vendor sheet'),
+            ('TESAIPA116', canonical('Tesamorelin + Ipamorelin', 'Tesa/IPA'), '17mg', 235, 130, '11mg/6mg blend'),
+            ('WOLV1010', canonical('Wolverine'), '20mg', 200, 125, '10mg/10mg blend · Sale price on vendor sheet'),
+          ]
+
+          note = 'S2 Wellness vendor sheet · updated July 2026'
+          added = []
+          seq = 1
+          for code, product, strength, full_price, half_price, extra_note in rows:
+              base_note = note + ((' · ' + extra_note) if extra_note else '')
+              added.append({
+                  'code': code,
+                  'id': f's2-202607-{seq:03d}-full',
+                  'note': base_note,
+                  'price': full_price,
+                  'product': product,
+                  'spec': f'{strength}*10vials',
+                  'strength': strength,
+                  'vendor': vendor,
+                  'vials': 10,
+              })
+              if half_price is not None:
+                  added.append({
+                      'code': code + '-HALF',
+                      'id': f's2-202607-{seq:03d}-half',
+                      'note': base_note,
+                      'price': half_price,
+                      'product': product,
+                      'spec': f'{strength}*5vials',
+                      'strength': strength,
+                      'vendor': vendor,
+                      'vials': 5,
+                  })
+              seq += 1
+
+          offers.extend(added)
+          s = s[:start] + json.dumps(offers, separators=(',', ':'), ensure_ascii=False) + s[end:]
+
+          # Vendor details. S2 remains OFF the TODAY_VENDORS list, so it only appears with Full TPL enabled.
+          marker = "'Quotatin Peptide (Yuki & Lunara)':{ship:65,freeAt:1000,unknown:false,contact:'Lunara · +852 471 81687; Yuki · +852 7043 3708 (WhatsApp)',delivery:'International customers welcome; confirm timing with Lunara or Yuki',shipNote:'$65 shipping; free shipping at $1,000+',discountNote:'Payment: USDT, USDC, Bitcoin, Western Union, international wire transfer, or Alipay. Send payment confirmation for processing; dedicated support is available.'}"
+          assert s.count(marker) == 1, 'Expected Quotatin RULES anchor not found'
+          s2_rule = "'S2 Wellness':{ship:8,freeItems:4,contact:'Shelley · Skool ShellBell · WhatsApp +1 (614) 432-3780 · Telegram @swite2610; Stacy · Skool Stacy Duwa · WhatsApp +1 (319) 541-9113 · Telegram @alanstacy',delivery:'Ships in approximately 24–48 hours',shipNote:'$8 flat-rate shipping; free shipping on 4+ items',discountNote:'Payment options on vendor sheet: Venmo, Cash App, Zelle, PayPal (FF), crypto. Crypto discount amount not provided.'}"
+          s = s.replace(marker, s2_rule + ',\n' + marker, 1)
+
+          # S2 is a US vendor for grouping/filter labels.
+          old_region = 'function region(o){return /US Warehouse/i.test(o.vendor)?"USA":"CHINA"}'
+          new_region = 'function region(o){return /US Warehouse|S2 Wellness/i.test(o.vendor)?"USA":"CHINA"}'
+          assert s.count(old_region) == 1, 'Region function anchor not found'
+          s = s.replace(old_region, new_region, 1)
+          old_source = "${v.includes('US Warehouse')?'USA — ':'CHINA — '}${esc(v)}"
+          new_source = "${/US Warehouse|S2 Wellness/i.test(v)?'USA — ':'CHINA — '}${esc(v)}"
+          assert s.count(old_source) == 1, 'Source filter region anchor not found'
+          s = s.replace(old_source, new_source, 1)
+
+          # Current cart renderer: free shipping can be dollar-based OR item-count based.
+          old_calc = "let r=rule(v),sub=items.reduce((s,i)=>s+offerPrice(i.o)*i.qty,0),useCrypto=items.some(i=>i.crypto),useExpedited=items.some(i=>i.expedited),rate=discountRate(r,sub,useCrypto),discount=sub*rate,after=sub-discount,baseShip=useExpedited&&r.expedited?r.expedited:r.ship,freeShip=r.freeAt&&sub>=r.freeAt&&!(r.freeStandardOnly&&useExpedited),ship=freeShip?0:baseShip,vendorTotal=after+ship;"
+          new_calc = "let r=rule(v),sub=items.reduce((s,i)=>s+offerPrice(i.o)*i.qty,0),itemCount=items.reduce((s,i)=>s+i.qty,0),useCrypto=items.some(i=>i.crypto),useExpedited=items.some(i=>i.expedited),rate=discountRate(r,sub,useCrypto),discount=sub*rate,after=sub-discount,baseShip=useExpedited&&r.expedited?r.expedited:r.ship,freeShip=((r.freeAt&&sub>=r.freeAt)||(r.freeItems&&itemCount>=r.freeItems))&&!(r.freeStandardOnly&&useExpedited),ship=freeShip?0:baseShip,vendorTotal=after+ship;"
+          assert s.count(old_calc) == 1, 'Current cart shipping calculation anchor not found'
+          s = s.replace(old_calc, new_calc, 1)
+
+          old_msg = "${r.freeAt?`<div class=\"muted\" style=\"margin-top:7px\">${freeShip?'Free standard shipping reached':sub>=r.freeAt&&r.freeStandardOnly&&useExpedited?'Free standard shipping available; expedited remains '+money(r.expedited):money(r.freeAt-sub)+' more for free shipping'}</div>`:''}"
+          new_msg = "${r.freeItems?`<div class=\"muted\" style=\"margin-top:7px\">${freeShip?'Free shipping reached':(r.freeItems-itemCount)+' more item'+((r.freeItems-itemCount)===1?'':'s')+' for free shipping'}</div>`:r.freeAt?`<div class=\"muted\" style=\"margin-top:7px\">${freeShip?'Free standard shipping reached':sub>=r.freeAt&&r.freeStandardOnly&&useExpedited?'Free standard shipping available; expedited remains '+money(r.expedited):money(r.freeAt-sub)+' more for free shipping'}</div>`:''}"
+          assert s.count(old_msg) == 1, 'Current cart free-shipping message anchor not found'
+          s = s.replace(old_msg, new_msg, 1)
+
+          # Guardrail: hidden means Full TPL only.
+          today_start = s.index('const TODAY_VENDORS=new Set(')
+          today_end = s.index(');', today_start)
+          assert vendor not in s[today_start:today_end], 'S2 accidentally added to active TODAY_VENDORS'
+
+          p.write_text(s, encoding='utf-8')
+          print(f'Added {len(added)} S2 offers across {len(rows)} product/strength rows; hidden from TODAY_VENDORS.')
+          PY
+      - name: Sanity check and commit
+        run: |
+          grep -q "'S2 Wellness':{ship:8,freeItems:4" index.html
+          grep -q 's2-202607-001-full' index.html
+          grep -q 'S2 Wellness/i.test(o.vendor)' index.html
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "Add S2 Wellness to hidden Full TPL vendor list"
+          git push
