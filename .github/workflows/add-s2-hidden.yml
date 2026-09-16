@@ -27,7 +27,7 @@ jobs:
 
           # Parse the existing offer array so S2 uses the exact same data structure.
           start = s.index('const OFFERS=') + len('const OFFERS=')
-          end = s.index(';\nconst RULES=', start)
+          end = s.index(';\n const RULES=', start)
           offers = json.loads(s[start:end])
           existing_names = sorted({o['product'] for o in offers})
           by_lower = {n.lower(): n for n in existing_names}
@@ -123,13 +123,11 @@ jobs:
           offers.extend(added)
           s = s[:start] + json.dumps(offers, separators=(',', ':'), ensure_ascii=False) + s[end:]
 
-          # Vendor details. S2 remains OFF the TODAY_VENDORS list, so it only appears with Full TPL enabled.
           marker = "'Quotatin Peptide (Yuki & Lunara)':{ship:65,freeAt:1000,unknown:false,contact:'Lunara · +852 471 81687; Yuki · +852 7043 3708 (WhatsApp)',delivery:'International customers welcome; confirm timing with Lunara or Yuki',shipNote:'$65 shipping; free shipping at $1,000+',discountNote:'Payment: USDT, USDC, Bitcoin, Western Union, international wire transfer, or Alipay. Send payment confirmation for processing; dedicated support is available.'}"
           assert s.count(marker) == 1, 'Expected Quotatin RULES anchor not found'
           s2_rule = "'S2 Wellness':{ship:8,freeItems:4,contact:'Shelley · Skool ShellBell · WhatsApp +1 (614) 432-3780 · Telegram @swite2610; Stacy · Skool Stacy Duwa · WhatsApp +1 (319) 541-9113 · Telegram @alanstacy',delivery:'Ships in approximately 24–48 hours',shipNote:'$8 flat-rate shipping; free shipping on 4+ items',discountNote:'Payment options on vendor sheet: Venmo, Cash App, Zelle, PayPal (FF), crypto. Crypto discount amount not provided.'}"
           s = s.replace(marker, s2_rule + ',\n' + marker, 1)
 
-          # S2 is a US vendor for grouping/filter labels.
           old_region = 'function region(o){return /US Warehouse/i.test(o.vendor)?"USA":"CHINA"}'
           new_region = 'function region(o){return /US Warehouse|S2 Wellness/i.test(o.vendor)?"USA":"CHINA"}'
           assert s.count(old_region) == 1, 'Region function anchor not found'
@@ -139,7 +137,6 @@ jobs:
           assert s.count(old_source) == 1, 'Source filter region anchor not found'
           s = s.replace(old_source, new_source, 1)
 
-          # Current cart renderer: free shipping can be dollar-based OR item-count based.
           old_calc = "let r=rule(v),sub=items.reduce((s,i)=>s+offerPrice(i.o)*i.qty,0),useCrypto=items.some(i=>i.crypto),useExpedited=items.some(i=>i.expedited),rate=discountRate(r,sub,useCrypto),discount=sub*rate,after=sub-discount,baseShip=useExpedited&&r.expedited?r.expedited:r.ship,freeShip=r.freeAt&&sub>=r.freeAt&&!(r.freeStandardOnly&&useExpedited),ship=freeShip?0:baseShip,vendorTotal=after+ship;"
           new_calc = "let r=rule(v),sub=items.reduce((s,i)=>s+offerPrice(i.o)*i.qty,0),itemCount=items.reduce((s,i)=>s+i.qty,0),useCrypto=items.some(i=>i.crypto),useExpedited=items.some(i=>i.expedited),rate=discountRate(r,sub,useCrypto),discount=sub*rate,after=sub-discount,baseShip=useExpedited&&r.expedited?r.expedited:r.ship,freeShip=((r.freeAt&&sub>=r.freeAt)||(r.freeItems&&itemCount>=r.freeItems))&&!(r.freeStandardOnly&&useExpedited),ship=freeShip?0:baseShip,vendorTotal=after+ship;"
           assert s.count(old_calc) == 1, 'Current cart shipping calculation anchor not found'
@@ -150,7 +147,6 @@ jobs:
           assert s.count(old_msg) == 1, 'Current cart free-shipping message anchor not found'
           s = s.replace(old_msg, new_msg, 1)
 
-          # Guardrail: hidden means Full TPL only.
           today_start = s.index('const TODAY_VENDORS=new Set(')
           today_end = s.index(');', today_start)
           assert vendor not in s[today_start:today_end], 'S2 accidentally added to active TODAY_VENDORS'
