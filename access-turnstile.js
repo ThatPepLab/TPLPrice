@@ -138,3 +138,23 @@
     console.warn('Serena vendor hold could not be applied.', error);
   }
 })();
+
+// Confirmed Lunara/Yuki shipping terms: $65 shipping; free shipping for orders over $1,000.
+(() => {
+  const vendor = 'Quotatin Peptide (Yuki & Lunara)';
+  try {
+    if (typeof RULES !== 'undefined' && RULES[vendor]) {
+      Object.assign(RULES[vendor], {
+        ship: 65,
+        freeAt: 1000,
+        unknown: false,
+        shipNote: '$65 shipping; free shipping for orders over $1,000'
+      });
+      if (typeof renderOffers === 'function') renderOffers();
+      if (typeof renderCart === 'function') renderCart();
+      if (typeof renderSettings === 'function') renderSettings();
+    }
+  } catch (error) {
+    console.warn('Lunara shipping override could not be applied.', error);
+  }
+})();
