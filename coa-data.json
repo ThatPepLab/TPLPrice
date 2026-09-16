@@ -1,10 +1,10 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-09-15T17:11:44.479Z",
+  "updatedAt": "2026-09-16T17:05:57.367Z",
   "counts": {
-    "completed": 554,
-    "pending": 44
+    "completed": 560,
+    "pending": 43
   },
   "completed": [
     {
@@ -1354,6 +1354,18 @@
     {
       "vendor": "Innopeptide",
       "product": "Retatrutide Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "10mg",
+      "netContent": "12.74mg",
+      "purity": "99.250%",
+      "lab": "HYTE Research",
+      "analysisDate": "2026-09-07",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F84e504fb-9620-47cd-8c2d-5a5f17904ce0.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F84e504fb-9620-47cd-8c2d-5a5f17904ce0.pdf?alt=media",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Retatrutide Identity: HPLC-based identification Identity confirmed by report Identity evidence",
       "strength": "10MG",
       "netContent": "10.56 mg",
       "purity": "99.93%",
@@ -1810,6 +1822,18 @@
     {
       "vendor": "Kerui Peptides",
       "product": "GHK-Cu Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "50 mg",
+      "netContent": "52.86 mg",
+      "purity": "99.50%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-27",
+      "reportUrl": "https://portal.ils-lab.com/verify/Nunq2GbqPjlhcKE7",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "GHK-Cu Identity: HPLC-based identification Identity confirmed by report Identity evidence",
       "strength": "50mg",
       "netContent": "52.4 mg",
       "purity": "99.82%",
@@ -1840,6 +1864,18 @@
       "lab": "Kovera Labs",
       "analysisDate": "2026-07-18",
       "reportUrl": "https://koveralabs.com/#/verify?code=KVR-2026-ABE96B",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "GLOW Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "70 mg",
+      "netContent": "74.7 mg (GHK-Cu 53.78 mg; BPC-157 10.61 mg; TB-4 10.31 mg)",
+      "purity": "99.90%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-26",
+      "reportUrl": "https://portal.ils-lab.com/verify/6rroS-WMmvozmS9s",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -2325,6 +2361,18 @@
     },
     {
       "vendor": "Kerui Peptides",
+      "product": "MOTS-C Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "10 mg",
+      "netContent": "10.31 mg",
+      "purity": "99.90%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://portal.ils-lab.com/verify/xtLRi67ia-cBkedL",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
       "product": "NAD+",
       "strength": "500mg",
       "netContent": "516.00 mg",
@@ -2625,6 +2673,18 @@
     },
     {
       "vendor": "Kerui Peptides",
+      "product": "SS-31 Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "10 mg",
+      "netContent": "10.55 mg",
+      "purity": "99.82%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://portal.ils-lab.com/verify/MCNdtobcsaevUfSX",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
       "product": "SS-31 Identity: MS / LC-MS Identity confirmed by report Identity evidence",
       "strength": "10 mg",
       "netContent": "14.34 mg",
@@ -2718,6 +2778,18 @@
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F6e25154576f4aca9adabb4265674330d4f8348d51d26029fc8e1f413b51bd96d.png?alt=media",
       "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F6e25154576f4aca9adabb4265674330d4f8348d51d26029fc8e1f413b51bd96d.png?alt=media",
       "status": "Passed"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "Tesamorelin Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "10 mg",
+      "netContent": "10.49 mg",
+      "purity": "99.53%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-08-28",
+      "reportUrl": "https://portal.ils-lab.com/verify/IoWDGKirqG9seWoh",
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Kerui Peptides",
@@ -6733,13 +6805,6 @@
       "strength": "15IU",
       "dateSent": "08/15/2026",
       "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Global Wellness Lab",
-      "product": "IGF-1 LR3",
-      "strength": ".1mg",
-      "dateSent": "08/19/2026",
-      "expectedDate": "08/21/2026"
     },
     {
       "vendor": "Global Wellness Lab",
