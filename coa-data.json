@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-09-16T17:05:57.367Z",
+  "updatedAt": "2026-09-17T17:06:15.742Z",
   "counts": {
-    "completed": 560,
+    "completed": 562,
     "pending": 43
   },
   "completed": [
@@ -1329,6 +1329,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "Mots-c Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "10mg",
+      "netContent": "11.47mg",
+      "purity": "99.750%",
+      "lab": "HYTE Research",
+      "analysisDate": "2026-09-07",
+      "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/ORB00002.pdf",
+      "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/ORB00002.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "MOTS-C Identity: HPLC-based identification Identity result not stated Identity evidence",
       "strength": "10MG",
       "netContent": "10.58 mg",
@@ -2550,6 +2562,18 @@
       "reportUrl": "https://portal.ils-lab.com/verify/UzIS-PM0AIaXIxIr",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "Retatrutide Identity: HPLC-based identification Reference comparison; not definitive identity Identity evidence",
+      "strength": "15mg",
+      "netContent": "15.83 mg",
+      "purity": "98.38%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-07-16",
+      "reportUrl": "https://portal.ils-lab.com/verify/uX3_kWBKdDJRxLgp",
+      "previewUrl": "",
+      "status": "Failed"
     },
     {
       "vendor": "Kerui Peptides",
