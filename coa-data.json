@@ -1,10 +1,10 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-09-17T17:06:15.742Z",
+  "updatedAt": "2026-09-19T15:56:52.148Z",
   "counts": {
-    "completed": 562,
-    "pending": 43
+    "completed": 565,
+    "pending": 31
   },
   "completed": [
     {
@@ -1378,6 +1378,18 @@
     {
       "vendor": "Innopeptide",
       "product": "Retatrutide Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "10mg",
+      "netContent": "12.74mg",
+      "purity": "99.250%",
+      "lab": "HYTE Research",
+      "analysisDate": "2026-09-07",
+      "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/ORB00001.pdf",
+      "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/ORB00001.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Retatrutide Identity: HPLC-based identification Identity confirmed by report Identity evidence",
       "strength": "10MG",
       "netContent": "10.56 mg",
       "purity": "99.93%",
@@ -2505,6 +2517,18 @@
     },
     {
       "vendor": "Kerui Peptides",
+      "product": "NAD+ Identity: Method not stated Identity result not stated Identity evidence",
+      "strength": "500 mg",
+      "netContent": "876 mg",
+      "purity": "96.30%",
+      "lab": "Vanguard Laboratory",
+      "analysisDate": "2026-09-16",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F06fdd47e-9f15-4480-a096-938500290974.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F06fdd47e-9f15-4480-a096-938500290974.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Kerui Peptides",
       "product": "Pinealon*",
       "strength": "10MG",
       "netContent": "13.16 mg",
@@ -2838,6 +2862,18 @@
       "reportUrl": "https://verify.janoshik.com/tests/200549-ta10_2QD72CWQNGQ8",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "Thymosin Beta Alpha 1 Identity: Method not stated Identity failed Identity evidence",
+      "strength": "5 mg",
+      "netContent": "4.66 mg (Thymosin Alpha-1: 4.66 mg, KPV: Not Detected, LL-37: Not Detected)",
+      "purity": "0%",
+      "lab": "Vanguard Laboratory",
+      "analysisDate": "2026-09-16",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Ff9598348-1caa-4144-9081-1e87bf473f25.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Ff9598348-1caa-4144-9081-1e87bf473f25.pdf?alt=media",
+      "status": "Failed"
     },
     {
       "vendor": "Kerui Peptides",
@@ -6755,45 +6791,10 @@
   "pending": [
     {
       "vendor": "Global Wellness Lab",
-      "product": "BC",
-      "strength": "20MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Global Wellness Lab",
-      "product": "BPC-157",
-      "strength": "10",
-      "dateSent": "09/03/2026",
-      "expectedDate": "09/18/2026"
-    },
-    {
-      "vendor": "Global Wellness Lab",
       "product": "BPC-157",
       "strength": "20mg",
       "dateSent": "09/04/2026",
       "expectedDate": "09/11/2026"
-    },
-    {
-      "vendor": "Global Wellness Lab",
-      "product": "CP",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Global Wellness Lab",
-      "product": "CU",
-      "strength": "100MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Global Wellness Lab",
-      "product": "ET",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
     },
     {
       "vendor": "Global Wellness Lab",
@@ -6804,41 +6805,6 @@
     },
     {
       "vendor": "Global Wellness Lab",
-      "product": "GLP-3RT",
-      "strength": "30MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Global Wellness Lab",
-      "product": "Glutathione",
-      "strength": "600mg",
-      "dateSent": "09/03/2026",
-      "expectedDate": "09/18/2026"
-    },
-    {
-      "vendor": "Global Wellness Lab",
-      "product": "HCG",
-      "strength": "10000IU",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Global Wellness Lab",
-      "product": "HGH",
-      "strength": "15IU",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Global Wellness Lab",
-      "product": "MOTS-c",
-      "strength": "20",
-      "dateSent": "08/19/2026",
-      "expectedDate": "08/20/2026"
-    },
-    {
-      "vendor": "Global Wellness Lab",
       "product": "Nad500",
       "strength": "Not provided",
       "dateSent": "09/06/2026",
@@ -6846,31 +6812,10 @@
     },
     {
       "vendor": "Global Wellness Lab",
-      "product": "Pinealon",
-      "strength": "10mg",
-      "dateSent": "09/03/2026",
-      "expectedDate": "09/18/2026"
-    },
-    {
-      "vendor": "Global Wellness Lab",
-      "product": "SLU PP 332",
-      "strength": "10",
-      "dateSent": "08/19/2026",
-      "expectedDate": "08/20/2026"
-    },
-    {
-      "vendor": "Global Wellness Lab",
       "product": "Tirzepitide",
       "strength": "20mg",
       "dateSent": "09/04/2026",
       "expectedDate": "09/11/2026"
-    },
-    {
-      "vendor": "Global Wellness Lab",
-      "product": "TSM",
-      "strength": "20MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
     },
     {
       "vendor": "GW",
@@ -6961,6 +6906,13 @@
       "product": "TR",
       "strength": "30MG",
       "dateSent": "08/15/2026",
+      "expectedDate": "Not provided"
+    },
+    {
+      "vendor": "MKM",
+      "product": "GLP-1SG",
+      "strength": "20 MG",
+      "dateSent": "09/18/2026",
       "expectedDate": "Not provided"
     },
     {
