@@ -1,0 +1,27 @@
+name: Probe Bioviridian certificate hosting once
+on:
+  push:
+    paths:
+      - '.github/workflows/probe-bioviridian-coa-once.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect issuer public COA verification flow
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import re,urllib.request
+          url='https://bioviridians.com/coa-search.html'
+          try:
+            r=urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'}),timeout=20)
+            html=r.read().decode('utf-8','replace')
+            print('PORTAL_HTTP',r.status,'HTML_LENGTH',len(html))
+            for src in re.findall(r'<script[^>]*src=["\']([^"\']+)',html,re.I): print('SCRIPT_SRC',src)
+            for line in html.splitlines():
+              if any(v in line.lower() for v in ('fetch(', 'pdf', 'coa-search','coa-number','api/', 'coa/')):print('PORTAL_LINE',line.strip()[:350])
+          except Exception as e:print('PROBE_ERROR',type(e).__name__,str(e)[:250])
+          PY
