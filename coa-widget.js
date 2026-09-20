@@ -59,7 +59,7 @@
   };
   const matches = (product, strength, vendor) => {
     const productId = productKey(product), strengthId = strengthKey(strength), vendorId = vendorKey(vendor || "");
-    const accepts = (record) => productKey(record.product) === productId && strengthKey(record.strength) === strengthId && (!vendorId || vendorKey(record.vendor) === vendorId);
+    const accepts = (record) => productKey(record.product) === productId && strengthKey(record.strength) === strengthId && (!vendorId || vendorKey(record.vendor) === vendorId || (record.ownerPreferred === true && vendorId.startsWith("lunivo") && vendorKey(record.vendor) === "lunivo"));
     return {
       completed: (snapshot.completed || []).filter(accepts).sort((a, b) => dateValue(b.analysisDate) - dateValue(a.analysisDate)),
       pending: (snapshot.pending || []).filter(accepts).sort((a, b) => dateValue(b.dateSent) - dateValue(a.dateSent))
@@ -67,11 +67,11 @@
   };
   const historyCount = (product, vendor) => {
     const productId = productKey(product), vendorId = vendorKey(vendor || "");
-    return (snapshot.completed || []).filter((record) => productKey(record.product) === productId && (!vendorId || vendorKey(record.vendor) === vendorId)).length;
+    return (snapshot.completed || []).filter((record) => productKey(record.product) === productId && (!vendorId || vendorKey(record.vendor) === vendorId || (record.ownerPreferred === true && vendorId.startsWith("lunivo") && vendorKey(record.vendor) === "lunivo"))).length;
   };
   const visibleRecords = (records) => {
     const sorted = [...records].sort((a, b) => dateValue(b.analysisDate) - dateValue(a.analysisDate));
-    const latestPassed = sorted.find((record) => statusInfo(record).label === "Passed");
+    const latestPassed = sorted.find((record) => record.ownerPreferred === true && statusInfo(record).label === "Passed") || sorted.find((record) => statusInfo(record).label === "Passed");
     const failed = sorted.filter((record) => statusInfo(record).label === "Failed");
     const latestUnchecked = latestPassed ? null : sorted.find((record) => statusInfo(record).label === "Unchecked");
     return [...(latestPassed ? [latestPassed] : latestUnchecked ? [latestUnchecked] : []), ...failed];
@@ -89,7 +89,7 @@
     const newerPending = result.pending.some((pending) => dateValue(pending.dateSent) > dateValue(referenceDate));
     let html = '<div class="coa-status-group"><span class="coa-file-count">' + total + " COA" + (total === 1 ? "" : "s") + " on file</span>";
     if (latestPassed) {
-      html += '<button type="button" class="coa-status coa-complete"' + buttonAttrs(product, strength, vendor, -1) + '>Latest Passed COA · ' + esc(prettyDate(latestPassed.analysisDate)) + '<span class="coa-result-status coa-result-passed">Passed</span></button>';
+      html += '<button type="button" class="coa-status coa-complete"' + buttonAttrs(product, strength, vendor, -1) + '>' + (latestPassed.ownerPreferred ? 'Our Test COA · ' : 'Latest Passed COA · ') + esc(prettyDate(latestPassed.analysisDate)) + '<span class="coa-result-status coa-result-passed">Passed</span></button>';
     } else if (latestUnchecked) {
       html += '<button type="button" class="coa-status coa-unchecked-button"' + buttonAttrs(product, strength, vendor, -1) + '>Latest COA · ' + esc(prettyDate(latestUnchecked.analysisDate)) + '<span class="coa-result-status coa-result-unchecked">Unchecked</span></button>';
     }
@@ -103,7 +103,7 @@
   };
   function ensureModal() {
     if (document.querySelector("#coa-directory-modal")) return;
-    document.body.insertAdjacentHTML("beforeend", '<dialog id="coa-directory-modal" class="coa-modal"><div class="coa-modal-head"><div><p>PUBLIC TESTING RECORDS</p><h2 id="coa-modal-title">Certificate of Analysis</h2></div><button type="button" class="coa-modal-close" aria-label="Close COA details">×</button></div><div id="coa-modal-body"></div><p class="coa-source-note">Testing records are linked from the <a href="https://coa.reta-unfiltered.com/#directory" target="_blank" rel="noopener noreferrer">RU Inner Circle COA Library</a>. Confirm the vendor, product, vial size, date, and verification page.</p></dialog>');
+    document.body.insertAdjacentHTML("beforeend", '<dialog id="coa-directory-modal" class="coa-modal"><div class="coa-modal-head"><div><p>PUBLIC TESTING RECORDS</p><h2 id="coa-modal-title">Certificate of Analysis</h2></div><button type="button" class="coa-modal-close" aria-label="Close COA details">×</button></div><div id="coa-modal-body"></div><p class="coa-source-note">Testing records include owner-submitted reports and records from the <a href="https://coa.reta-unfiltered.com/#directory" target="_blank" rel="noopener noreferrer">RU Inner Circle COA Library</a>. Confirm the vendor, product, vial size, date, and verification page.</p></dialog>');
   }
   function open(product, strength, vendor, selectedIndex = -1) {
     ensureModal();
@@ -116,7 +116,7 @@
       const status = statusInfo(record);
       const report = record.reportUrl ? '<a class="coa-report-link" href="' + esc(record.reportUrl) + '" target="_blank" rel="noopener noreferrer">Open Official COA</a>' : '<span class="coa-unavailable">Verification link not listed</span>';
       const preview = record.previewUrl ? '<details class="coa-report-preview"><summary>Preview report</summary><iframe title="COA preview" src="' + esc(record.previewUrl) + '" loading="lazy"></iframe></details>' : "";
-      return '<article class="coa-record"><div class="coa-record-heading"><strong>' + esc(record.vendor) + "</strong><span>Completed " + esc(prettyDate(record.analysisDate)) + "</span></div><dl><div><dt>Result</dt><dd class=\"coa-result-text coa-result-" + status.key + "\">" + esc(status.label) + "</dd></div><div><dt>Testing lab</dt><dd>" + esc(record.lab || "Not listed") + "</dd></div><div><dt>Purity</dt><dd>" + esc(record.purity || "Not listed") + "</dd></div><div><dt>Net content</dt><dd>" + esc(record.netContent || "Not listed") + "</dd></div></dl>" + report + preview + "</article>";
+      return '<article class="coa-record"><div class="coa-record-heading"><strong>' + esc(record.ownerPreferred ? 'Our Test · ' + record.vendor : record.vendor) + "</strong><span>Completed " + esc(prettyDate(record.analysisDate)) + "</span></div><dl><div><dt>Result</dt><dd class=\"coa-result-text coa-result-" + status.key + "\">" + esc(status.label) + "</dd></div><div><dt>Testing lab</dt><dd>" + esc(record.lab || "Not listed") + "</dd></div><div><dt>Purity</dt><dd>" + esc(record.purity || "Not listed") + "</dd></div><div><dt>Net content</dt><dd>" + esc(record.netContent || "Not listed") + "</dd></div></dl>" + report + preview + "</article>";
     }).join("");
     const pendingCards = selectedIndex >= 0 ? "" : result.pending.map((record) => '<article class="coa-record coa-record-pending"><div class="coa-record-heading"><strong>' + esc(record.vendor) + "</strong><span>COA Pending</span></div><dl><div><dt>Expected</dt><dd>" + esc(prettyDate(record.expectedDate)) + "</dd></div></dl></article>").join("");
     document.querySelector("#coa-modal-body").innerHTML = '<p class="coa-history-total">' + total + " COA" + (total === 1 ? "" : "s") + " on file for this vendor and product</p>" + (completeCards + pendingCards || '<p class="coa-empty">No matching completed or pending test is listed.</p>');

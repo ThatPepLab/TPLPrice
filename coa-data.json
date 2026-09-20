@@ -3,7 +3,7 @@
   "attribution": "RU Inner Circle COA Library",
   "updatedAt": "2026-09-19T15:56:52.148Z",
   "counts": {
-    "completed": 565,
+    "completed": 566,
     "pending": 31
   },
   "completed": [
@@ -6786,6 +6786,22 @@
       "reportUrl": "https://portal.ils-lab.com/verify/wCNZj4k_OgCYcMad",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "Luvino",
+      "product": "GLP-3RT",
+      "strength": "20mg",
+      "netContent": "21.44 mg",
+      "purity": "99.75%",
+      "lab": "Bioviridian",
+      "analysisDate": "2026-09-17",
+      "reportUrl": "https://bioviridians.com/coas/COA9437.pdf",
+      "previewUrl": "https://bioviridians.com/coas/COA9437.pdf",
+      "status": "Passed",
+      "ownerPreferred": true,
+      "verificationCode": "COA9437",
+      "lot": "LUSA8530-7 / BLUE CAP",
+      "attribution": "Owner supplied: Luvino; COA sample vendor field: TPL"
     }
   ],
   "pending": [
