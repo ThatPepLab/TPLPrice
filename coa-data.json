@@ -1,10 +1,10 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-09-19T15:56:52.148Z",
+  "updatedAt": "2026-09-20T16:13:22.684Z",
   "counts": {
     "completed": 566,
-    "pending": 31
+    "pending": 6
   },
   "completed": [
     {
@@ -3452,6 +3452,22 @@
       "status": "Unchecked"
     },
     {
+      "vendor": "Luvino",
+      "product": "GLP-3RT",
+      "strength": "20mg",
+      "netContent": "21.44 mg",
+      "purity": "99.75%",
+      "lab": "Bioviridian",
+      "analysisDate": "2026-09-17",
+      "reportUrl": "https://bioviridians.com/coas/COA9437.pdf",
+      "previewUrl": "https://bioviridians.com/coas/COA9437.pdf",
+      "status": "Passed",
+      "ownerPreferred": true,
+      "verificationCode": "COA9437",
+      "lot": "LUSA8530-7 / BLUE CAP",
+      "attribution": "Owner supplied: Luvino; COA sample vendor field: TPL"
+    },
+    {
       "vendor": "Marvel Peptides",
       "product": "Bacteriostatic Water",
       "strength": "3ML",
@@ -6786,88 +6802,9 @@
       "reportUrl": "https://portal.ils-lab.com/verify/wCNZj4k_OgCYcMad",
       "previewUrl": "",
       "status": "Unchecked"
-    },
-    {
-      "vendor": "Luvino",
-      "product": "GLP-3RT",
-      "strength": "20mg",
-      "netContent": "21.44 mg",
-      "purity": "99.75%",
-      "lab": "Bioviridian",
-      "analysisDate": "2026-09-17",
-      "reportUrl": "https://bioviridians.com/coas/COA9437.pdf",
-      "previewUrl": "https://bioviridians.com/coas/COA9437.pdf",
-      "status": "Passed",
-      "ownerPreferred": true,
-      "verificationCode": "COA9437",
-      "lot": "LUSA8530-7 / BLUE CAP",
-      "attribution": "Owner supplied: Luvino; COA sample vendor field: TPL"
     }
   ],
   "pending": [
-    {
-      "vendor": "Global Wellness Lab",
-      "product": "BPC-157",
-      "strength": "20mg",
-      "dateSent": "09/04/2026",
-      "expectedDate": "09/11/2026"
-    },
-    {
-      "vendor": "Global Wellness Lab",
-      "product": "GLP-3RT",
-      "strength": "15mg",
-      "dateSent": "09/04/2026",
-      "expectedDate": "09/11/2026"
-    },
-    {
-      "vendor": "Global Wellness Lab",
-      "product": "Nad500",
-      "strength": "Not provided",
-      "dateSent": "09/06/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Global Wellness Lab",
-      "product": "Tirzepitide",
-      "strength": "20mg",
-      "dateSent": "09/04/2026",
-      "expectedDate": "09/11/2026"
-    },
-    {
-      "vendor": "GW",
-      "product": "GLP-2TZ",
-      "strength": "15 mg",
-      "dateSent": "08/31/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "GW",
-      "product": "NAD+",
-      "strength": "500",
-      "dateSent": "08/31/2026",
-      "expectedDate": "09/05/2026"
-    },
-    {
-      "vendor": "Kerui Peptides",
-      "product": "Ipamorelin",
-      "strength": "10MG",
-      "dateSent": "08/05/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Kerui Peptides",
-      "product": "TB500",
-      "strength": "10MG",
-      "dateSent": "08/05/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Lilipeptide",
-      "product": "GLP-3RT",
-      "strength": "10mg",
-      "dateSent": "08/14/2026",
-      "expectedDate": "08/28/2026"
-    },
     {
       "vendor": "Lunivo",
       "product": "GLP-3RT",
@@ -6883,101 +6820,10 @@
       "expectedDate": "09/04/2026"
     },
     {
-      "vendor": "Marvel Peptides",
-      "product": "BC",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Marvel Peptides",
-      "product": "CU",
-      "strength": "100MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Marvel Peptides",
-      "product": "HGH",
-      "strength": "10IU",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Marvel Peptides",
-      "product": "KLOW",
-      "strength": "80MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Marvel Peptides",
-      "product": "NJ",
-      "strength": "500MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Marvel Peptides",
-      "product": "TR",
-      "strength": "30MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
       "vendor": "MKM",
       "product": "GLP-1SG",
       "strength": "20 MG",
       "dateSent": "09/18/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "MKM",
-      "product": "SPC",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "MKM",
-      "product": "SS-31",
-      "strength": "50MG",
-      "dateSent": "08/18/2026",
-      "expectedDate": "08/30/2026"
-    },
-    {
-      "vendor": "Peptide Lab",
-      "product": "2S",
-      "strength": "10MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Peptide Lab",
-      "product": "BB10",
-      "strength": "10mg",
-      "dateSent": "08/24/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "SQ Peptide",
-      "product": "GLP-2TZ",
-      "strength": "60mg",
-      "dateSent": "08/20/2026",
-      "expectedDate": "09/10/2026"
-    },
-    {
-      "vendor": "SQ Peptide",
-      "product": "KPV",
-      "strength": "30MG",
-      "dateSent": "08/15/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "SQ Peptide",
-      "product": "TR80",
-      "strength": "80mg",
-      "dateSent": "08/17/2026",
       "expectedDate": "Not provided"
     },
     {
@@ -6989,13 +6835,6 @@
     },
     {
       "vendor": "WanShun",
-      "product": "GHK-Cu",
-      "strength": "50MG",
-      "dateSent": "08/05/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "WanShun",
       "product": "GLP-2TZ",
       "strength": "20 MG",
       "dateSent": "09/05/2026",
@@ -7003,23 +6842,9 @@
     },
     {
       "vendor": "WanShun",
-      "product": "GLP-3RT",
-      "strength": "20 MG",
-      "dateSent": "09/04/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "WanShun",
       "product": "MOTS-C",
       "strength": "10MG",
       "dateSent": "08/05/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "WanShun",
-      "product": "Thymosin Alpha 1",
-      "strength": "10 MG",
-      "dateSent": "09/05/2026",
       "expectedDate": "Not provided"
     }
   ]
