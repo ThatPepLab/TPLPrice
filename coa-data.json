@@ -1,10 +1,10 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-09-20T16:13:22.684Z",
+  "updatedAt": "2026-09-22T17:02:13.087Z",
   "counts": {
     "completed": 566,
-    "pending": 6
+    "pending": 10
   },
   "completed": [
     {
@@ -6806,6 +6806,20 @@
   ],
   "pending": [
     {
+      "vendor": "Innopeptide",
+      "product": "GLP-2TZ",
+      "strength": "60",
+      "dateSent": "09/17/2026",
+      "expectedDate": "Not provided"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "KPV",
+      "strength": "10mg",
+      "dateSent": "09/17/2026",
+      "expectedDate": "Not provided"
+    },
+    {
       "vendor": "Lunivo",
       "product": "GLP-3RT",
       "strength": "10",
@@ -6825,6 +6839,20 @@
       "strength": "20 MG",
       "dateSent": "09/18/2026",
       "expectedDate": "Not provided"
+    },
+    {
+      "vendor": "SQ Peptide",
+      "product": "GLP-3RT",
+      "strength": "5mg",
+      "dateSent": "09/22/2026",
+      "expectedDate": "Not provided"
+    },
+    {
+      "vendor": "SQ Peptide",
+      "product": "GLP-3RT",
+      "strength": "10mg",
+      "dateSent": "09/15/2026",
+      "expectedDate": "09/24/2026"
     },
     {
       "vendor": "WanShun",
