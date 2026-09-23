@@ -1,10 +1,10 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-09-22T17:02:13.087Z",
+  "updatedAt": "2026-09-23T17:10:38.198Z",
   "counts": {
-    "completed": 566,
-    "pending": 10
+    "completed": 570,
+    "pending": 12
   },
   "completed": [
     {
@@ -1881,6 +1881,18 @@
     },
     {
       "vendor": "Kerui Peptides",
+      "product": "GHK-Cu Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "100 mg",
+      "netContent": "119.55 mg",
+      "purity": "99.90%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-21",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/KERU2609180436.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/KERU2609180436.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Kerui Peptides",
       "product": "GHK-Cu Identity: MS / LC-MS Identity result listed; see source Identity evidence",
       "strength": "100MG",
       "netContent": "102.43 mg",
@@ -2286,6 +2298,18 @@
       "reportUrl": "https://portal.ils-lab.com/verify/SzKn_0nWQB3IZlMf",
       "previewUrl": "",
       "status": "Failed"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "KPV Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "10 mg",
+      "netContent": "10.96 mg",
+      "purity": "99.68%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-21",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/KERU2609180437.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/KERU2609180437.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Kerui Peptides",
@@ -2721,6 +2745,18 @@
     },
     {
       "vendor": "Kerui Peptides",
+      "product": "SS-31 Identity: HPLC-based identification + MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "10 mg",
+      "netContent": "13.59 mg",
+      "purity": "99.76%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-12",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Suri2609110010.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Suri2609110010.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Kerui Peptides",
       "product": "SS-31 Identity: HPLC-based identification Identity confirmed by report Identity evidence",
       "strength": "10 mg",
       "netContent": "10.55 mg",
@@ -2850,6 +2886,18 @@
       "reportUrl": "https://portal.ils-lab.com/verify/bJAGW5Dsis2CVuW1",
       "previewUrl": "",
       "status": "Failed"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "Tesamorelin Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "20 mg",
+      "netContent": "20.35 mg",
+      "purity": "99.30%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-21",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/KERU2609180435.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/KERU2609180435.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Kerui Peptides",
@@ -6820,6 +6868,13 @@
       "expectedDate": "Not provided"
     },
     {
+      "vendor": "Kerui Peptides",
+      "product": "KLOW",
+      "strength": "80mg",
+      "dateSent": "09/22/2026",
+      "expectedDate": "Not provided"
+    },
+    {
       "vendor": "Lunivo",
       "product": "GLP-3RT",
       "strength": "10",
@@ -6853,6 +6908,13 @@
       "strength": "10mg",
       "dateSent": "09/15/2026",
       "expectedDate": "09/24/2026"
+    },
+    {
+      "vendor": "SQ Peptide",
+      "product": "MOTS-C",
+      "strength": "20",
+      "dateSent": "09/17/2026",
+      "expectedDate": "Not provided"
     },
     {
       "vendor": "WanShun",
