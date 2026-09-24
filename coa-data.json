@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-09-23T17:10:38.198Z",
+  "updatedAt": "2026-09-24T17:17:33.167Z",
   "counts": {
-    "completed": 570,
+    "completed": 573,
     "pending": 12
   },
   "completed": [
@@ -1161,6 +1161,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "CJC-1295/Ipamorelin Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "CJC-1295 10 mg + Ipamorelin 10 mg",
+      "netContent": "Ipamorelin 10.75 mg; CJC-1295 10.62 mg",
+      "purity": "99.22%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-22",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/INNO2609210442.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/INNO2609210442.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "GLOW",
       "strength": "70MG",
       "netContent": "74.98 mg",
@@ -1254,6 +1266,18 @@
       "reportUrl": "https://sterigenixanalytical.com/verify",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Ipamorelin Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "10 mg",
+      "netContent": "11.99 mg",
+      "purity": "99.77%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-22",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/INNO2609210443.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/INNO2609210443.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Innopeptide",
@@ -1446,6 +1470,18 @@
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F7db6a34dda43f6220a21fa09242e8613a09b3d60403c983180edbc392ae2db78.pdf?alt=media",
       "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F7db6a34dda43f6220a21fa09242e8613a09b3d60403c983180edbc392ae2db78.pdf?alt=media",
       "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "TB-500 Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "10 mg",
+      "netContent": "11.22 mg",
+      "purity": "98.61%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-22",
+      "reportUrl": "",
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Innopeptide",
