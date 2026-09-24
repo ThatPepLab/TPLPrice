@@ -68,7 +68,7 @@ let VISIBLE_OFFERS=OFFERS.filter(o=>TODAY_VENDORS.has(o.vendor));
 
 const money=n=>'$'+n.toFixed(2); const key=o=>o.product+'|'+o.strength;
 let products=[],productNames=[];
-function displayProductName(name){return String(name||'').replace(/Semaglutide/gi,'GLP-1SG').replace(/Tirzepatide/gi,'GLP-2TZ')}
+function displayProductName(name){return String(name||'').replace(/Semaglutide/gi,'GLP-1SG').replace(/Tirzepatide/gi,'GLP-2TZ').replace(/HGH\s*191AA/gi,'191AA')}
 let activeCategory='',activeProduct='';
 function refreshProductCatalog(){
  products=[...new Set(VISIBLE_OFFERS.map(key))].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}));
