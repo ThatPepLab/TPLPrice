@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-09-24T17:17:33.167Z",
+  "updatedAt": "2026-09-25T17:18:10.269Z",
   "counts": {
-    "completed": 573,
+    "completed": 584,
     "pending": 12
   },
   "completed": [
@@ -261,6 +261,18 @@
     },
     {
       "vendor": "Crush Research",
+      "product": "cjc-1295/ipamorelin Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "10 mg",
+      "netContent": "10.57 mg",
+      "purity": "99.90%",
+      "lab": "ILS Labs",
+      "analysisDate": "2026-09-21",
+      "reportUrl": "https://portal.ils-lab.com/verify/F6DupsSPzEaUTd5T",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Crush Research",
       "product": "Epitalon*",
       "strength": "10MG",
       "netContent": "10.31 mg",
@@ -472,6 +484,18 @@
       "lab": "ILS Laboratories*",
       "analysisDate": "2026-07-02",
       "reportUrl": "https://portal.ils-lab.com/verify/jVRGVT5XYzZnyPci",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Crush Research",
+      "product": "tirzepatide Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "40mg",
+      "netContent": "42.2 mg",
+      "purity": "99.57%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-09-21",
+      "reportUrl": "https://portal.ils-lab.com/verify/z6RYbCcDOZf6yJLG",
       "previewUrl": "",
       "status": "Unchecked"
     },
@@ -1281,6 +1305,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "KLOW Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "80 mg",
+      "netContent": "GHK 46.51 mg; KPV 10.75 mg; TB-500 9.77 mg; BPC-157 10.26 mg (77.29 mg total)",
+      "purity": "99.87%",
+      "lab": "HYTE Research",
+      "analysisDate": "2026-09-21",
+      "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00029.pdf",
+      "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00029.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "KPV",
       "strength": "5MG",
       "netContent": "1.25 mg",
@@ -1389,6 +1425,30 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "NAD+ Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "1000 mg",
+      "netContent": "1,117.59 mg",
+      "purity": "99.80%",
+      "lab": "HYTE Research",
+      "analysisDate": "2026-09-22",
+      "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00026.pdf",
+      "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00026.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Retatrutide Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "10 mg",
+      "netContent": "10.62 mg",
+      "purity": "99.820%",
+      "lab": "HYTE Research",
+      "analysisDate": "2026-09-23",
+      "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00027.pdf",
+      "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00027.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "Retatrutide Identity: HPLC-based identification Identity confirmed by report Identity evidence",
       "strength": "10mg",
       "netContent": "12.74mg",
@@ -1421,6 +1481,18 @@
       "analysisDate": "2026-08-27",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fdce4b017d7ce363d6b8c38ce196f9d31a5cc83ea955329ce210165dec8bc1a33.png?alt=media",
       "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fdce4b017d7ce363d6b8c38ce196f9d31a5cc83ea955329ce210165dec8bc1a33.png?alt=media",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Retatrutide Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "30 mg",
+      "netContent": "33.28 mg",
+      "purity": "99.90%",
+      "lab": "HYTE Research",
+      "analysisDate": "2026-09-23",
+      "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00025.pdf",
+      "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00025.pdf",
       "status": "Passed"
     },
     {
@@ -1485,6 +1557,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "TB-500 Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "10 mg",
+      "netContent": "11.22 mg",
+      "purity": "98.61%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-22",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbatch-6a1d65176387fe39b3658692b4d3cc62765b6ddf2cfbc0102ef96dc00e3a5924.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbatch-6a1d65176387fe39b3658692b4d3cc62765b6ddf2cfbc0102ef96dc00e3a5924.pdf?alt=media",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "Tesamorelin",
       "strength": "10mg",
       "netContent": "10.17 mg",
@@ -1494,6 +1578,18 @@
       "reportUrl": "https://portal.ils-lab.com/verify/-b0nGrQTAPPNinUU",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Tesamorelin Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "10 mg",
+      "netContent": "11.48 mg",
+      "purity": "98.252%",
+      "lab": "HYTE Research",
+      "analysisDate": "2026-09-22",
+      "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00028.pdf",
+      "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00028.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Innopeptide",
@@ -1650,6 +1746,30 @@
       "reportUrl": "https://verify.janoshik.com/tests/200534-ara10_EUPA92E2VQTE",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "Bacteriostatic Water (benzyl alcohol 0.9% w/v Identity: HPLC-based identification Identity result listed; see source Identity evidence",
+      "strength": "3 mL",
+      "netContent": "27.3 mg",
+      "purity": "Alcohol 9.11 mg/mLRUIC: pass",
+      "lab": "KMD Analytical",
+      "analysisDate": "2026-09-24",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F5c26b6a3-d0e1-4885-8ba9-f367046a76fe.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F5c26b6a3-d0e1-4885-8ba9-f367046a76fe.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "Bacteriostatic Water (benzyl alcohol 0.9% w/v Identity: HPLC-based identification Identity result listed; see source Identity evidence",
+      "strength": "10 mL",
+      "netContent": "91.6 mg (9.16 mg/mL)",
+      "purity": "Alcohol 9.16 mg/mL (102% of claim)RUIC: ungraded",
+      "lab": "KMD Analytical",
+      "analysisDate": "2026-09-24",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F7d792fe3-0324-4e26-b1e5-ab5fff57e249.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F7d792fe3-0324-4e26-b1e5-ab5fff57e249.pdf?alt=media",
+      "status": "Failed"
     },
     {
       "vendor": "Kerui Peptides",
@@ -2657,6 +2777,18 @@
       "analysisDate": "2026-07-16",
       "reportUrl": "https://portal.ils-lab.com/verify/uX3_kWBKdDJRxLgp",
       "previewUrl": "",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Kerui Peptides",
+      "product": "Retatrutide Identity: HPLC-based identification Reference comparison; not definitive identity Identity evidence",
+      "strength": "20 mg",
+      "netContent": "21.03 mg",
+      "purity": "98.35%",
+      "lab": "KMD Analytical",
+      "analysisDate": "2026-09-24",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F2a974589-f26f-4f1a-9765-6a505c9e2ad1.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F2a974589-f26f-4f1a-9765-6a505c9e2ad1.pdf?alt=media",
       "status": "Failed"
     },
     {
