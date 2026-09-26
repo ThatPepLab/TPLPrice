@@ -1,10 +1,10 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-09-25T17:18:10.269Z",
+  "updatedAt": "2026-09-26T16:29:08.763Z",
   "counts": {
-    "completed": 584,
-    "pending": 12
+    "completed": 587,
+    "pending": 14
   },
   "completed": [
     {
@@ -1329,6 +1329,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "KPV Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "10 mg",
+      "netContent": "10.46 mg",
+      "purity": "99.77%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-24",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/INNO2609230052.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/INNO2609230052.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "Melanotan 2 Acetate Identity: Method not stated Identity confirmed by report Identity evidence",
       "strength": "10 mg",
       "netContent": "10.29 mg",
@@ -1605,6 +1617,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "Tesamorelin Identity: MS / LC-MS Identity failed Identity evidence",
+      "strength": "10mg",
+      "netContent": "11.69 mg average (3 vials; Sample 1: 12.43 mg; Sample 2: 11.26 mg; Sample 3: 11.38 mg)",
+      "purity": "0%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-24",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F35edb13a-6174-474c-95db-62d3f3956745.jpg?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F35edb13a-6174-474c-95db-62d3f3956745.jpg?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "Tesamorelin10mg",
       "strength": "10MG",
       "netContent": "10.01",
@@ -1637,6 +1661,18 @@
       "analysisDate": "2026-06-15",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110755.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110755.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Tirzepatide Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "60 mg",
+      "netContent": "68.45 mg",
+      "purity": "98.27%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-24",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbatch-4815020ea291bb70613e2f58935bf2c66de5f1fb45ef5dcf9fab9f4e4b7f6afc.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbatch-4815020ea291bb70613e2f58935bf2c66de5f1fb45ef5dcf9fab9f4e4b7f6afc.pdf?alt=media",
       "status": "Passed"
     },
     {
@@ -1764,7 +1800,7 @@
       "product": "Bacteriostatic Water (benzyl alcohol 0.9% w/v Identity: HPLC-based identification Identity result listed; see source Identity evidence",
       "strength": "10 mL",
       "netContent": "91.6 mg (9.16 mg/mL)",
-      "purity": "Alcohol 9.16 mg/mL (102% of claim)RUIC: ungraded",
+      "purity": "Alcohol 9.16 mg/mL (102% of claim)RUIC: pass",
       "lab": "KMD Analytical",
       "analysisDate": "2026-09-24",
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F7d792fe3-0324-4e26-b1e5-ab5fff57e249.pdf?alt=media",
@@ -7051,10 +7087,24 @@
     },
     {
       "vendor": "Lunivo",
+      "product": "GLP-3RT",
+      "strength": "50",
+      "dateSent": "09/25/2026",
+      "expectedDate": "Not provided"
+    },
+    {
+      "vendor": "Lunivo",
       "product": "HGH",
       "strength": "15IU",
       "dateSent": "08/27/2026",
       "expectedDate": "09/04/2026"
+    },
+    {
+      "vendor": "Lunivo",
+      "product": "Tirzepetide",
+      "strength": "50",
+      "dateSent": "09/25/2026",
+      "expectedDate": "Not provided"
     },
     {
       "vendor": "MKM",
