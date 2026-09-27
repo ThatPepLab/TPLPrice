@@ -1,10 +1,10 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-09-26T16:29:08.763Z",
+  "updatedAt": "2026-09-27T17:02:46.666Z",
   "counts": {
     "completed": 587,
-    "pending": 14
+    "pending": 15
   },
   "completed": [
     {
@@ -7057,6 +7057,13 @@
     }
   ],
   "pending": [
+    {
+      "vendor": "Innopeptide",
+      "product": "Cagrilintide",
+      "strength": "5mg",
+      "dateSent": "09/27/2026",
+      "expectedDate": "Not provided"
+    },
     {
       "vendor": "Innopeptide",
       "product": "GLP-2TZ",
