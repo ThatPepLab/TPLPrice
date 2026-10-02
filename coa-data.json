@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-10-01T18:37:02.361Z",
+  "updatedAt": "2026-10-02T17:54:43.974Z",
   "counts": {
-    "completed": 587,
+    "completed": 590,
     "pending": 15
   },
   "completed": [
@@ -1161,6 +1161,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "BPC-157 Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "20 mg",
+      "netContent": "22.97 mg",
+      "purity": "99.05%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-26",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Bens2609240824.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Bens2609240824.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "Cagrilintide",
       "strength": "5MG",
       "netContent": "5.04 mg",
@@ -1193,6 +1205,18 @@
       "analysisDate": "2026-09-22",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/INNO2609210442.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/INNO2609210442.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Epithalon Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "50mg",
+      "netContent": "56.48 mg",
+      "purity": "99.61%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-26",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Bens2609240823.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Bens2609240823.pdf",
       "status": "Passed"
     },
     {
@@ -1661,6 +1685,18 @@
       "analysisDate": "2026-06-15",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110755.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110755.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Tirzepatide Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "15 mg",
+      "netContent": "16.68 mg",
+      "purity": "99.81%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-26",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Bens2609240826.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Bens2609240826.pdf",
       "status": "Passed"
     },
     {
