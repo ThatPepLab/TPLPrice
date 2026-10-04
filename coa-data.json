@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-10-02T17:54:43.974Z",
+  "updatedAt": "2026-10-04T16:53:50.184Z",
   "counts": {
-    "completed": 590,
+    "completed": 592,
     "pending": 15
   },
   "completed": [
@@ -1757,6 +1757,30 @@
       "analysisDate": "2026-06-15",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110758.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110758.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Instant Peptides",
+      "product": "DSIP Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "5 mg",
+      "netContent": "5.95 mg",
+      "purity": "99.89%",
+      "lab": "HYTE Research Division",
+      "analysisDate": "2026-09-24",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbatch-0f0eb990a9d341c9325057cd4c67ead395f7272ebf175c716be07d7d43653f1f.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbatch-0f0eb990a9d341c9325057cd4c67ead395f7272ebf175c716be07d7d43653f1f.pdf?alt=media",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Instant Peptides",
+      "product": "MOTS-C Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "10 mg",
+      "netContent": "10.95 mg",
+      "purity": "99.19%",
+      "lab": "HYTE Research Division",
+      "analysisDate": "2026-09-22",
+      "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00040.pdf",
+      "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00040.pdf",
       "status": "Passed"
     },
     {
