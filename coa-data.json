@@ -1,10 +1,10 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-10-04T16:53:50.184Z",
+  "updatedAt": "2026-10-06T18:28:06.862Z",
   "counts": {
     "completed": 592,
-    "pending": 15
+    "pending": 17
   },
   "completed": [
     {
@@ -1217,7 +1217,7 @@
       "analysisDate": "2026-09-26",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Bens2609240823.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Bens2609240823.pdf",
-      "status": "Passed"
+      "status": "Unchecked"
     },
     {
       "vendor": "Innopeptide",
@@ -7119,6 +7119,13 @@
   "pending": [
     {
       "vendor": "Innopeptide",
+      "product": "BPC-157",
+      "strength": "10mg",
+      "dateSent": "10/06/2026",
+      "expectedDate": "10/30/2026"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "Cagrilintide",
       "strength": "5mg",
       "dateSent": "09/27/2026",
@@ -7137,6 +7144,13 @@
       "strength": "10mg",
       "dateSent": "09/17/2026",
       "expectedDate": "Not provided"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "TB500",
+      "strength": "10mg",
+      "dateSent": "10/06/2026",
+      "expectedDate": "10/30/2026"
     },
     {
       "vendor": "Kerui Peptides",
