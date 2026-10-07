@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-10-06T18:28:06.862Z",
+  "updatedAt": "2026-10-07T19:03:48.328Z",
   "counts": {
-    "completed": 592,
+    "completed": 600,
     "pending": 17
   },
   "completed": [
@@ -1197,6 +1197,30 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "Cagrilintide Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "10mg",
+      "netContent": "9.85 mg",
+      "purity": "99.88%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-10-03",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020104.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020104.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "CJC-1295/Ipamorelin 5mg/5mg Identity: HPLC-based identification + MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "5mg/5mg",
+      "netContent": "Ipamorelin – 5.51 mg, CJC-1295 – 5.79 mg",
+      "purity": "99.39%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-10-03",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020105.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020105.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "CJC-1295/Ipamorelin Identity: MS / LC-MS Identity confirmed by report Identity evidence",
       "strength": "CJC-1295 10 mg + Ipamorelin 10 mg",
       "netContent": "Ipamorelin 10.75 mg; CJC-1295 10.62 mg",
@@ -1217,7 +1241,7 @@
       "analysisDate": "2026-09-26",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Bens2609240823.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Bens2609240823.pdf",
-      "status": "Unchecked"
+      "status": "Passed"
     },
     {
       "vendor": "Innopeptide",
@@ -1242,6 +1266,18 @@
       "reportUrl": "https://portal.ils-lab.com/verify/Jkfn97ujLwQY8xJ6",
       "previewUrl": "",
       "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "GLOW Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "50mg/10mg/10mg",
+      "netContent": "GHK-Cu – 55.63 mg, BPC-157 – 11.39 mg, Thymosin Beta-4 – 13.87 mg",
+      "purity": "99.79%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-10-03",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020107.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020107.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Innopeptide",
@@ -1473,6 +1509,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "Retatrutide Identity: HPLC-based identification + MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "20 mg",
+      "netContent": "20.17 mg",
+      "purity": "99.83%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-10-03",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020100.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020100.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "Retatrutide Identity: HPLC-based identification Identity confirmed by report Identity evidence",
       "strength": "10 mg",
       "netContent": "10.62 mg",
@@ -1557,6 +1605,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "Selank 10mg Identity: HPLC-based identification + MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "10mg",
+      "netContent": "11.43 mg",
+      "purity": "99.70%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-10-03",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020102.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020102.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "Semax",
       "strength": "10MG",
       "netContent": "10.71 mg",
@@ -1578,6 +1638,18 @@
       "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F7db6a34dda43f6220a21fa09242e8613a09b3d60403c983180edbc392ae2db78.pdf?alt=media",
       "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F7db6a34dda43f6220a21fa09242e8613a09b3d60403c983180edbc392ae2db78.pdf?alt=media",
       "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Semax Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "10mg",
+      "netContent": "10.37 mg",
+      "purity": "99.33%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-10-03",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020103.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020103.pdf",
+      "status": "Passed"
     },
     {
       "vendor": "Innopeptide",
@@ -1642,6 +1714,18 @@
     {
       "vendor": "Innopeptide",
       "product": "Tesamorelin Identity: MS / LC-MS Identity failed Identity evidence",
+      "strength": "10 mg",
+      "netContent": "11.20 mg",
+      "purity": "0%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-10-03",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbc0fdcdd-6159-4610-ae7a-9bfdcc4a5ccb.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbc0fdcdd-6159-4610-ae7a-9bfdcc4a5ccb.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Tesamorelin Identity: MS / LC-MS Identity failed Identity evidence",
       "strength": "10mg",
       "netContent": "11.69 mg average (3 vials; Sample 1: 12.43 mg; Sample 2: 11.26 mg; Sample 3: 11.38 mg)",
       "purity": "0%",
@@ -1697,6 +1781,18 @@
       "analysisDate": "2026-09-26",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Bens2609240826.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Bens2609240826.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Tirzepatide Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "30mg",
+      "netContent": "32.13 mg",
+      "purity": "99.93%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-10-03",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020106.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020106.pdf",
       "status": "Passed"
     },
     {
