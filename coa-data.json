@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-10-07T19:03:48.328Z",
+  "updatedAt": "2026-10-08T18:53:42.859Z",
   "counts": {
-    "completed": 600,
+    "completed": 601,
     "pending": 17
   },
   "completed": [
@@ -1698,6 +1698,18 @@
       "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00028.pdf",
       "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00028.pdf",
       "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Tesamorelin Identity: HPLC-based identification Identity failed Identity evidence",
+      "strength": "10 mg",
+      "netContent": "11.15 mg",
+      "purity": "0%",
+      "lab": "Chromate Analytical Group",
+      "analysisDate": "2026-10-06",
+      "reportUrl": "https://chromate.org/verify?c=40561_9HDXA5TS25U9",
+      "previewUrl": "",
+      "status": "Failed"
     },
     {
       "vendor": "Innopeptide",
