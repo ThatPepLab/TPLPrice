@@ -1,12 +1,48 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-10-08T18:53:42.859Z",
+  "updatedAt": "2026-10-11T17:42:55.015Z",
   "counts": {
-    "completed": 601,
+    "completed": 615,
     "pending": 17
   },
   "completed": [
+    {
+      "vendor": "BacWater.Solutions",
+      "product": "BAC Identity: Method not stated Identity result not stated Identity evidence",
+      "strength": "3mL",
+      "netContent": "Not reported",
+      "purity": "Alcohol 0.836%RUIC: pass pH 6.8",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-07-29",
+      "reportUrl": "https://portal.ils-lab.com/verify/TuBhZ48Vg8IfEM_-",
+      "previewUrl": "",
+      "status": "Failed"
+    },
+    {
+      "vendor": "BacWater.Solutions",
+      "product": "BAC Identity: Method not stated Identity result not stated Identity evidence",
+      "strength": "10mL",
+      "netContent": "Not reported",
+      "purity": "Alcohol 0.845%RUIC: pass pH 6.9",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-07-29",
+      "reportUrl": "https://portal.ils-lab.com/verify/BTj3CPUkhk2c5pnK",
+      "previewUrl": "",
+      "status": "Failed"
+    },
+    {
+      "vendor": "BacWater.Solutions",
+      "product": "BAC Identity: Method not stated Identity result not stated Identity evidence",
+      "strength": "30mL",
+      "netContent": "Not reported",
+      "purity": "Alcohol 0.845%RUIC: pass pH 6.7",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-09-03",
+      "reportUrl": "https://portal.ils-lab.com/verify/k7lo1JnOWAfl8XJ3",
+      "previewUrl": "",
+      "status": "Failed"
+    },
     {
       "vendor": "BacWater.Solutions",
       "product": "Bacteriostatic Water",
@@ -261,6 +297,18 @@
     },
     {
       "vendor": "Crush Research",
+      "product": "CJC-1295 + Ipamorelin Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "10 mg",
+      "netContent": "10.57 mg",
+      "purity": "99.90%",
+      "lab": "ILS Labs",
+      "analysisDate": "2026-09-21",
+      "reportUrl": "https://portal.ils-lab.com/verify/F6DupsSPzEaUTd5T",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Crush Research",
       "product": "cjc-1295/ipamorelin Identity: HPLC-based identification Identity confirmed by report Identity evidence",
       "strength": "10 mg",
       "netContent": "10.57 mg",
@@ -453,6 +501,18 @@
     },
     {
       "vendor": "Crush Research",
+      "product": "Retatrutide* Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "20MG",
+      "netContent": "21.06 mg",
+      "purity": "99.90%",
+      "lab": "ILS Laboratories*",
+      "analysisDate": "2026-07-21",
+      "reportUrl": "https://portal.ils-lab.com/verify/sEeU8AZjMPktY7P_",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Crush Research",
       "product": "Tesamorelin*",
       "strength": "20MG",
       "netContent": "20.46 mg",
@@ -489,7 +549,7 @@
     },
     {
       "vendor": "Crush Research",
-      "product": "tirzepatide Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "product": "Tirzepatide Identity: HPLC-based identification Identity confirmed by report Identity evidence",
       "strength": "40mg",
       "netContent": "42.2 mg",
       "purity": "99.57%",
@@ -1149,6 +1209,30 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "BPC-157 + TB-500 + KPV Identity: Method not stated Identity confirmed by report Identity evidence",
+      "strength": "30 mg",
+      "netContent": "BPC-157 8.71 mg; Thymosin beta 4 8.48 mg; KPV 12.34 mg (29.53 mg total)",
+      "purity": "99.94%",
+      "lab": "Accurate Test Labs",
+      "analysisDate": "2026-09-10",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F4da9c8481f2bad6fc7d2e6d11e95bea12202ea212255047267bba61f1bbd1dba.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F4da9c8481f2bad6fc7d2e6d11e95bea12202ea212255047267bba61f1bbd1dba.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "BPC-157 + TB-500 Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "20.0 mg",
+      "netContent": "12.142 mg BPC-157 + 9.62 mg TB500 (Thymosin Beta 4)",
+      "purity": "99.52%",
+      "lab": "Accumark Labs",
+      "analysisDate": "2026-09-08",
+      "reportUrl": "https://accumarklabs.com/accuverify/?accuverify_code=4YJW-AM9B",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "BPC-157 + TB500 Identity: HPLC-based identification Identity confirmed by report Identity evidence",
       "strength": "20.0 mg",
       "netContent": "12.142 mg BPC-157 + 9.62 mg TB500 (Thymosin Beta 4)",
@@ -1209,6 +1293,30 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "CJC-1295 + Ipamorelin Identity: HPLC-based identification + MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "5mg/5mg",
+      "netContent": "Ipamorelin – 5.51 mg, CJC-1295 – 5.79 mg",
+      "purity": "99.39%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-10-03",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020105.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020105.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "CJC-1295 + Ipamorelin Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "CJC-1295 10 mg + Ipamorelin 10 mg",
+      "netContent": "Ipamorelin 10.75 mg; CJC-1295 10.62 mg",
+      "purity": "99.22%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-22",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/INNO2609210442.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/INNO2609210442.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "CJC-1295/Ipamorelin 5mg/5mg Identity: HPLC-based identification + MS / LC-MS Identity confirmed by report Identity evidence",
       "strength": "5mg/5mg",
       "netContent": "Ipamorelin – 5.51 mg, CJC-1295 – 5.79 mg",
@@ -1229,6 +1337,18 @@
       "analysisDate": "2026-09-22",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/INNO2609210442.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/INNO2609210442.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Epitalon Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "50mg",
+      "netContent": "56.48 mg",
+      "purity": "99.61%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-26",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Bens2609240823.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Bens2609240823.pdf",
       "status": "Passed"
     },
     {
@@ -1413,6 +1533,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "Melanotan-2 Identity: Method not stated Identity confirmed by report Identity evidence",
+      "strength": "10 mg",
+      "netContent": "10.29 mg",
+      "purity": "99.91%",
+      "lab": "Accurate Test Labs",
+      "analysisDate": "2026-09-10",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F44a4f00cde663ab5d645f9fdc56a163a6fddd9948ed0df608cedb1458350e621.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F44a4f00cde663ab5d645f9fdc56a163a6fddd9948ed0df608cedb1458350e621.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "MOTS-c",
       "strength": "40MG",
       "netContent": "42.37 mg",
@@ -1461,7 +1593,7 @@
     },
     {
       "vendor": "Innopeptide",
-      "product": "Mots-c Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "product": "MOTS-C Identity: HPLC-based identification Identity confirmed by report Identity evidence",
       "strength": "10mg",
       "netContent": "11.47mg",
       "purity": "99.750%",
@@ -1605,7 +1737,31 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "Selank + Semax Identity: Method not stated Identity confirmed by report Identity evidence",
+      "strength": "10 mg",
+      "netContent": "Semax 5.15 mg; Selank 8.53 mg (13.68 mg total)",
+      "purity": "99.85%",
+      "lab": "Accurate Test Labs",
+      "analysisDate": "2026-09-10",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F7db6a34dda43f6220a21fa09242e8613a09b3d60403c983180edbc392ae2db78.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2F7db6a34dda43f6220a21fa09242e8613a09b3d60403c983180edbc392ae2db78.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "Selank 10mg Identity: HPLC-based identification + MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "10mg",
+      "netContent": "11.43 mg",
+      "purity": "99.70%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-10-03",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020102.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020102.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Selank Identity: HPLC-based identification + MS / LC-MS Identity confirmed by report Identity evidence",
       "strength": "10mg",
       "netContent": "11.43 mg",
       "purity": "99.70%",
@@ -1698,6 +1854,18 @@
       "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00028.pdf",
       "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00028.pdf",
       "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Tesamorelin Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "10MG",
+      "netContent": "10.01 mg",
+      "purity": "96.81%",
+      "lab": "ILS Laboratories",
+      "analysisDate": "2026-07-31",
+      "reportUrl": "https://portal.ils-lab.com/verify/3UTGb3nkDmlpl7Dv",
+      "previewUrl": "",
+      "status": "Unchecked"
     },
     {
       "vendor": "Innopeptide",
