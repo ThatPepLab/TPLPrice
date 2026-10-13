@@ -1,10 +1,10 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-10-11T17:42:55.015Z",
+  "updatedAt": "2026-10-13T19:22:45.098Z",
   "counts": {
     "completed": 615,
-    "pending": 17
+    "pending": 19
   },
   "completed": [
     {
@@ -7510,6 +7510,20 @@
       "product": "MOTS-C",
       "strength": "10MG",
       "dateSent": "08/05/2026",
+      "expectedDate": "Not provided"
+    },
+    {
+      "vendor": "YLB",
+      "product": "GLP-2TZ",
+      "strength": "30",
+      "dateSent": "10/13/2026",
+      "expectedDate": "Not provided"
+    },
+    {
+      "vendor": "YLB",
+      "product": "GLP-3RT",
+      "strength": "30",
+      "dateSent": "10/13/2026",
       "expectedDate": "Not provided"
     }
   ]
