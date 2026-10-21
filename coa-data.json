@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-10-17T15:41:56.296Z",
+  "updatedAt": "2026-10-21T17:19:14.799Z",
   "counts": {
-    "completed": 619,
+    "completed": 622,
     "pending": 20
   },
   "completed": [
@@ -1653,6 +1653,30 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "MOTS-C Identity: MS / LC-MS Identity failed Identity evidence",
+      "strength": "10 mg",
+      "netContent": "MOTS-C 9.59 mg; Tesamorelin 2.66 mg",
+      "purity": "0%",
+      "lab": "Freedom Diagnostics Expanded panel",
+      "analysisDate": "2026-09-29",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbatch-5ddfe76622074d7df19fca1838fda66e32fc00a2c6b8af8578dad85ebdeb4668.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbatch-5ddfe76622074d7df19fca1838fda66e32fc00a2c6b8af8578dad85ebdeb4668.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "MOTS-C Identity: MS / LC-MS Identity failed Identity evidence",
+      "strength": "40 mg",
+      "netContent": "MOTS-C 18.76 mg; Tesamorelin 22.93 mg",
+      "purity": "0%",
+      "lab": "Freedom Diagnostics Expanded panel",
+      "analysisDate": "2026-09-29",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbatch-dab14c1f4df6353a6d50e1c3010cf81a07f2674cbf6a27052b94b9cf13ed6c66.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbatch-dab14c1f4df6353a6d50e1c3010cf81a07f2674cbf6a27052b94b9cf13ed6c66.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "NAD+ Identity: HPLC-based identification Identity confirmed by report Identity evidence",
       "strength": "1000 mg",
       "netContent": "1,117.59 mg",
@@ -1769,6 +1793,18 @@
       "analysisDate": "2026-06-15",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110756.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2606110756.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Retatrutide Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "20 mg",
+      "netContent": "18.41 mg",
+      "purity": "96.39%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-06",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2608030517.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2608030517.pdf",
       "status": "Passed"
     },
     {
@@ -7579,7 +7615,7 @@
       "product": "GLP-3RT",
       "strength": "30",
       "dateSent": "10/13/2026",
-      "expectedDate": "Not provided"
+      "expectedDate": "10/22/2026"
     }
   ]
 }
