@@ -1,10 +1,10 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-10-21T17:19:14.799Z",
+  "updatedAt": "2026-10-23T17:30:00.750Z",
   "counts": {
     "completed": 622,
-    "pending": 20
+    "pending": 17
   },
   "completed": [
     {
@@ -7535,13 +7535,6 @@
     },
     {
       "vendor": "Lunivo",
-      "product": "HGH",
-      "strength": "15IU",
-      "dateSent": "08/27/2026",
-      "expectedDate": "09/04/2026"
-    },
-    {
-      "vendor": "Lunivo",
       "product": "Tirzepetide",
       "strength": "50",
       "dateSent": "09/25/2026",
@@ -7580,20 +7573,6 @@
       "product": "MOTS-C",
       "strength": "20",
       "dateSent": "09/17/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "WanShun",
-      "product": "BPC-157",
-      "strength": "10MG",
-      "dateSent": "08/05/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "WanShun",
-      "product": "GLP-2TZ",
-      "strength": "20 MG",
-      "dateSent": "09/05/2026",
       "expectedDate": "Not provided"
     },
     {
