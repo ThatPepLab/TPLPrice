@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-10-23T17:30:00.750Z",
+  "updatedAt": "2026-10-24T16:02:38.115Z",
   "counts": {
-    "completed": 622,
+    "completed": 628,
     "pending": 17
   },
   "completed": [
@@ -1245,6 +1245,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "BPC-157 + TB-500 Identity: HPLC-based identification Identity confirmed by report Identity evidence",
+      "strength": "20mg",
+      "netContent": "BPC-157 9.48 mg; TB-500 9.40 mg",
+      "purity": "99.78 %",
+      "lab": "HYTE Research Division",
+      "analysisDate": "2026-10-09",
+      "reportUrl": "https://analytical.hyteresearchdivision.com/verify/53QN-T1D3-J099",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "BPC-157 + TB500 Identity: HPLC-based identification Identity confirmed by report Identity evidence",
       "strength": "20.0 mg",
       "netContent": "12.142 mg BPC-157 + 9.62 mg TB500 (Thymosin Beta 4)",
@@ -1506,6 +1518,18 @@
       "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00029.pdf",
       "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00029.pdf",
       "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "KLOW* Identity: Method not stated Identity result listed; see source Identity evidence",
+      "strength": "80 mg",
+      "netContent": "GHK-Cu 56.87 mg; BPC-157 11.50 mg; TB-500 11.28 mg; KPV 10.60 mg",
+      "purity": "Not tested",
+      "lab": "Janoshik*",
+      "analysisDate": "2026-08-18",
+      "reportUrl": "https://verify.janoshik.com/tests/219600_GMI2KPXTM2KT",
+      "previewUrl": "",
+      "status": "Failed"
     },
     {
       "vendor": "Innopeptide",
@@ -1773,6 +1797,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "Retatrutide Identity: HPLC-based identification Identity result listed; see source Identity evidence",
+      "strength": "30mg",
+      "netContent": "27.89mg",
+      "purity": "99.874%",
+      "lab": "Chromate Analytical Group",
+      "analysisDate": "2026-10-06",
+      "reportUrl": "https://chromate.org/verify?c=40556_1N4KCH4F7K45",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "Retatrutide Identity: HPLC-based identification Identity result not stated Identity evidence",
       "strength": "10MG",
       "netContent": "10.31 mg",
@@ -1805,6 +1841,18 @@
       "analysisDate": "2026-08-06",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2608030517.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2608030517.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Retatrutide Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "30mg",
+      "netContent": "31.44 mg",
+      "purity": "99.94%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-19",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Empi2609170361.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Empi2609170361.pdf",
       "status": "Passed"
     },
     {
@@ -2020,6 +2068,30 @@
       "lab": "ILS Laboratories",
       "analysisDate": "2026-07-31",
       "reportUrl": "https://portal.ils-lab.com/verify/3UTGb3nkDmlpl7Dv",
+      "previewUrl": "",
+      "status": "Unchecked"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Thymalin Identity: Method not stated Identity inconclusive Identity evidence",
+      "strength": "10 (unit not reported)",
+      "netContent": "Thymulin 9.80 mg",
+      "purity": "99.92%",
+      "lab": "Accurate Test Labs",
+      "analysisDate": "2026-09-10",
+      "reportUrl": "https://app.confidentlims.com/report/public/pdf/3f447dc3-8be9-498a-90b0-6d933b33637b",
+      "previewUrl": "",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Tirzepatide Identity: HPLC-based identification Identity result listed; see source Identity evidence",
+      "strength": "30mg",
+      "netContent": "31.33mg",
+      "purity": "99.490%",
+      "lab": "Chromate Analytical Group",
+      "analysisDate": "2026-10-06",
+      "reportUrl": "https://chromate.org/verify?c=40555_XD74ZRE4867B",
       "previewUrl": "",
       "status": "Unchecked"
     },
