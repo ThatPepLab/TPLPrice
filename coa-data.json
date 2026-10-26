@@ -1,10 +1,10 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-10-24T16:02:38.115Z",
+  "updatedAt": "2026-10-26T18:50:01.664Z",
   "counts": {
     "completed": 628,
-    "pending": 17
+    "pending": 18
   },
   "completed": [
     {
@@ -7590,6 +7590,13 @@
       "strength": "80mg",
       "dateSent": "09/22/2026",
       "expectedDate": "Not provided"
+    },
+    {
+      "vendor": "Lilipeptide",
+      "product": "GLP-3RT",
+      "strength": "10mg",
+      "dateSent": "10/19/2026",
+      "expectedDate": "11/19/2026"
     },
     {
       "vendor": "Lunivo",
