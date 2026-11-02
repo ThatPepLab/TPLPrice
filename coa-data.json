@@ -1,10 +1,10 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-10-26T18:50:01.664Z",
+  "updatedAt": "2026-11-02T21:46:09.961Z",
   "counts": {
     "completed": 628,
-    "pending": 18
+    "pending": 1
   },
   "completed": [
     {
@@ -7550,130 +7550,11 @@
   ],
   "pending": [
     {
-      "vendor": "Innopeptide",
-      "product": "BPC-157",
-      "strength": "10mg",
-      "dateSent": "10/06/2026",
-      "expectedDate": "10/30/2026"
-    },
-    {
-      "vendor": "Innopeptide",
-      "product": "Cagrilintide",
-      "strength": "5mg",
-      "dateSent": "09/27/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Innopeptide",
-      "product": "GLP-2TZ",
-      "strength": "60",
-      "dateSent": "09/17/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Innopeptide",
-      "product": "KPV",
-      "strength": "10mg",
-      "dateSent": "09/17/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Innopeptide",
-      "product": "TB500",
-      "strength": "10mg",
-      "dateSent": "10/06/2026",
-      "expectedDate": "10/30/2026"
-    },
-    {
-      "vendor": "Kerui Peptides",
-      "product": "KLOW",
-      "strength": "80mg",
-      "dateSent": "09/22/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Lilipeptide",
-      "product": "GLP-3RT",
-      "strength": "10mg",
-      "dateSent": "10/19/2026",
-      "expectedDate": "11/19/2026"
-    },
-    {
-      "vendor": "Lunivo",
-      "product": "GLP-3RT",
-      "strength": "10",
-      "dateSent": "09/01/2026",
-      "expectedDate": "09/10/2026"
-    },
-    {
-      "vendor": "Lunivo",
-      "product": "GLP-3RT",
-      "strength": "50",
-      "dateSent": "09/25/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "Lunivo",
-      "product": "Tirzepetide",
-      "strength": "50",
-      "dateSent": "09/25/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "MKM",
-      "product": "GLP-1SG",
-      "strength": "20 MG",
-      "dateSent": "09/18/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "MKM",
-      "product": "Hgh",
-      "strength": "15iu",
-      "dateSent": "10/13/2026",
-      "expectedDate": "11/13/2026"
-    },
-    {
-      "vendor": "SQ Peptide",
-      "product": "GLP-3RT",
-      "strength": "5mg",
-      "dateSent": "09/22/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "SQ Peptide",
-      "product": "GLP-3RT",
-      "strength": "10mg",
-      "dateSent": "09/15/2026",
-      "expectedDate": "09/24/2026"
-    },
-    {
-      "vendor": "SQ Peptide",
-      "product": "MOTS-C",
-      "strength": "20",
-      "dateSent": "09/17/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "WanShun",
-      "product": "MOTS-C",
-      "strength": "10MG",
-      "dateSent": "08/05/2026",
-      "expectedDate": "Not provided"
-    },
-    {
-      "vendor": "YLB",
-      "product": "GLP-2TZ",
-      "strength": "30",
-      "dateSent": "10/13/2026",
-      "expectedDate": "Not provided"
-    },
-    {
       "vendor": "YLB",
       "product": "GLP-3RT",
-      "strength": "30",
-      "dateSent": "10/13/2026",
-      "expectedDate": "10/22/2026"
+      "strength": "30mg",
+      "dateSent": "10/30/2026",
+      "expectedDate": "11/06/2026"
     }
   ]
 }
