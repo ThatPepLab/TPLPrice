@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-11-02T21:46:09.961Z",
+  "updatedAt": "2026-11-06T19:44:58.294Z",
   "counts": {
-    "completed": 628,
+    "completed": 638,
     "pending": 1
   },
   "completed": [
@@ -1521,6 +1521,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "KLOW Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "80mg",
+      "netContent": "GHK-Cu 57.73 mg; KPV 9.89 mg; BPC-157 9.80 mg; Thymosin Beta-4 12.57 mg",
+      "purity": "99.70%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-08-13",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2608100188.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2608100188.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "KLOW* Identity: Method not stated Identity result listed; see source Identity evidence",
       "strength": "80 mg",
       "netContent": "GHK-Cu 56.87 mg; BPC-157 11.50 mg; TB-500 11.28 mg; KPV 10.60 mg",
@@ -1641,6 +1653,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "MOTS-C Identity: Awaiting classification Result not assessed",
+      "strength": "10mg",
+      "netContent": "10.04 mg",
+      "purity": "99.691%",
+      "lab": "Kovera Labs",
+      "analysisDate": "2026-10-08",
+      "reportUrl": "https://koveralabs.com/#/verify?t=7776ed809278abe00c364416",
+      "previewUrl": "",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "MOTS-C Identity: HPLC-based identification Identity confirmed by report Identity evidence",
       "strength": "10mg",
       "netContent": "11.47mg",
@@ -1650,6 +1674,30 @@
       "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/ORB00002.pdf",
       "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/ORB00002.pdf",
       "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "MOTS-C Identity: HPLC-based identification Identity failed Identity evidence",
+      "strength": "10mg",
+      "netContent": "MOTS-c 8.053 mg; Tesamorelin 2.390 mg",
+      "purity": "0%",
+      "lab": "Chromate Analytical Group",
+      "analysisDate": "2026-10-06",
+      "reportUrl": "https://chromate.org/verify?c=40562_89WD5CX3U3DG",
+      "previewUrl": "",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "MOTS-C Identity: HPLC-based identification Identity failed Identity evidence",
+      "strength": "40mg",
+      "netContent": "MOTS-c 16.27 mg; Tesamorelin 22.37 mg",
+      "purity": "0%",
+      "lab": "Chromate Analytical Group",
+      "analysisDate": "2026-10-06",
+      "reportUrl": "https://chromate.org/verify?c=40563_DJL6Z453T3NA",
+      "previewUrl": "",
+      "status": "Failed"
     },
     {
       "vendor": "Innopeptide",
@@ -1710,6 +1758,30 @@
       "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00026.pdf",
       "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00026.pdf",
       "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Retatrutide Identity: Awaiting classification Result not assessed",
+      "strength": "20mg",
+      "netContent": "17.93 mg",
+      "purity": "99.816%",
+      "lab": "Chromate Analytical Group",
+      "analysisDate": "2026-10-19",
+      "reportUrl": "https://chromate.org/verify?c=40945_R3BAUE8U8391",
+      "previewUrl": "",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Retatrutide Identity: Awaiting classification Result not assessed",
+      "strength": "30mg",
+      "netContent": "29.925 mg",
+      "purity": "99.972%",
+      "lab": "Accumark Labs",
+      "analysisDate": "2026-10-20",
+      "reportUrl": "https://accumarklabs.com/accuverify/?accuverify_code=GCG9-FRLU",
+      "previewUrl": "",
+      "status": "Failed"
     },
     {
       "vendor": "Innopeptide",
@@ -1834,6 +1906,18 @@
     {
       "vendor": "Innopeptide",
       "product": "Retatrutide Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "20mg",
+      "netContent": "20.85 mg",
+      "purity": "99.95%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-10-10",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2610090771.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2610090771.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Retatrutide Identity: MS / LC-MS Identity confirmed by report Identity evidence",
       "strength": "20 mg",
       "netContent": "18.41 mg",
       "purity": "96.39%",
@@ -1854,6 +1938,18 @@
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Empi2609170361.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Empi2609170361.pdf",
       "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Retatrutide* Identity: Awaiting classification Result not assessed",
+      "strength": "20mg",
+      "netContent": "21.69 mg",
+      "purity": "99.522%",
+      "lab": "Janoshik*",
+      "analysisDate": "2026-08-14",
+      "reportUrl": "https://verify.janoshik.com/tests/219574_1R9U3YRCXNQ8",
+      "previewUrl": "",
+      "status": "Failed"
     },
     {
       "vendor": "Innopeptide",
@@ -1937,6 +2033,18 @@
       "analysisDate": "2026-10-03",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020103.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Denz2610020103.pdf",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Semax Identity: MS / LC-MS Identity confirmed by report Identity evidence",
+      "strength": "30mg",
+      "netContent": "34.27 mg",
+      "purity": "99.34%",
+      "lab": "Freedom Diagnostics",
+      "analysisDate": "2026-09-27",
+      "reportUrl": "https://coas.freedomdiagnosticstesting.com/Emma2609250843.pdf",
+      "previewUrl": "https://coas.freedomdiagnosticstesting.com/Emma2609250843.pdf",
       "status": "Passed"
     },
     {
@@ -2081,6 +2189,18 @@
       "analysisDate": "2026-09-10",
       "reportUrl": "https://app.confidentlims.com/report/public/pdf/3f447dc3-8be9-498a-90b0-6d933b33637b",
       "previewUrl": "",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Tirzepatide Identity: Awaiting classification Result not assessed",
+      "strength": "30mg",
+      "netContent": "30.2 mg",
+      "purity": "99.9%",
+      "lab": "BTLabs",
+      "analysisDate": "2026-10-08",
+      "reportUrl": "https://verify.btlabtesting.com/view-pdf.php?folder=COA261838-012&file=7326e8b9-cf29-4a5e-8787-4f792addd2c1.pdf",
+      "previewUrl": "https://verify.btlabtesting.com/view-pdf.php?folder=COA261838-012&file=7326e8b9-cf29-4a5e-8787-4f792addd2c1.pdf",
       "status": "Failed"
     },
     {
