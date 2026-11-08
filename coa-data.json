@@ -1,10 +1,10 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-11-06T19:44:58.294Z",
+  "updatedAt": "2026-11-08T17:58:09.813Z",
   "counts": {
     "completed": 638,
-    "pending": 1
+    "pending": 2
   },
   "completed": [
     {
@@ -7669,6 +7669,13 @@
     }
   ],
   "pending": [
+    {
+      "vendor": "MKM",
+      "product": "BPC-157",
+      "strength": "20",
+      "dateSent": "11/03/2026",
+      "expectedDate": "11/11/2026"
+    },
     {
       "vendor": "YLB",
       "product": "GLP-3RT",
