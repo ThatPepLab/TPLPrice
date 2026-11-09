@@ -1,10 +1,10 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-11-08T17:58:09.813Z",
+  "updatedAt": "2026-11-09T22:28:35.763Z",
   "counts": {
     "completed": 638,
-    "pending": 2
+    "pending": 3
   },
   "completed": [
     {
@@ -7680,8 +7680,15 @@
       "vendor": "YLB",
       "product": "GLP-3RT",
       "strength": "30mg",
+      "dateSent": "11/04/2026",
+      "expectedDate": "11/13/2026"
+    },
+    {
+      "vendor": "YLB",
+      "product": "Thymosin Alpha 1",
+      "strength": "10",
       "dateSent": "10/30/2026",
-      "expectedDate": "11/06/2026"
+      "expectedDate": "11/13/2026"
     }
   ]
 }
