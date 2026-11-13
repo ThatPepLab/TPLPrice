@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-11-09T22:28:35.763Z",
+  "updatedAt": "2026-11-13T19:50:05.892Z",
   "counts": {
-    "completed": 638,
+    "completed": 640,
     "pending": 3
   },
   "completed": [
@@ -1785,6 +1785,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "Retatrutide Identity: FTIR Identity confirmed by report Identity evidence",
+      "strength": "10 mg",
+      "netContent": "9.2 mg",
+      "purity": "99.8%",
+      "lab": "BT Labs",
+      "analysisDate": "2026-11-04",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbatch-5ef8d555ce9e4c9f09f6af3f6b01e895a7ca51671125efe55352daf78d36317f.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbatch-5ef8d555ce9e4c9f09f6af3f6b01e895a7ca51671125efe55352daf78d36317f.pdf?alt=media",
+      "status": "Passed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "Retatrutide Identity: HPLC-based identification + MS / LC-MS Identity confirmed by report Identity evidence",
       "strength": "20 mg",
       "netContent": "20.17 mg",
@@ -2082,6 +2094,18 @@
       "reportUrl": "https://portal.ils-lab.com/verify/-b0nGrQTAPPNinUU",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Tesamorelin Identity: Awaiting classification Result not assessed",
+      "strength": "5 mg",
+      "netContent": "1.5 mg",
+      "purity": "15.00%",
+      "lab": "Harrens Lab (Finnrick program)",
+      "analysisDate": "2026-11-04",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbatch-9945574d327d0192666ebfa1edccf57ca56ae6012503fb4876b69b22c83ea99a.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbatch-9945574d327d0192666ebfa1edccf57ca56ae6012503fb4876b69b22c83ea99a.pdf?alt=media",
+      "status": "Failed"
     },
     {
       "vendor": "Innopeptide",
