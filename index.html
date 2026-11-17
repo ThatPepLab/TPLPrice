@@ -56,7 +56,7 @@ const OFFERS=[{"code":"TR10","id":"o667","note":"September 2026 price list","pri
  const RULES={
 'Peptide Lab':{ship:48,crypto:.05,contact:'Audrey Carter',delivery:'10–15 days',shipNote:'First 500g; +$12 per additional 500g',discountNote:'That Pep Lab code required; 5% off crypto payments'},
 'WWB - US Warehouse':{ship:50,contact:'',delivery:'US warehouse; confirm timing with vendor',shipNote:'$50 flat shipping per order. Peptides, tablets, and oils can ship in one package.',discountNote:'Payment: BTC or USDT only. Order format: uppercase product code first, followed by quantity (example RT20=1kit).'},
-'REN':{ship:70,contact:'',delivery:'Confirm timing with vendor',shipNote:'$70 flat shipping per order for up to 30 kits; 31+ kits require a shipping quote.',discountNote:'Hidden vendor · REN 2026 Pricing Guide dated 10/15/2026. Prices are retained until a newer vendor price replaces them.'},
+'REN':{ship:70,contact:'',delivery:'Confirm timing with vendor',shipNote:'$70 flat shipping per order for up to 30 kits; 31+ kits require a shipping quote.',discountNote:'REN 2026 Pricing Guide dated 10/15/2026. Prices are retained until a newer vendor price replaces them.'},
 'Luvino Peptides - US Warehouse':{ship:30,freeAt:500,contact:'Sophia · +1 (725) 244-8930',delivery:'3-day delivery',shipNote:'Free standard shipping at $500; free overnight delivery over $1,000',discountNote:'That Pep Lab community prices shown'}
 ,
 'Legendary (Amy) - China Warehouse':{ship:80,contact:'Amy · +852 5607 1118 (WhatsApp)',delivery:'Usually about 1 week',shipNote:'$80 shipping per China warehouse order',discountNote:'Payment: USDT, USDC, or Bitcoin. Instructions are provided after confirmation; send payment confirmation for processing. Dedicated order support is available.'},
@@ -69,8 +69,7 @@ const OFFERS=[{"code":"TR10","id":"o667","note":"September 2026 price list","pri
 };
 let cart=JSON.parse(localStorage.getItem('augustVendorCart')||'[]');
 const ALL_OFFERS=OFFERS;
-const TODAY_VENDORS=new Set(['JuiMei Peptide','Legendary (Amy) - China Warehouse','Legendary (Amy) - US Warehouse','Quotatin Peptide (Yuki & Lunara)','Serena (Changsha)','TB-Peptide']);
-let VISIBLE_OFFERS=OFFERS.filter(o=>TODAY_VENDORS.has(o.vendor));
+const VISIBLE_OFFERS=ALL_OFFERS;
 
 const money=n=>'$'+n.toFixed(2); const key=o=>o.product+'|'+o.strength;
 let products=[],productNames=[];
@@ -90,19 +89,6 @@ const sourceWrap=document.createElement('div');
 sourceWrap.style.marginTop='12px';
 sourceWrap.innerHTML='<label for="sourceFilter">Filter by vendor or warehouse</label><select id="sourceFilter"><option value="all">All vendors and warehouses</option><option value="cart">Only sources already in cart</option></select>';
 document.querySelector('.filters').after(sourceWrap);
-const fullTplWrap=document.createElement('label');
-fullTplWrap.className='payment-toggle';
-fullTplWrap.style.cssText='display:inline-flex;width:max-content;margin:10px 0 0;padding:6px 10px;border:1px solid #52729b;border-radius:999px;background:#0b2346;color:#fff;font-size:12px;font-weight:900';
-fullTplWrap.innerHTML='<input id="fullTplToggle" type="checkbox"><span class="toggle-track" aria-hidden="true"></span><span>Full TPL</span>';
-sourceWrap.after(fullTplWrap);
-const fullTplToggle=document.getElementById('fullTplToggle');
-function setFullTpl(on){
- VISIBLE_OFFERS=on?ALL_OFFERS:ALL_OFFERS.filter(o=>TODAY_VENDORS.has(o.vendor));
- activeCategory='';activeProduct='';refreshProductCatalog();
- sourceFilter.value='all';searchMessage.textContent='';
- renderSourceFilter();renderCategoryBrowser();renderOffers();renderCart();renderSettings();
-}
-fullTplToggle.addEventListener('change',()=>setFullTpl(fullTplToggle.checked));
 const searchAliases={glp3:'glp-3rt',rt:'glp-3rt',tirz:'tirzepatide',sema:'semaglutide',cagri:'cagrilintide',mots:'mots-c',nad:'nad+',bpc:'bpc-157',tesa:'tesamorelin'};
 function searchable(x){return (String(x)+' '+displayProductName(x)).toLowerCase().replace('|',' ').replace(/[^a-z0-9+]+/g,' ').trim()}
 function searchProduct(){let raw=productSearch.value.trim().toLowerCase();if(!raw){searchMessage.textContent='Type a product name or strength first.';productSearch.focus();return}let terms=searchable(raw).split(/\s+/).filter(Boolean).map(t=>searchAliases[t]||t);let ranked=products.map((x,i)=>{let s=searchable(x),score=terms.reduce((n,t)=>n+(s.includes(t)?10:0)+(s.startsWith(t)?8:0),0);if(terms.every(t=>s.includes(t)))score+=50;return{x,i,score}}).filter(r=>r.score>0).sort((a,b)=>b.score-a.score||a.i-b.i);if(!ranked.length){searchMessage.textContent=`No product found for “${productSearch.value}”.`;return}let [n,s]=ranked[0].x.split('|');selectStrength(n,s);searchMessage.textContent=`Showing ${displayProductName(n)} (${s})${ranked.length>1?' · '+ranked.length+' possible matches':''}`}
