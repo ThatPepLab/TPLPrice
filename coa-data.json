@@ -1,9 +1,9 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-11-13T19:50:05.892Z",
+  "updatedAt": "2026-11-18T20:49:26.452Z",
   "counts": {
-    "completed": 640,
+    "completed": 644,
     "pending": 3
   },
   "completed": [
@@ -1517,7 +1517,7 @@
       "analysisDate": "2026-09-21",
       "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00029.pdf",
       "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00029.pdf",
-      "status": "Passed"
+      "status": "Unchecked"
     },
     {
       "vendor": "Innopeptide",
@@ -1713,6 +1713,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "MOTS-C Identity: HPLC-based identification Reference comparison; not definitive identity Identity evidence",
+      "strength": "40 mg",
+      "netContent": "45.76mg/vial",
+      "purity": "99.641%",
+      "lab": "Hyte Research Division",
+      "analysisDate": "2026-11-17",
+      "reportUrl": "https://analytical.hyteresearchdivision.com/verify/AFSG-1SPA-7Y3E",
+      "previewUrl": "",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "MOTS-C Identity: MS / LC-MS Identity confirmed by report Identity evidence",
       "strength": "10MG",
       "netContent": "13.11 mg",
@@ -1817,7 +1829,7 @@
       "analysisDate": "2026-09-23",
       "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00027.pdf",
       "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00027.pdf",
-      "status": "Passed"
+      "status": "Unchecked"
     },
     {
       "vendor": "Innopeptide",
@@ -1841,7 +1853,7 @@
       "analysisDate": "2026-09-07",
       "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/ORB00001.pdf",
       "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/ORB00001.pdf",
-      "status": "Passed"
+      "status": "Unchecked"
     },
     {
       "vendor": "Innopeptide",
@@ -1877,7 +1889,7 @@
       "analysisDate": "2026-09-23",
       "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00025.pdf",
       "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00025.pdf",
-      "status": "Passed"
+      "status": "Unchecked"
     },
     {
       "vendor": "Innopeptide",
@@ -1937,7 +1949,7 @@
       "analysisDate": "2026-08-06",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2608030517.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2608030517.pdf",
-      "status": "Passed"
+      "status": "Unchecked"
     },
     {
       "vendor": "Innopeptide",
@@ -1949,7 +1961,7 @@
       "analysisDate": "2026-09-19",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Empi2609170361.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Empi2609170361.pdf",
-      "status": "Passed"
+      "status": "Unchecked"
     },
     {
       "vendor": "Innopeptide",
@@ -2061,6 +2073,18 @@
     },
     {
       "vendor": "Innopeptide",
+      "product": "SS-31 Identity: HPLC-based identification Reference comparison; not definitive identity Identity evidence",
+      "strength": "50 mg",
+      "netContent": "59.85mg/vial",
+      "purity": "99.532%",
+      "lab": "Hyte Research Division",
+      "analysisDate": "2026-11-17",
+      "reportUrl": "https://analytical.hyteresearchdivision.com/verify/MZ7D-EQHD-1R6N",
+      "previewUrl": "",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
       "product": "TB-500 Identity: MS / LC-MS Identity confirmed by report Identity evidence",
       "strength": "10 mg",
       "netContent": "11.22 mg",
@@ -2117,7 +2141,7 @@
       "analysisDate": "2026-09-22",
       "reportUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00028.pdf",
       "previewUrl": "https://hyteresearchdivision.com/wp-content/uploads/2026/09/RUIC00028.pdf",
-      "status": "Passed"
+      "status": "Unchecked"
     },
     {
       "vendor": "Innopeptide",
@@ -2218,6 +2242,18 @@
     {
       "vendor": "Innopeptide",
       "product": "Tirzepatide Identity: Awaiting classification Result not assessed",
+      "strength": "30 mg",
+      "netContent": "9.74 mg",
+      "purity": "32.50%",
+      "lab": "Harrens Lab (Finnrick)",
+      "analysisDate": "2026-11-04",
+      "reportUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbatch-82a0cebb55dc47b575bcefecc445239fa016165cbc17d689695cb94c5770f06c.pdf?alt=media",
+      "previewUrl": "https://firebasestorage.googleapis.com/v0/b/ruic-quality.firebasestorage.app/o/coa-files%2Fbatch-82a0cebb55dc47b575bcefecc445239fa016165cbc17d689695cb94c5770f06c.pdf?alt=media",
+      "status": "Failed"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Tirzepatide Identity: Awaiting classification Result not assessed",
       "strength": "30mg",
       "netContent": "30.2 mg",
       "purity": "99.9%",
@@ -2238,6 +2274,18 @@
       "reportUrl": "https://chromate.org/verify?c=40555_XD74ZRE4867B",
       "previewUrl": "",
       "status": "Unchecked"
+    },
+    {
+      "vendor": "Innopeptide",
+      "product": "Tirzepatide Identity: HPLC-based identification Reference comparison; not definitive identity Identity evidence",
+      "strength": "30 mg",
+      "netContent": "31.71 mg/vial",
+      "purity": "99.891%",
+      "lab": "Hyte Research Division",
+      "analysisDate": "2026-11-17",
+      "reportUrl": "https://analytical.hyteresearchdivision.com/verify/XXG2-HJ29-30AH",
+      "previewUrl": "",
+      "status": "Failed"
     },
     {
       "vendor": "Innopeptide",
