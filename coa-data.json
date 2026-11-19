@@ -1,7 +1,7 @@
 {
   "source": "https://coa.reta-unfiltered.com/#directory",
   "attribution": "RU Inner Circle COA Library",
-  "updatedAt": "2026-11-18T20:49:26.452Z",
+  "updatedAt": "2026-11-19T20:52:03.037Z",
   "counts": {
     "completed": 644,
     "pending": 3
@@ -1949,7 +1949,7 @@
       "analysisDate": "2026-08-06",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Inno2608030517.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Inno2608030517.pdf",
-      "status": "Unchecked"
+      "status": "Passed"
     },
     {
       "vendor": "Innopeptide",
@@ -1961,7 +1961,7 @@
       "analysisDate": "2026-09-19",
       "reportUrl": "https://coas.freedomdiagnosticstesting.com/Empi2609170361.pdf",
       "previewUrl": "https://coas.freedomdiagnosticstesting.com/Empi2609170361.pdf",
-      "status": "Unchecked"
+      "status": "Passed"
     },
     {
       "vendor": "Innopeptide",
